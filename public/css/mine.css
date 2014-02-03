@@ -1,0 +1,29 @@
+.background {
+	position: center;
+	background: #42036F;
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.background h1 {
+     color: #FFFFFF;
+     text-align: center;
+}
+
+.login {
+     color: #FFFFFF;
+     text-align: center;
+}
+
+.content {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
