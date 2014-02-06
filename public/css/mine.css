@@ -1,29 +1,55 @@
-.background {
-	position: center;
-	background: #42036F;
-    height: 100%;
-    width: 100%;
-    display: table;
-}
-
-.background h1 {
-     color: #FFFFFF;
-     text-align: center;
+.container h1 {
+    color: #000000;
+    text-align: center;
 }
 
 .login {
-     color: #FFFFFF;
-     text-align: center;
+    color: #000000;
+    text-align: center;
 }
 
-.content {
-    display: table-cell;
-    vertical-align: middle;
+.container {
+    margin: 20% auto;
 }
 
-html, body {
-    height: 100%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
+body {
+    background: #42036F;
+    margin: auto;
+    padding: auto;
+}
+
+.flat-btn {
+  display: inline-block;
+  padding: 4px 12px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+}
+
+.btn-purple {
+  color: #5B2680;
+  background-color: #A767D5;
+  border-color: #A767D5;
+}
+
+.btn-purple:hover,
+.btn-purple:focus,
+.btn-purple:active,
+.btn-purple.active,
+.open .dropdown-toggle.btn-purple {
+  color: #A767D5;
+  background-color: #5B2680;
+  border-color: #5B2680;
 }
