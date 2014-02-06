@@ -1,0 +1,27 @@
+{
+  "name": "simplechef",
+  "version": "0.0.0",
+  "description": "simple static web server",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SirKylePoland/simplechef.git"
+  },
+  "author": "Kyle Poland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirKylePoland/simplechef/issues"
+  },
+  "homepage": "https://github.com/SirKylePoland/simplechef",
+  "dependencies": {
+    "logfmt": "~0.20.0",
+    "express": "~3.4.8"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
