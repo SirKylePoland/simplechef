@@ -51,7 +51,7 @@ $(document).ready(function(){
 		var linkurl     = $(this).attr("href");
 		var linkhtmlurl = linkurl.substring(1, linkurl.length);
 		
-		var imgloader   = '<center style="margin-top: 30px;"><img src="img/preloader.gif" alt="loading..." /></center>';
+		var imgloader   = '<center style="margin-top: 30px;"><img src="../static/public/images/preloader.gif" alt="loading..." /></center>';
 		
 		closeme();
 		

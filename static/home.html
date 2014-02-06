@@ -22,6 +22,8 @@
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="public/js/script.js"></script>
+	<script type="text/javascript" src="public/js/dropdown.js"></script>
+
 </head>
 
 
@@ -41,12 +43,29 @@
 				<h2>Welcome Name!</h2>
 
 				<!-- HTML for SEARCH BAR -->
+				
 				<div id="tfheader">
 					<form id="tfnewsearch" method="get" action="http://www.google.com">
 		        		<input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
 					</form>
 					<div class="tfclear"></div>
 				</div>
+
+			<!--SORT DROP DOWN MENU-->
+				<table width=100% border="0" id="sortdropdown">
+				  <tr>
+				  <td>&nbsp;</td>
+				    <td>Sort:</td>
+				    <td><select name="sort" id="sort">
+				      <option></option>
+				      <option id="Trending">Trending</option>
+				      <option id="All">All</option>
+				      <option id="Time">Time</option>
+				      <option id="MyRecipes">My Recipes</option>
+				    </select></td>
+				    <td>&nbsp;</td>
+				  </tr>
+				</table>
 
 			<!--START PINTEREST TILES-->					
 	<div id="wrapper">
@@ -161,7 +180,7 @@
 				<ul>
 					<li><a href="#profile.html" class="navlink">Profile</a></li>
 					<li><a href="#home.html" class="navlink">Home</a></li>
-					<li><a href="#favorites.html" class="navlink">Favorites</a></li>
+					<li><a href="#myrecipebook.html" class="navlink">My Recipe Book</a></li>
 					<li><a href="#settings.html" class="navlink">Settings</a></li>
 				</ul>
 		</div>
@@ -169,6 +188,7 @@
 
 
 	</div>
+
 </body>
 </html>
 

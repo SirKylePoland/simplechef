@@ -1,34 +1,44 @@
 #logo {
-    display: block;
-    margin: auto;
+  margin-left: -50px;
+  height: 200px;
 }
 
 .mainform {
-    background-color: #A767D5;
-    color: #5B2680;
-    border: 1px solid transparent;
+    background-color: white;
+    color: #42036F;
+    border: solid 1px #551C7D;
+    border-radius: 5px 5px;
+    margin-left: 10px;
 }
 
 .login {
-    color: #A767D5;
-    background-color: #680BAB;
-    text-align: center;
+    color: #2a0446;
+    background-color: white;
+    border-radius: 5px 5px;
+}
+
+.login p{
+    margin-left: 5px;
+    color: #42036F;
 }
 
 .container {
-    margin: auto;
+  margin-left: 0px;
+  max-width: 640px; 
+  min-width: 320px;
 }
 
 body {
     background: #42036F;
-    margin: auto;
     padding: auto;
 }
 
 .flat-btn {
-  display: inline-block;
-  padding: 4px 12px;
+  display: inline;
+  width: 150px;
+  padding: 10px;
   margin-bottom: 5px;
+  margin-left: 85px;
   font-size: 14px;
   font-weight: normal;
   line-height: 1.428571429;
@@ -46,9 +56,12 @@ body {
 }
 
 .btn-purple {
-  color: #5B2680;
-  background-color: #A767D5;
-  border-color: #A767D5;
+  color: white;
+  background-color: 42036f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#42036f), to(#2a0446));
+  background: -moz-linear-gradient(top,  #42036f,  #2a0446);
+  border: solid 1px #551C7D;
+  border-radius: 5px 5px;
 }
 
 .btn-purple:hover,
@@ -56,7 +69,8 @@ body {
 .btn-purple:active,
 .btn-purple.active,
 .open .dropdown-toggle.btn-purple {
-  color: #A767D5;
-  background-color: #5B2680;
-  border-color: #5B2680;
+  color: white;
+  background: #42036f;
+  background: -webkit-gradient(linear, left top, left bottom, from(#551C7D), to(#3F1D58));
+  background: -moz-linear-gradient(top,  #551C7D,  #3F1D58);
 }
