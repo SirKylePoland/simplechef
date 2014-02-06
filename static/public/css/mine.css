@@ -1,10 +1,17 @@
-.container h1 {
-    color: #000000;
-    text-align: center;
+#logo {
+    display: block;
+    margin: auto;
+}
+
+.mainform {
+    background-color: #A767D5;
+    color: #5B2680;
+    border: 1px solid transparent;
 }
 
 .login {
-    color: #000000;
+    color: #A767D5;
+    background-color: #680BAB;
     text-align: center;
 }
 
