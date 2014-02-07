@@ -46,7 +46,7 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 #w #pagebody header#toolbarnav h1 { text-align: center; padding-top: 10px; padding-right: 40px; color: white; font-weight: bold; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
 
 
-#w #pagebody header #menu-btn { display: block; float: left; width: 53px; height: 53px; background: url('../images/menuicon.png') no-repeat; margin-top: 5px; margin-left: 10px; margin-right: -20px;}
+#w #pagebody header #menu-btn { display: block; float: left; width: 53px; height: 53px; background: url('../images/menuicon.png') no-repeat; margin-top: 7px; margin-left: 10px; margin-right: -20px;}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
 
