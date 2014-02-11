@@ -3,6 +3,7 @@
 	overflow: auto;
 	border-bottom: 1px solid;
 	margin-bottom: 5px;
+	margin-top: 20px;
 }
 
 .recipehead .title {
@@ -62,176 +63,91 @@
 }
 
 .addrecipebtn {
-  display: inline;
-  width: 100px;
-  padding: 5px;
-  margin-bottom: 5px;
-  margin-left: 85px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.428571429;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-       -o-user-select: none;
-          user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
+background-color: #42036F;
+  border-color: transparent;
   color: white;
-  background-color: 42036f;
-  background: -webkit-gradient(linear, left top, left bottom, from(#42036f), to(#2a0446));
-  background: -moz-linear-gradient(top,  #42036f,  #2a0446);
-  border: solid 1px #551C7D;
-  border-radius: 5px 5px;
-}
-
-.recipeops {
-  display: inline;
+  padding: 5px;
   width: 100%;
-  padding: 5px;
-  margin-bottom: 5px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.428571429;
-  text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-       -o-user-select: none;
-          user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.addrecipebtn:hover{
+	background-color: #551C7D;
+}
+.recipeops {
+ background-color: #42036F;
+  border-color: transparent;
   color: white;
-  background-color: 42036f;
-  background: -webkit-gradient(linear, left top, left bottom, from(#42036f), to(#2a0446));
-  background: -moz-linear-gradient(top,  #42036f,  #2a0446);
-  border: solid 1px #551C7D;
-  border-radius: 5px 5px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.recipeops:hover{
+	background-color: #551c7d;
 }
 
+/**STYLES REST OF PAGE**/
+* { margin: 0; padding: 0; }
 
+body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; line-height: 1; }
 
+a { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-touch-callout: none; }
 
+ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 
-
-
-* { 
-	margin: 0;
-	padding: 0;
-}
-body {
-	background: #181c1f;
-	font-family: Arial,  sans-serif;
-	font-size: 62.5%;
-	line-height: 1;
-}
-a {
-	-webkit-tap-highlight-color: rgba(0,0,0,0);
-	-webkit-touch-callout: none;
-}
-img {
-	border: 0;
-}
-img.photo {
-	padding: 2px;
-	background: #888;
-	border: 1px solid #cecece;
-	border-bottom-color: #aaa;
-	border-right-color: #aaa;
-	float: right; margin-left: 20px;
-	margin-right: 11px;
-}
-ul,ol,h1,h2,h3,h4,h5,h6,p {
-	display: block;
-}
-#w {
-	position: relative;
-	overflow-x: hidden;
-	overflow-y: hidden;
-}
+#w { position: relative; overflow-x: hidden; overflow-y: hidden; }
 
 /** @group core body **/
 #w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999; }
-#w #navmenu { background: #475566; height: 100%; display: block; position: fixed; width: 300px; left: 0px; top: 0px; z-index: 0;  }
 
 /** @group header **/
 #w #pagebody header#toolbarnav { 
-	display: block; 
-	position: fixed; 
-	left: 0px; 
-	top: 0px; 
-	z-index: 9999; 
-	background: #42036f top left no-repeat;  
-	background: -webkit-linear-gradient(#42036f, #2a0446); /* For Safari */
-	background: -o-linear-gradient(#42036f, #2a0446); /* For Opera 11.1 to 12.0 */
-	background: -moz-linear-gradient(#42036f, #2a0446); /* For Firefox 3.6 to 15 */
-	background: linear-gradient(#42036f, #2a0446); /* Standard syntax */
-	border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-webkit-border-radius: 5px; 
-	-o-border-radius: 5px; 
-	border-bottom-right-radius: 0; 
-	-moz-border-radius-bottomright: 0; 
-	-webkit-border-bottom-right-radius: 0; 
-	border-bottom-left-radius: 0; 
-	-moz-border-radius-bottomleft: 0; 
-	-webkit-border-bottom-left-radius: 0; 
-	height: 44px; 
-	width: 100%; 
-	max-width: 640px; 
-}
+		display: block; 
+		position: fixed; 
+		left: 0px; 
+		top: 0px; 
+		z-index: 9999; 
+		background: #42036f top left no-repeat;  
+		height: 60px; 
+		width: 100%; 
+		max-width: 640px; 
+		}
+
 #w #pagebody header#toolbarnav h1 { text-align: center; padding-top: 10px; padding-right: 40px; color: white; font-weight: bold; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
-#w #pagebody header #menu-btn { display: block; float: left; width: 53px; height: 53px; background: url('../images/menuicon.png') no-repeat; margin-top: 5px; margin-left: 10px; margin-right: -20px;}
-#w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
-#w #pagebody #content h2 {
-	color: #181818;
-	font-family: arial;
-	font-size: 2.6em;
-	line-height: 1.8em;
-	font-weight: 500;
-}
+
+#w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
+
+#w #pagebody #content h2 {color: white; background-color: #191919; opacity: 0.7; font-family: arial; font-size: 20px; margin-top: -40px; padding-left: 10px;line-height: 40px;}
 #w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #222; }
 #w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #444; }
+
 #w #pagebody #content a { color: #78a5ce; }
 #w #pagebody #content a:hover { color: #678eb2; }
 
-/** @group nav menu **/
-#w #navmenu header { display: block; background: #2b2b2b; background: -webkit-linear-gradient(#2b2b2b, #1A1A1A); /* For Safari */ background: -o-linear-gradient(#2b2b2b, #1A1A1A); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(#2b2b2b, #1A1A1A); /* For Firefox 3.6 to 15 */ background: linear-gradient(#2b2b2b, #1A1A1A); /* Standard syntax */height: 44px; }
-#w #navmenu header h1 { text-align: center; padding-top: 10px; color: white; font-weight: bold; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
-h1 img {height: 12%; width: 12%; margin-top: -10px;}
-#w #navmenu ul { list-style: none; background: #242424; height: 100%; }
-#w #navmenu ul li { display: block; }
-#w #navmenu ul li a { position: relative; display: block; border-bottom: 1px solid #2b2b2b; padding: 14px 11px; font-weight: bold; color: white; text-shadow: -1px -1px 1px #222; font-size: 1.6em; text-decoration: none; }
-#w #navmenu ul li a:hover { color: #8E68A9; text-decoration: none; }
-#w #navmenu ul li a::after {
-	content: '';
-	display: block;
-	width: 6px;
-	height: 6px;
-	border-right: 3px solid #d0d0d8;
-	border-top: 3px solid #d0d0d8;
-	position: absolute;
-	right: 30px;
-	top: 45%;
-	-webkit-transform: rotate(45deg);
-	-moz-transform: rotate(45deg);
-	-o-transform: rotate(45deg);
-	transform: rotate(45deg);
+h1 img {height: 50px; width: 5; margin-top: -10px;}
+
+
+/**STYLES BOTTOM NAV**/
+#bottomnav{
+	background-color: silver;
+	height: 60px;
+	position: fixed;
+	margin-top: -60px;
+	max-width: 640px;
 }
-#w #navmenu ul li a:hover::after { border-color: #8E68A9;}
 
-/** @group misc **/
-.blue { color: #8E68A9 !important; font-weight: bold; }
-
-/** @group clearfix **/
-.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
-.clearfix { display: inline-block; } 
-html[xmlns] .clearfix { display: block; }
-* html .clearfix { height: 1%; }
+#bottomnav ul{
+	list-style-type: none;
+}
+#bottomnav ul li {
+	display: inline;
+	padding: 30px;
+}
+#bottomnav img{
+	width: 40px;
+}
+.active{
+	background-color: gray;
+	height: 60px;
+}

@@ -1,76 +1,87 @@
-#logo {
-  margin-left: -50px;
-  height: 200px;
-}
+/**STYLES THE LOGIN SCREEN**/
 
-.mainform {
-    background-color: white;
-    color: #42036F;
-    border: solid 1px #551C7D;
-    border-radius: 5px 5px;
-    margin-left: 10px;
-}
-
-.login {
-    color: #2a0446;
-    background-color: white;
-    border-radius: 5px 5px;
-}
-
-.login p{
-    margin-left: 5px;
-    color: #42036F;
-}
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700|Capriola|Imprima);
 
 .container {
-  margin-left: 0px;
+  margin-left: 0px; 
   max-width: 640px; 
   min-width: 320px;
 }
 
 body {
-    background: #42036F;
+    background: white;
     padding: auto;
 }
 
-.flat-btn {
-  display: inline;
-  width: 150px;
-  padding: 10px;
-  margin-bottom: 5px;
-  margin-left: 85px;
-  font-size: 14px;
-  font-weight: normal;
-  line-height: 1.428571429;
+#logo {
+  height: 400px;
+  width: 100%;
+  background-color: #42036F;
+}
+#logo h1{
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+  font-size: 48px;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  cursor: pointer;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-       -o-user-select: none;
-          user-select: none;
-  background-image: none;
-  border: 1px solid transparent;
 }
 
-.btn-purple {
-  color: white;
-  background-color: 42036f;
-  background: -webkit-gradient(linear, left top, left bottom, from(#42036f), to(#2a0446));
-  background: -moz-linear-gradient(top,  #42036f,  #2a0446);
-  border: solid 1px #551C7D;
-  border-radius: 5px 5px;
+#logo img{
+  margin-left: 20%;
+  margin-top: 20px;
 }
 
-.btn-purple:hover,
-.btn-purple:focus,
-.btn-purple:active,
-.btn-purple.active,
-.open .dropdown-toggle.btn-purple {
+#circle {
+  background-color: #42036F;
+  border-radius: 360px;
+  width: 50px;
+  height: 50px;
+  margin-top: -35px;
+  margin-left: 40%;
+}
+
+#email{
+  border-radius: 0px;
+  border-color: silver;
+  padding: 10px;
+  font-size: 18px;
+  width: 105.2%;
+  margin-left: -2.7%;
+  margin-bottom: -45px;
+}
+
+#username{
+  border-radius: 0px;
+  border-color: silver;
+  padding: 10px;
+  font-size: 18px;
+}
+
+#password{
+  margin-top: -30px;
+  border-radius: 0px;
+  border-color: silver;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.button{
+  background-color: #42036F;
+  border-color: transparent;
   color: white;
-  background: #42036f;
-  background: -webkit-gradient(linear, left top, left bottom, from(#551C7D), to(#3F1D58));
-  background: -moz-linear-gradient(top,  #551C7D,  #3F1D58);
+  padding: 5px;
+  width: 100%;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.button:hover{
+  background-color: #551C7D;
+}
+
+#loginscreen {
+    background-color: white;
+    color: #42036F;
+    border-color: transparent;
+    padding: 5px;
+    width: 99%;
 }
