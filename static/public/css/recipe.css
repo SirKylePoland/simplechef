@@ -1,3 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700|Capriola|Imprima);
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/*/////////////////////////////END OF FONT IMPORT STUFF//////////////////////////////////////*/
+
+
 .recipehead {
 	position: relative;
 	overflow: auto;
@@ -8,8 +20,8 @@
 
 .recipehead .title {
 	float: left;
-	color: #181818;
-	font-family: arial;
+	color: #191919;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 2.6em;
 	line-height: 1.8em;
 	font-weight: 500;
@@ -18,8 +30,8 @@
 
 .recipehead .time {
 	float: right;
-	color: #181818;
-	font-family: arial;
+	color: #191919;
+	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 2.6em;
 	line-height: 1.8em;
 	font-weight: 500;
@@ -34,12 +46,6 @@
 	font-size: 1.5em;
 	overflow: auto;
 	border-bottom: 1px solid;
-}
-
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('../fonts/glyphicons-halflings-regular.eot');
-  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
 .glyphicon {
@@ -87,14 +93,10 @@ background-color: #42036F;
 	background-color: #551c7d;
 }
 
-/**STYLES REST OF PAGE**/
-* { margin: 0; padding: 0; }
 
-body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; line-height: 1; }
+/*///////////////////////////STYLES REST OF PAGE/////////////////////////////*/
 
-a { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-touch-callout: none; }
-
-ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
+body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-size: 62.5%; line-height: 1; }
 
 #w { position: relative; overflow-x: hidden; overflow-y: hidden; }
 
@@ -114,27 +116,88 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 { text-align: center; padding-top: 10px; padding-right: 40px; color: white; font-weight: bold; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
+#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
 
-#w #pagebody #content h2 {color: white; background-color: #191919; opacity: 0.7; font-family: arial; font-size: 20px; margin-top: -40px; padding-left: 10px;line-height: 40px;}
-#w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #222; }
-#w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #444; }
+#w #pagebody #content h2 {color: #42036F; font-family: 'Source Sans Pro', sans-serif; font-size: 70px; font-weight: 500; padding-left: 60px; padding-top: 30px; line-height: 70px;}
+#w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #191919; }
+#w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
 
-#w #pagebody #content a { color: #78a5ce; }
-#w #pagebody #content a:hover { color: #678eb2; }
+h1 img {height: 60px;}
 
-h1 img {height: 50px; width: 5; margin-top: -10px;}
+/*//////////////////////////////////////////STYLES STEPS//////////////////////////////////////////////*/
+.stepstext{
+	font-size: 30px; 
+}
+.stepstext p{
+	color: #191919; 
+	font-family: 'Source Sans Pro', sans-serif;  
+	font-weight: 400;
+	padding-left: 60px; 
+	padding-right: 60px;
+	padding-top: 30px; 
+	line-height: 70px;
+	text-align: left;
+}
 
+.back {
+  position: relative;
+  top: 15px;
+  left: 10px;
+  font-family: 'Glyphicons Halflings';
+  font-size: 28px;
+  color: white;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.back:hover{
+	text-decoration: none;
+	color: white;
+}
 
-/**STYLES BOTTOM NAV**/
+.listenicon img{
+  position: relative;
+  left: 60px;
+  height: 60px;
+}
+
+.timericon {
+  margin-left: 30px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  color: #42036F;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.timericon:hover{
+	text-decoration: none;
+	color: #42036F;
+}
+/*////////////////////STYLES BOTTOM NAV/////////////////////*/
 #bottomnav{
-	background-color: silver;
-	height: 60px;
 	position: fixed;
-	margin-top: -60px;
+	bottom: 0px;
+	left:0px;
+	background-color: #42036F;
+	height: 60px;
+	width: 640px;
 	max-width: 640px;
+	min-width: 320px;
+	z-index: 9999;
+	text-align: center;
+}
+@media all and (max-width: 640px) and (min-width: 320px){
+	#bottomnav{
+		text-align: center;
+		width: 100%;
+	}
 }
 
 #bottomnav ul{
@@ -142,12 +205,30 @@ h1 img {height: 50px; width: 5; margin-top: -10px;}
 }
 #bottomnav ul li {
 	display: inline;
-	padding: 30px;
 }
-#bottomnav img{
-	width: 40px;
-}
+
 .active{
-	background-color: gray;
-	height: 60px;
+	background-color: #2E024E;
+}
+
+.navicon {
+  position: relative;
+  top: 22px;
+  display: inline;
+  padding: 30px;
+  padding-top: 20px;
+  margin-top: 0px;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-size: 28px;
+  color: white;
+  font-weight: normal;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navicon:hover{
+	color: silver;
+	text-decoration: none;
 }
