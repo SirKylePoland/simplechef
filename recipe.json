@@ -1,0 +1,446 @@
+{
+	"recipes": [
+		{
+			"name": "Chocolate Cake",
+			"img": "public/images/cake.jpg",
+			"rating": 4,
+			"time": "1hr 35min",
+			"shortDes": "This chocalate cake will knock your socks off! It's a delicious blend of rich chocalate and fluffy, spongy cake. Enjoy!",
+			"overview": "Preheat the oven to 350 degrees F. Butter two 8-inch x 2-inch round cake pans. Line with parchment paper, then butter and flour the pans. Sift the flour, sugar, cocoa, baking soda, baking powder, and salt into the bowl of an electric mixer fitted with a paddle attachment and mix on low speed until combined. In another bowl, combine the buttermilk, oil, eggs, and vanilla. With the mixer on low speed, slowly add the wet ingredients to the dry. With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula. Pour the batter into the prepared pans and bake for 35 to 40 minutes, until a cake tester comes out clean. Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely. Place 1 layer, flat side up, on a flat plate or cake pedestal. With a knife or offset spatula, spread the top with frosting. Place the second layer on top, rounded side up, and spread the frosting evenly on the top and sides of the cake.",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "1",
+					"name": "Butter, for greasing the pan",
+					"amount": ""
+				},
+				{
+					"step": "1 2",
+					"name": "All-purpose flour",
+					"amount": "1 3/4 cups, plus more for pans"
+				},
+				{
+					"step": "2",
+					"name": "Sugar",
+					"amount": "2 cups"
+				},
+				{
+					"step": "2",
+					"name": "Cocoa Powder",
+					"amount": "3/4 cups"
+				},
+				{
+					"step": "2",
+					"name": "Baking Soda",
+					"amount": "2 tsp."
+				},
+				{
+					"step": "2",
+					"name": "Baking Powder",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "2",
+					"name": "Kosher Salt",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "3",
+					"name": "Buttermilk, shaken",
+					"amount": "1 cup"
+				},
+				{
+					"step": "3",
+					"name": "Vegetable Oil",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "3",
+					"name": "Extra-large eggs, room temperature",
+					"amount": "2"
+				},
+				{
+					"step": "3",
+					"name": "Pure Vanilla Extract",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "4",
+					"name": "Freshly brewed hot coffee",
+					"amount": "1 cup"
+				},
+				{
+					"step": "7",
+					"name": "Chocolate Buttercream",
+					"amount": "3 cups"
+				}
+			],
+			"steps": [
+				{
+					"desc": "Preheat the oven to 350 degrees F. Butter two 8-inch x 2-inch round cake pans. Line with parchment paper, then butter and flour the pans."
+				},
+				{
+					"desc": "Sift the flour, sugar, cocoa, baking soda, baking powder, and salt into the bowl of an electric mixer fitted with a paddle attachment and mix on low speed until combined."
+				},
+				{
+					"desc": "In another bowl, combine the buttermilk, oil, eggs, and vanilla."
+				},
+				{
+					"desc": "With the mixer on low speed, slowly add the wet ingredients to the dry. With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula."
+				},
+				{
+					"desc": "Pour the batter into the prepared pans and bake for 35 to 40 minutes, until a cake tester comes out clean."
+				},
+				{
+					"desc": "Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely."
+				},
+				{
+					"desc": "Place 1 layer, flat side up, on a flat plate or cake pedestal. With a knife or offset spatula, spread the top with frosting. Place the second layer on top, rounded side up, and spread the frosting evenly on the top and sides of the cake."
+				}
+			]
+		},
+		{
+			"name": "Chocolate Buttercream Frosting",
+			"img": "",
+			"rating": 3,
+			"time": "45min",
+			"shortDes": "This chocolate buttercream frosting is a delicious blend of semisweet chocolate with a hint of coffee. Easy to make and great on the taste buds. We're sure you'll enjoy this recipe from Ina Garten!",
+			"overview": "Chop the chocolate and place it in a heat-proof bowl set over a pan of simmering water. Stir until just melted and set aside until cooled to room temperature. In the bowl of an electric mixer fitted with a paddle attachment, beat the butter on medium-high speed until light yellow and fluffy, about 3 minutes. Add the egg yolk and vanilla and continue beating for 3 minutes. Turn the mixer to low, gradually add the confectioners' sugar, then beat at medium speed, scraping down the bowl as necessary, until smooth and creamy. Dissolve the coffee powder in 2 teaspoons of the hottest tap water. On low speed, add the chocolate and coffee to the butter mixture and mix until blended. Don't whip! Spread immediately on the cooled cake.",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Semisweet Chocolate",
+					"amount": "6 ounces"
+				},
+				{
+					"step": "",
+					"name": "Unsalted Butter",
+					"amount": "1/2 pound"
+				},
+				{
+					"step": "",
+					"name": "Extra-large Egg Yolk, room temperature",
+					"amount": "1"
+				},
+				{
+					"step": "",
+					"name": "Pure Vanilla Extract",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "",
+					"name": "Sifted Confectioners' sugar",
+					"amount": "1 1/4 cups"
+				},
+				{
+					"step": "",
+					"name": "Instant Coffee Powder",
+					"amount": "1 tbsp."
+				}
+			],
+			"steps": [
+				{
+					"desc": "Chop the chocolate and place it in a heat-proof bowl set over a pan of simmering water. Stir until just melted and set aside until cooled to room temperature."
+				},
+				{
+					"desc": "In the bowl of an electric mixer fitted with a paddle attachment, beat the butter on medium-high speed until light yellow and fluffy, about 3 minutes."
+				},
+				{
+					"desc": "Add the egg yolk and vanilla and continue beating for 3 minutes."
+				},
+				{
+					"desc": "Turn the mixer to low, gradually add the confectioners' sugar, then beat at medium speed, scraping down the bowl as necessary, until smooth and creamy."
+				},
+				{
+					"desc": "Dissolve the coffee powder in 2 teaspoons of the hottest tap water. On low speed, add the chocolate and coffee to the butter mixture and mix until blended. Don't whip!"
+				},
+				{
+					"desc": "Spread immediately on the cooled cake."
+				}
+			]
+		},
+		{
+			"name": "Guacamole",
+			"img": "",
+			"rating": 2,
+			"time": "20min",
+			"shortDes": "This versatile guacamole recipe is perfect for anyone planning a Cinco De Mayo party, or just looking for a little flare in one of your dishes.",
+			"overview": "In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately.",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "1",
+					"name": "Avocado",
+					"amount": "3"
+				},
+				{
+					"step": "1",
+					"name": "Lime",
+					"amount": "1"
+				},
+				{
+					"step": "1",
+					"name": "Salt",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "2",
+					"name": "White Onion",
+					"amount": "1/2"
+				},
+				{
+					"step": "2",
+					"name": "Fresh Cilantro",
+					"amount": "3 tbsp."
+				},
+				{
+					"step": "2",
+					"name": "Roma Tomatoes",
+					"amount": "2"
+				},
+				{
+					"step": "2",
+					"name": "Garlic, minced",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "2",
+					"name": "Ground Cayenne Pepper",
+					"amount": "1 pinch"
+				}
+			],
+			"steps": [
+				{
+					"desc": "Peel and pit the avocados. Juice the lime, being sure to remove seeds. In a medium bowl, mash together the avocados, lime juice, and salt."
+				},
+				{
+					"desc": "Dice the onion and tomatoes. Chop the cilantro.Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper."
+				},
+				{
+					"desc": "Refrigerate 1 hour for best flavor, or serve immediately."
+				}
+			]
+		},
+		{
+			"name": "Spicy Turkey and Green Bean Stir-Fry",
+			"img": "",
+			"rating": 1,
+			"time": "30min",
+			"shortDes": "This Spicy Turkey and Green Bean Sir-Fry is to die for, literally. Watch out for disentary.",
+			"overview": "Bring a large pot of water to a boil. Stir in the rice, cover and boil until tender, about 18 minutes; drain well and keep warm. Meanwhile, preheat the broiler. Toss the green beans, 1 1/2 tablespoons vegetable oil and the sugar on a rimmed baking sheet. Broil, stirring once, until the beans are tender and charred, about 8 minutes. Heat the remaining 1 1/2 tablespoons vegetable oil in a large skillet over high heat. Add the turkey and cook, breaking it up with a wooden spoon, until browned, 3 minutes. Add the garlic, pickle and chile paste and cook until the garlic is slightly golden, about 3 minutes. Whisk the chicken broth, soy sauce, sherry and cornstarch in a bowl. Add the green beans to the skillet with the turkey mixture and cook, stirring, 1 minute. Add the soy sauce mixture and cook, stirring occasionally, until the sauce thickens slightly, about 3 minutes. Serve with the rice.",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "1",
+					"name": "Basmati Rice",
+					"amount": "1 1/2 cups"
+				},
+				{
+					"step": "2",
+					"name": "Green Beans",
+					"amount": "1 1/2 lb."
+				},
+				{
+					"step": "2 3",
+					"name": "Vegetable Oil",
+					"amount": "3 tbsp."
+				},
+				{
+					"step": "2",
+					"name": "Sugar",
+					"amount": "1/2 tsp."
+				},
+				{
+					"step": "3",
+					"name": "Lean Ground Turkey",
+					"amount": "3/4 lb."
+				},
+				{
+					"step": "4",
+					"name": "Garlic, minced",
+					"amount": "1 clove"
+				},
+				{
+					"step": "4",
+					"name": "Half-sour pickle, finely chopped",
+					"amount": "1 small"
+				},
+				{
+					"step": "4",
+					"name": "Asian Chile Paste",
+					"amount": "2 tsp."
+				},
+				{
+					"step": "5",
+					"name": "Chicken Broth",
+					"amount": "1 cup"
+				},
+				{
+					"step": "5",
+					"name": "Soy Sauce",
+					"amount": "2 tbsp."
+				},
+				{
+					"step": "5",
+					"name": "Rice Vinegar",
+					"amount": "1 tbsp."
+				},
+				{
+					"step": "5",
+					"name": "Cornstarch",
+					"amount": "2 tsp."
+				}
+			],
+			"steps": [
+				{
+					"desc": "Bring a large pot of water to a boil. Stir in the rice, cover and boil until tender, about 18 minutes; drain well and keep warm. Meanwhile, preheat the broiler."
+				},
+				{
+					"desc": "Toss the green beans, 1 1/2 tablespoons vegetable oil and the sugar on a rimmed baking sheet. Broil, stirring once, until the beans are tender and charred, about 8 minutes."
+				},
+				{
+					"desc": "Heat the remaining 1 1/2 tablespoons vegetable oil in a large skillet over high heat. Add the turkey and cook, breaking it up with a wooden spoon, until browned, 3 minutes."
+				},
+				{
+					"desc": "Add the garlic, pickle and chile paste and cook until the garlic is slightly golden, about 3 minutes."
+				},
+				{
+					"desc": "Whisk the chicken broth, soy sauce, rice vinegar and cornstarch in a bowl."
+				},
+				{
+					"desc": "Add the green beans to the skillet with the turkey mixture and cook, stirring, 1 minute."
+				},
+				{
+					"desc": "Add the soy sauce mixture and cook, stirring occasionally, until the sauce thickens slightly, about 3 minutes. Serve with the rice."
+				}
+			]
+		},
+		{
+			"name": "",
+			"img": "",
+			"rating": ,
+			"time": "",
+			"shortDes": "",
+			"overview": "",
+			"trending": ,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"desc": ""
+				}
+			]
+		},
+		{
+			"name": "",
+			"img": "",
+			"rating": ,
+			"time": "",
+			"shortDes": "",
+			"overview": "",
+			"trending": ,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"desc": ""
+				}
+			]
+		},
+		{
+			"name": "",
+			"img": "",
+			"rating": ,
+			"time": "",
+			"shortDes": "",
+			"overview": "",
+			"trending": ,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"desc": ""
+				}
+			]
+		},
+		{
+			"name": "",
+			"img": "",
+			"rating": ,
+			"time": "",
+			"shortDes": "",
+			"overview": "",
+			"trending": ,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"desc": ""
+				}
+			]
+		},
+		{
+			"name": "",
+			"img": "",
+			"rating": ,
+			"time": "",
+			"shortDes": "",
+			"overview": "",
+			"trending": ,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"desc": ""
+				}
+			]
+		},
+		{
+			"name": "",
+			"img": "",
+			"rating": ,
+			"time": "",
+			"shortDes": "",
+			"overview": "",
+			"trending": ,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"desc": ""
+				}
+			]
+		}
+	]
+}
