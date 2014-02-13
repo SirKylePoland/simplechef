@@ -42,3 +42,13 @@ exports.viewSteps = function(req, res){
 	}
 	res.render('step', data.recipes[i] );
 };
+
+exports.viewIngredients = function(req, res){
+	var name = req.params.name;
+	for( var i = 0; i < data.recipes.length; i++ ) {
+		if( data.recipes[i].name === name ) {
+			break;
+		}
+	}
+	res.render('ingredients', data.recipes[i] );
+};

@@ -25,34 +25,24 @@
 <body>
 	<div id="w">
 		<div id="pagebody">
-			<!-- HTML for Top Bar -->
-			<header id="toolbarnav">
+			<header id="recovertoolbarnav">
 				<a href="javascript:history.go(-1)" class="back glyphicon-chevron-left"></a> 
-				<h1><img src="/images/chefhat.png" alt="Simple Chef">Recipe</h1>
+				<h1><img src="/images/chefhat.png" alt="Simple Chef">Ingredients</h1>
 			</header>
 			<section id="content">
 				<div class="recipehead">
 					<span class="title">{{name}}</span>
 					<span class="time">{{time}}</span>
 				</div>
-				<img class="foodpic" src="/images/{{img}}">
-				<div class="rating">
-					<br>
-					Rating:
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star-empty"></span>
-					<span style="float: right;"><button type="button" class="addrecipebtn">Add Recipe</button></span>
-				</div>
-				<p>{{shortDes}}</p>
-				<form method="link" action="/overview/{{name}}"><input type="submit" class="recipeops" value="Steps Overview"></form>
-				<form method="link" action="/ingredients/{{name}}"><input type="submit" class="recipeops" value="Ingredients List"></form>
-				<form method="link" action="/step/{{name}}"><input type="submit" class="recipeops" value="Cooking Mode"></form>
+				<h4>Ingredients</h4>
+				<ul id="ingredients">
+					{{#each ingredients}}
+						<li>{{name}} {{amount}}</li>
+					{{/each}}
+				</ul>	
 			</section>
 			<!--BOTTOM FIXED NAV-->
-			<nav id="bottomnav">
+			<nav id="botnavrecover">
 				<ul>
 					<li><a href="/home" class="navicon glyphicon-home"></a></li>
 					<li><a href="myrecipebook.html" class="navicon glyphicon-book"></a></li>

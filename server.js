@@ -37,6 +37,7 @@ app.get('/recipe/:name', routes.viewRecipe);
 app.get('/settings', routes.viewSettings);
 app.get('/overview/:name', routes.viewOverview);
 app.get('/step/:name', routes.viewSteps);
+app.get('/ingredients/:name', routes.viewIngredients);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

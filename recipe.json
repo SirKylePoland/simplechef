@@ -107,8 +107,8 @@
 			]
 		},
 		{
-			"name": "Chocolate Buttercream Frosting",
-			"img": "",
+			"name": "Chocolate Buttercream",
+			"img": "frost.jpg",
 			"rating": 3,
 			"time": "45min",
 			"shortDes": "This chocolate buttercream frosting is a delicious blend of semisweet chocolate with a hint of coffee. Easy to make and great on the taste buds. We're sure you'll enjoy this recipe from Ina Garten!",
@@ -239,8 +239,8 @@
 			]
 		},
 		{
-			"name": "Spicy Turkey and Green Bean Stir-Fry",
-			"img": "",
+			"name": "Turkey Stir-Fry",
+			"img": "turkey.jpg",
 			"rating": 1,
 			"time": "30min",
 			"shortDes": "This Spicy Turkey and Green Bean Sir-Fry is to die for, literally. Watch out for disentary.",
