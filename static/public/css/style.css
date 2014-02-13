@@ -1,19 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700|Capriola|Imprima);
 
-* { margin: 0; padding: 0; }
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+/*/////////////////////////////END OF FONT IMPORT STUFF//////////////////////////////////////*/
 
 body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; line-height: 1; }
-
-a { -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-touch-callout: none; }
-
-ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 
 #w { position: relative; overflow-x: hidden; overflow-y: hidden; }
 
 /** @group core body **/
 #w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999; }
-
-#w #navmenu { background: #475566; height: 100%; display: block; position: fixed; width: 300px; left: 0px; top: 0px; z-index: 0;  }
 
 /** @group header **/
 #w #pagebody header#toolbarnav { 
@@ -28,34 +29,29 @@ ul,ol,h1,h2,h3,h4,h5,h6,p { display: block; }
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 { text-align: center; padding-top: 10px; padding-right: 40px; color: white; font-weight: bold; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
+#w #pagebody header#toolbarnav h1 { text-align: center; padding-top: 0px; padding-right: 40px; color: white; font-weight: bold; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
 
 #w #pagebody #content h2 {color: #191919; background-color: white; opacity: 0.8; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-size: 20px; margin-top: -40px; padding-left: 10px;line-height: 40px;}
-#w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #222; }
-#w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #444; }
+#w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #191919; }
+#w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
 
-#w #pagebody #content a { color: #78a5ce; }
-#w #pagebody #content a:hover { color: #678eb2; }
-
-h1 img {height: 50px; width: 5; margin-top: -10px;}
-
+h1 img {position: relative; bottom: 20px; height: 60px;}
 
 /**STYLES THE SEARCH BOX**/
 
 	#tfheader{
 		background-color:transparent;
-		width: 100%;
 		margin-top: 20px;
+		margin-left: 5px;
 	}
 	#tfnewsearch{
-		padding-left: 10px;
 		padding-top: 2%;
 		padding-bottom: 2%;
 	}
 	.tftextinput{
-		width: 93%;
+		width: 95.5%;
 		padding-top: 10px;
 		padding-bottom: 5px;
 		padding-left: 5px;
@@ -83,6 +79,30 @@ h1 img {height: 50px; width: 5; margin-top: -10px;}
 	.tfclear{
 		clear:both;
 	}
+
+.glyphicon1{
+  position: relative;
+  bottom: 0px;
+  top: 5px;
+  right: 25px;
+  display: inline;
+  padding: 30px;
+  padding-top: 20px;
+  margin-top: 0px;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-size: 28px;
+  color: gray;
+  font-weight: normal;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.glyphicon:hover{
+	color: silver;
+	text-decoration: none;
+}
 
 /**STYLES SORT DROP DOWN MENU**/
 #sortdropdown {
@@ -168,11 +188,22 @@ h1 img {height: 50px; width: 5; margin-top: -10px;}
 
 /**STYLES BOTTOM NAV**/
 #bottomnav{
-	background-color: silver;
-	height: 60px;
 	position: fixed;
-	margin-top: -60px;
+	bottom: 0px;
+	left:0px;
+	background-color: #42036F;
+	height: 60px;
+	width: 640px;
 	max-width: 640px;
+	min-width: 320px;
+	z-index: 9999;
+	text-align: center;
+}
+@media all and (max-width: 640px) and (min-width: 320px){
+	#bottomnav{
+		text-align: center;
+		width: 100%;
+	}
 }
 
 #bottomnav ul{
@@ -180,12 +211,30 @@ h1 img {height: 50px; width: 5; margin-top: -10px;}
 }
 #bottomnav ul li {
 	display: inline;
-	padding: 30px;
 }
-#bottomnav img{
-	width: 40px;
-}
+
 .active{
-	background-color: gray;
-	height: 60px;
+	background-color: #2E024E;
+}
+
+.navicon {
+  position: relative;
+  top: 22px;
+  display: inline;
+  padding: 30px;
+  padding-top: 20px;
+  margin-top: 0px;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-size: 28px;
+  color: white;
+  font-weight: normal;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.navicon:hover{
+	color: silver;
+	text-decoration: none;
 }

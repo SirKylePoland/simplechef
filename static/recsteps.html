@@ -14,51 +14,55 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 	<!--LINKS-->
-	<link type="text/css" rel="stylesheet" media="all" href="public/css/style.css">
+	<link type="text/css" rel="stylesheet" media="all" href="public/css/recipe.css">
 	<link type="text/css" rel="stylesheet" media="all" href="public/css/responsive.css">
+	<link type="text/css" rel="stylesheet" media="all" href="public/css/bootstrap.css">
 
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="public/js/script.js"></script>
 	<script type="text/javascript" src="public/js/dropdown.js"></script>
+<script>
+	jQuery(function ($) {
+
+    $('#swapArchived').on('click', function () {
+        var $el = $(this),
+            textNode = this.lastChild;
+        $el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
+        textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
+        $el.toggleClass('');
+    });
+});
+</script>
 
 </head>
-<body>
+
+<body
 	<div id="w">
 		<div id="pagebody">
 			<header id="toolbarnav">
-				<a href="#navmenu" id="menu-btn"></a>
-				<h1><a href="home.html"><img src="public/images/simplechef3.png" alt="Simple Chef"></a></h1>
+				<a href="javascript:history.go(-1)" class="back glyphicon-chevron-left"></a> 
+				<h1>Cooking Mode </h1>
 			</header>
-			<section id="content" class="clearfix">
-				<h2>Recipe Steps</h2>
-				<p>This page will be the first of many steps in completing your recipe. The nice
-					thing about our step view is that there is no scrolling involved, so all the information
-					you need is right in front of you! This page could link to previous or next steps, and when
-					finished cooking, it will link you back to the main recipe page for the given recipe you
-					are cooking.</p>
-				<a href="recsteps.html">Previous Step</a>
-				<br>
-				<a href="recsteps.html">Next Step</a>
-				<br>
-				<a href="recipegen.html">Back to recipe home page</a>
+			<section id="content">
+					
+				<h2>Step 1 <a href="#" class="timericon glyphicon-time"></a></h2>
+				<content class="stepstext"> <p>Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch pan.</p></content>
+				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-off"></span></button>
 			</section>
-		</div>
-		
-		<!--START MAIN MENU-->
-		<div id="navmenu">
-			<header>
-				<h1>Main Menu</h1>
-			</header>
 			
-				<ul>
-					<li><a href="profile.html">Profile</a></li>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="myrecipebook.html">My Recipe Book</a></li>
-					<li><a href="settings.html">Settings</a></li>
-				</ul>
+		<!--BOTTOM FIXED NAV-->
+				<nav id="bottomnav">
+					<ul>
+						<li><a href="home.html" class="navicon glyphicon-home"></a></li>
+						<li><a href="myrecipebook.html" class="navicon glyphicon-book"></a></li>
+						<li><a href="settings.html" class="navicon glyphicon-cog"></a></li>
+					</ul>
+				</nav>
 		</div>
 	</div>
+
 </body>
+
 </html>
 
