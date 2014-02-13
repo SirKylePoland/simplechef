@@ -77,24 +77,31 @@
 			],
 			"steps": [
 				{
+					"num": 1,
 					"desc": "Preheat the oven to 350 degrees F. Butter two 8-inch x 2-inch round cake pans. Line with parchment paper, then butter and flour the pans."
 				},
 				{
+					"num": 2,
 					"desc": "Sift the flour, sugar, cocoa, baking soda, baking powder, and salt into the bowl of an electric mixer fitted with a paddle attachment and mix on low speed until combined."
 				},
 				{
+					"num": 3,
 					"desc": "In another bowl, combine the buttermilk, oil, eggs, and vanilla."
 				},
 				{
+					"num": 4,
 					"desc": "With the mixer on low speed, slowly add the wet ingredients to the dry. With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula."
 				},
 				{
+					"num": 5,
 					"desc": "Pour the batter into the prepared pans and bake for 35 to 40 minutes, until a cake tester comes out clean."
 				},
 				{
+					"num": 6,
 					"desc": "Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely."
 				},
 				{
+					"num": 7,
 					"desc": "Place 1 layer, flat side up, on a flat plate or cake pedestal. With a knife or offset spatula, spread the top with frosting. Place the second layer on top, rounded side up, and spread the frosting evenly on the top and sides of the cake."
 				}
 			]
@@ -141,21 +148,27 @@
 			],
 			"steps": [
 				{
+					"num": 1,
 					"desc": "Chop the chocolate and place it in a heat-proof bowl set over a pan of simmering water. Stir until just melted and set aside until cooled to room temperature."
 				},
 				{
+					"num": 2,
 					"desc": "In the bowl of an electric mixer fitted with a paddle attachment, beat the butter on medium-high speed until light yellow and fluffy, about 3 minutes."
 				},
 				{
+					"num": 3,
 					"desc": "Add the egg yolk and vanilla and continue beating for 3 minutes."
 				},
 				{
+					"num": 4,
 					"desc": "Turn the mixer to low, gradually add the confectioners' sugar, then beat at medium speed, scraping down the bowl as necessary, until smooth and creamy."
 				},
 				{
+					"num": 5,
 					"desc": "Dissolve the coffee powder in 2 teaspoons of the hottest tap water. On low speed, add the chocolate and coffee to the butter mixture and mix until blended. Don't whip!"
 				},
 				{
+					"num": 6,
 					"desc": "Spread immediately on the cooled cake."
 				}
 			]
@@ -212,12 +225,15 @@
 			],
 			"steps": [
 				{
+					"num": 1,
 					"desc": "Peel and pit the avocados. Juice the lime, being sure to remove seeds. In a medium bowl, mash together the avocados, lime juice, and salt."
 				},
 				{
+					"num": 2,
 					"desc": "Dice the onion and tomatoes. Chop the cilantro.Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper."
 				},
 				{
+					"num": 3,
 					"desc": "Refrigerate 1 hour for best flavor, or serve immediately."
 				}
 			]
@@ -294,24 +310,31 @@
 			],
 			"steps": [
 				{
+					"num": 1,
 					"desc": "Bring a large pot of water to a boil. Stir in the rice, cover and boil until tender, about 18 minutes; drain well and keep warm. Meanwhile, preheat the broiler."
 				},
 				{
+					"num": 2,
 					"desc": "Toss the green beans, 1 1/2 tablespoons vegetable oil and the sugar on a rimmed baking sheet. Broil, stirring once, until the beans are tender and charred, about 8 minutes."
 				},
 				{
+					"num": 3,
 					"desc": "Heat the remaining 1 1/2 tablespoons vegetable oil in a large skillet over high heat. Add the turkey and cook, breaking it up with a wooden spoon, until browned, 3 minutes."
 				},
 				{
+					"num": 4,
 					"desc": "Add the garlic, pickle and chile paste and cook until the garlic is slightly golden, about 3 minutes."
 				},
 				{
+					"num": 5,
 					"desc": "Whisk the chicken broth, soy sauce, rice vinegar and cornstarch in a bowl."
 				},
 				{
+					"num": 6,
 					"desc": "Add the green beans to the skillet with the turkey mixture and cook, stirring, 1 minute."
 				},
 				{
+					"num": 7,
 					"desc": "Add the soy sauce mixture and cook, stirring occasionally, until the sauce thickens slightly, about 3 minutes. Serve with the rice."
 				}
 			]

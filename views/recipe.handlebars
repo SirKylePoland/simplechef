@@ -47,16 +47,16 @@
 					<span style="float: right;"><button type="button" class="addrecipebtn">Add Recipe</button></span>
 				</div>
 				<p>{{shortDes}}</p>
-				<form method="link" action="recoverview.html"><input type="submit" class="recipeops" value="Steps Overview"></form>
+				<form method="link" action="/overview/{{name}}"><input type="submit" class="recipeops" value="Steps Overview"></form>
 				<form method="link" action="ingredients.html"><input type="submit" class="recipeops" value="Ingredients List"></form>
-				<form method="link" action="recsteps.html"><input type="submit" class="recipeops" value="Cooking Mode"></form>
+				<form method="link" action="/step/{{name}}"><input type="submit" class="recipeops" value="Cooking Mode"></form>
 			</section>
 			<!--BOTTOM FIXED NAV-->
 			<nav id="bottomnav">
 				<ul>
-					<li><a href="home.html" class="navicon glyphicon-home active"></a></li>
+					<li><a href="/home" class="navicon glyphicon-home active"></a></li>
 					<li><a href="myrecipebook.html" class="navicon glyphicon-book"></a></li>
-					<li><a href="settings.html" class="navicon glyphicon-cog"></a></li>
+					<li><a href="/settings" class="navicon glyphicon-cog"></a></li>
 				</ul>
 			</nav>
 		</div>

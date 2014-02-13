@@ -21,10 +21,7 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/script.js"></script>
 	<script type="text/javascript" src="/js/dropdown.js"></script>
-
 </head>
-
-	
 <body>
 	<div id="w">
 		<div id="pagebody">
@@ -34,27 +31,20 @@
 			</header>
 			<section id="content">
 				<div class="recipehead">
-					<span class="title">Chocolate Cake</span>
-					<span class="time">30min</span>
+					<span class="title">{{name}}</span>
+					<span class="time">{{time}}</span>
 				</div>
-				<h4>Steps</h4>
-				<ul>
-					<li></li>
-					<li></li>
-					<li></li>
-				</ul>
+				<p>{{overview}}</p>
 			</section>
 			<!--BOTTOM FIXED NAV-->
-				<nav id="botnavrecover">
-					<ul>
-						<li><a href="home.html" class="navicon glyphicon-home"></a></li>
-						<li><a href="myrecipebook.html" class="navicon glyphicon-book"></a></li>
-						<li><a href="settings.html" class="navicon glyphicon-cog"></a></li>
-					</ul>
-				</nav>
-
-				</div>
-
+			<nav id="botnavrecover">
+				<ul>
+					<li><a href="/home" class="navicon glyphicon-home"></a></li>
+					<li><a href="myrecipebook.html" class="navicon glyphicon-book"></a></li>
+					<li><a href="/settings" class="navicon glyphicon-cog"></a></li>
+				</ul>
+			</nav>
 		</div>
+	</div>
 </body>
 </html>

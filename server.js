@@ -1,16 +1,12 @@
 /**
  * Module dependencies.
  */
-
 var express = require('express');
 var http = require('http');
 var path = require('path');
 var handlebars = require('express3-handlebars')
 
-var home = require('./routes/home');
-var recipe = require('./routes/recipe');
-// Example route
-// var user = require('./routes/user');
+var routes = require('./routes/home');
 
 var app = express();
 
@@ -35,10 +31,12 @@ if ('development' == app.get('env')) {
 }
 
 // Add routes here
-app.get('/', home.view);
-app.get('/recipe/:name', recipe.viewRecipe);
-// Example route
-// app.get('/users', user.list);
+app.get('/', routes.view);
+app.get('/home', routes.viewHome);
+app.get('/recipe/:name', routes.viewRecipe);
+app.get('/settings', routes.viewSettings);
+app.get('/overview/:name', routes.viewOverview);
+app.get('/step/:name', routes.viewSteps);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
