@@ -190,7 +190,9 @@ h1 img {height: 60px;}
 	text-decoration: none;
 	color: #aeb07b;
 }
-
+.stepactive{
+	color: gray;
+}
 
 /*//////////////////////////////////////////STYLES STEPS//////////////////////////////////////////////*/
 .stepstext{
