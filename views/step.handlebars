@@ -64,13 +64,15 @@
 			<section id="content">
 				<div id="demo">
 					<ul>
+						{{#each steps}}
+							<li class="dragend-page">
+								<h2>Step {{num}}<a href="#" class="timericon glyphicon-time"></a></h2>
+								<content class="stepstext"> <p>{{desc}}</p></content>
+							</li>
+						{{/each}}
 						<li class="dragend-page">
-							<h2>Step 2 <a href="#" class="timericon glyphicon-time"></a></h2>
-							<content class="stepstext"> <p>In a large bowl, stir together the sugar, flour, cocoa, baking powder, baking soda and salt. Add the eggs, milk, oil and vanilla, mix for 2 minutes on medium speed of mixer. Stir in the boiling water last. Batter will be thin. Pour evenly into the prepared pans.</p></content>
-						</li>
-						<li class="dragend-page">
-							<h2>Step 3 <a href="#" class="timericon glyphicon-time"></a></h2>
-							<content class="stepstext"> <p>Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick. Cool in the pans for 10 minutes, then remove to a wire rack to cool completely.</p></content>
+							<h2>Congratulations!</h2>
+							<content class="stepstext"> <p>You've finished the recipe!</p></content>
 						</li>
 					</ul>
 				</div>
