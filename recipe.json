@@ -2,7 +2,7 @@
 	"recipes": [
 		{
 			"name": "Chocolate Cake",
-			"img": "public/images/cake.jpg",
+			"img": "cake.jpg",
 			"rating": 4,
 			"time": "1hr 35min",
 			"shortDes": "This chocalate cake will knock your socks off! It's a delicious blend of rich chocalate and fluffy, spongy cake. Enjoy!",
@@ -162,7 +162,7 @@
 		},
 		{
 			"name": "Guacamole",
-			"img": "",
+			"img": "guac.jpg",
 			"rating": 2,
 			"time": "20min",
 			"shortDes": "This versatile guacamole recipe is perfect for anyone planning a Cinco De Mayo party, or just looking for a little flare in one of your dishes.",
@@ -313,132 +313,6 @@
 				},
 				{
 					"desc": "Add the soy sauce mixture and cook, stirring occasionally, until the sauce thickens slightly, about 3 minutes. Serve with the rice."
-				}
-			]
-		},
-		{
-			"name": "",
-			"img": "",
-			"rating": ,
-			"time": "",
-			"shortDes": "",
-			"overview": "",
-			"trending": ,
-			"ingredients": [
-				{
-					"step": "",
-					"name": "",
-					"amount": ""
-				}
-			],
-			"steps": [
-				{
-					"desc": ""
-				}
-			]
-		},
-		{
-			"name": "",
-			"img": "",
-			"rating": ,
-			"time": "",
-			"shortDes": "",
-			"overview": "",
-			"trending": ,
-			"ingredients": [
-				{
-					"step": "",
-					"name": "",
-					"amount": ""
-				}
-			],
-			"steps": [
-				{
-					"desc": ""
-				}
-			]
-		},
-		{
-			"name": "",
-			"img": "",
-			"rating": ,
-			"time": "",
-			"shortDes": "",
-			"overview": "",
-			"trending": ,
-			"ingredients": [
-				{
-					"step": "",
-					"name": "",
-					"amount": ""
-				}
-			],
-			"steps": [
-				{
-					"desc": ""
-				}
-			]
-		},
-		{
-			"name": "",
-			"img": "",
-			"rating": ,
-			"time": "",
-			"shortDes": "",
-			"overview": "",
-			"trending": ,
-			"ingredients": [
-				{
-					"step": "",
-					"name": "",
-					"amount": ""
-				}
-			],
-			"steps": [
-				{
-					"desc": ""
-				}
-			]
-		},
-		{
-			"name": "",
-			"img": "",
-			"rating": ,
-			"time": "",
-			"shortDes": "",
-			"overview": "",
-			"trending": ,
-			"ingredients": [
-				{
-					"step": "",
-					"name": "",
-					"amount": ""
-				}
-			],
-			"steps": [
-				{
-					"desc": ""
-				}
-			]
-		},
-		{
-			"name": "",
-			"img": "",
-			"rating": ,
-			"time": "",
-			"shortDes": "",
-			"overview": "",
-			"trending": ,
-			"ingredients": [
-				{
-					"step": "",
-					"name": "",
-					"amount": ""
-				}
-			],
-			"steps": [
-				{
-					"desc": ""
 				}
 			]
 		}

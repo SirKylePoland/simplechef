@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Simple Chef</title>
+	<!--META-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Kyle Poland and Laura Silva">
+	<meta name="description" content="A simple way to find recipes, follow and listen to step-by-step instructions, and much, much, more. All for the endeavor of creating something savory and delicious.">
+    <meta name="keywords" content="simple, chef, recipe, easy, savory, delicious">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!--LINKS-->
+	<link type="text/css" rel="stylesheet" media="all" href="/css/recipe.css">
+	<link type="text/css" rel="stylesheet" media="all" href="/css/responsive.css">
+
+	<!--SCRIPTS-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+	<script type="text/javascript" src="/js/dropdown.js"></script>
+
+</head>
+<body>
+	<div id="w">
+		<div id="pagebody">
+			<header id="toolbarnav">
+				<a href="#navmenu" id="menu-btn"></a>
+				<h1><a href="home.html"><img src="/images/chefhat.png" alt="Simple Chef"></a></h1>
+			</header>
+			<section id="content">
+				<div class="recipehead">
+					<span class="title">{{name}}</span>
+					<span class="time">{{time}}</span>
+				</div>
+				<img class="foodpic" src="/images/{{img}}">
+				<div class="rating">
+					<br>
+					Rating:
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star"></span>
+					<span class="glyphicon glyphicon-star-empty"></span>
+					<span style="float: right;"><button type="button" class="addrecipebtn">Add Recipe</button></span>
+				</div>
+				<p>{{shortDes}}</p>
+				<button type="button" class="recipeops">Recipe Overview</button>
+				<button type="button" class="recipeops">Ingredients List</button>
+				<button type="button" class="recipeops">Start Cooking</button>
+			</section>
+			<!--BOTTOM FIXED NAV-->
+			<div id="bottomnav">
+				<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+					<ul>
+						<li><a href="home.html"><img src="/images/home.png" alt=""/></a></li>
+						<li><a href="myrecipebook.html"><img src="/images/book.png" alt=""/></a></li>
+						<li><a href="profile.html"><img src="/images/user.png" alt=""/></a></li>
+						<li><a href="settings.html"><img src="/images/cog.png" alt="" /></a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
