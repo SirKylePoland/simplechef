@@ -128,8 +128,21 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 		max-width: 640px; 
 		}
 
+#w #pagebody header#recovertoolbarnav { 
+		display: block; 
+		position: fixed; 
+		left: 0px; 
+		top: 0px; 
+		z-index: 9999; 
+		background: #65cfbd top left no-repeat;  
+		height: 60px; 
+		width: 100%; 
+		max-width: 640px; 
+		}
+
 #w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
 #w #pagebody header#recstepstoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
+#w #pagebody header#recovertoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
 
@@ -281,6 +294,7 @@ h1 img {height: 60px;}
 	text-decoration: none;
 }
 
+/*RECIPE STEPS BOTTOM NAV*/
 #botnavrecsteps{
 	position: fixed;
 	bottom: 0px;
@@ -304,5 +318,32 @@ h1 img {height: 60px;}
 	list-style-type: none;
 }
 #botnavrecsteps ul li {
+	display: inline;
+}
+
+/*RECIPE OVERVIEW BOTTOM NAV*/
+#botnavrecover{
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	background-color: #65cfbd;
+	height: 60px;
+	width: 640px;
+	max-width: 640px;
+	min-width: 320px;
+	z-index: 9999;
+	text-align: center;
+}
+@media all and (max-width: 640px) and (min-width: 320px){
+	#botnavrecover{
+		text-align: center;
+		width: 100%;
+	}
+}
+
+#botnavrecover ul{
+	list-style-type: none;
+}
+#botnavrecover ul li {
 	display: inline;
 }
