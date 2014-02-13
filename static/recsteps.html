@@ -22,6 +22,8 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="public/js/script.js"></script>
 	<script type="text/javascript" src="public/js/dropdown.js"></script>
+	<script type="text/javascript" src="public/js/dragend.js"></script>
+
 <script>
 	jQuery(function ($) {
 
@@ -35,6 +37,28 @@
 });
 </script>
 
+<script>
+
+    $(function() {
+      new Dragend($("#demo").get(0), {
+        afterInitialize: function() {
+          $("#demo").css("visibility", "visible");
+        }
+      });
+    });
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-219062-10']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
 </head>
 
 <body
@@ -45,9 +69,22 @@
 				<h1><img src="public/images/chefhat.png" alt="Simple Chef">Cooking Mode </h1>
 			</header>
 			<section id="content">
-					
-				<h2>Step 1 <a href="#" class="timericon glyphicon-time"></a></h2>
-				<content class="stepstext"> <p>Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch pan.</p></content>
+				<div id="demo">
+				    <ul>
+				      <li class="first dragend-page">
+				        <h2>Step 1 <a href="#" class="timericon glyphicon-time"></a></h2>
+						<content class="stepstext"> <p>Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch pan.</p></content>
+				      </li>
+				      <li class="second dragend-page">
+				        <h2>Step 2 <a href="#" class="timericon glyphicon-time"></a></h2>
+						<content class="stepstext"> <p>In a large bowl, stir together the sugar, flour, cocoa, baking powder, baking soda and salt. Add the eggs, milk, oil and vanilla, mix for 2 minutes on medium speed of mixer. Stir in the boiling water last. Batter will be thin. Pour evenly into the prepared pans.</p></content>
+				      </li>
+				      <li class="third dragend-page">
+				        <h2>Step 3 <a href="#" class="timericon glyphicon-time"></a></h2>
+						<content class="stepstext"> <p>Bake 30 to 35 minutes in the preheated oven, until the cake tests done with a toothpick. Cool in the pans for 10 minutes, then remove to a wire rack to cool completely.</p></content>
+				      </li>
+				    </ul>
+				</div>
 				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-off"></span></button>
 			</section>
 
