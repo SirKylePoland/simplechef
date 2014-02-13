@@ -29,7 +29,7 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 { text-align: center; padding-top: 0px; padding-right: 40px; color: white; font-weight: bold; font-size: 2.1em; text-shadow: 1px 1px 0px #313131; }
+#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: 0px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
 
@@ -37,7 +37,7 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 #w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #191919; }
 #w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
 
-h1 img {position: relative; bottom: 20px; height: 60px;}
+h1 img {height: 60px;}
 
 /**STYLES THE SEARCH BOX**/
 

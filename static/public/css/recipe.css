@@ -69,7 +69,7 @@
 }
 
 .addrecipebtn {
-background-color: #42036F;
+background-color: #6f4a80;
   border-color: transparent;
   color: white;
   padding: 5px;
@@ -81,7 +81,7 @@ background-color: #42036F;
 	background-color: #551C7D;
 }
 .recipeops {
- background-color: #42036F;
+ background-color: #6f4a80;
   border-color: transparent;
   color: white;
   padding: 5px;
@@ -110,17 +110,30 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 		left: 0px; 
 		top: 0px; 
 		z-index: 9999; 
-		background: #42036f top left no-repeat;  
+		background: #6f4a80 top left no-repeat;  
+		height: 60px; 
+		width: 100%; 
+		max-width: 640px; 
+		}
+
+#w #pagebody header#recstepstoolbarnav { 
+		display: block; 
+		position: fixed; 
+		left: 0px; 
+		top: 0px; 
+		z-index: 9999; 
+		background: #aeb07b top left no-repeat;  
 		height: 60px; 
 		width: 100%; 
 		max-width: 640px; 
 		}
 
 #w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
+#w #pagebody header#recstepstoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
 
-#w #pagebody #content h2 {color: #42036F; font-family: 'Source Sans Pro', sans-serif; font-size: 70px; font-weight: 500; padding-left: 60px; padding-top: 30px; line-height: 70px;}
+#w #pagebody #content h2 {color: #aeb07b; font-family: 'Source Sans Pro', sans-serif; font-size: 70px; font-weight: 500; padding-left: 60px; padding-top: 30px; line-height: 70px;}
 #w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; margin-bottom: 5px; color: #191919; text-transform: uppercase; border-bottom: 1px solid #191919; width: 100%;}
 #w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
 
@@ -172,21 +185,21 @@ h1 img {height: 60px;}
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
-  color: #42036F;
+  color: #aeb07b;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 .timericon:hover{
 	text-decoration: none;
-	color: #42036F;
+	color: #aeb07b;
 }
 /*////////////////////STYLES BOTTOM NAV/////////////////////*/
 #bottomnav{
 	position: fixed;
 	bottom: 0px;
 	left:0px;
-	background-color: #42036F;
+	background-color: #6f4a80;
 	height: 60px;
 	width: 640px;
 	max-width: 640px;
@@ -209,7 +222,7 @@ h1 img {height: 60px;}
 }
 
 .active{
-	background-color: #2E024E;
+	background-color: #603b70;
 }
 
 .navicon {
@@ -232,4 +245,30 @@ h1 img {height: 60px;}
 .navicon:hover{
 	color: silver;
 	text-decoration: none;
+}
+
+#botnavrecsteps{
+	position: fixed;
+	bottom: 0px;
+	left:0px;
+	background-color: #aeb07b;
+	height: 60px;
+	width: 640px;
+	max-width: 640px;
+	min-width: 320px;
+	z-index: 9999;
+	text-align: center;
+}
+@media all and (max-width: 640px) and (min-width: 320px){
+	#botnavrecsteps{
+		text-align: center;
+		width: 100%;
+	}
+}
+
+#botnavrecsteps ul{
+	list-style-type: none;
+}
+#botnavrecsteps ul li {
+	display: inline;
 }
