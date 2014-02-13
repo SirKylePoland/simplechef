@@ -7,93 +7,6 @@
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 
-/*/////////////////////////////END OF FONT IMPORT STUFF//////////////////////////////////////*/
-
-
-.recipehead {
-	position: relative;
-	overflow: auto;
-	border-bottom: 1px solid;
-	margin-bottom: 5px;
-	margin-top: 20px;
-}
-
-.recipehead .title {
-	float: left;
-	color: #191919;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 2.6em;
-	line-height: 1.8em;
-	font-weight: 500;
-	display: block;
-}
-
-.recipehead .time {
-	float: right;
-	color: #191919;
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 2.6em;
-	line-height: 1.8em;
-	font-weight: 500;
-	display: block;
-}
-
-.foodpic {
-	max-width: 100%;
-}
-
-.rating {
-	font-size: 1.5em;
-	overflow: auto;
-	border-bottom: 1px solid;
-}
-
-.glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.glyphicon-star:before {
-  content: "\e006";
-}
-.glyphicon-star-empty:before {
-  content: "\e007";
-}
-
-.addrecipebtn {
-background-color: #42036F;
-  border-color: transparent;
-  color: white;
-  padding: 5px;
-  width: 100%;
-  margin-bottom: 15px;
-  font-size: 18px;
-}
-.addrecipebtn:hover{
-	background-color: #551C7D;
-}
-.recipeops {
- background-color: #42036F;
-  border-color: transparent;
-  color: white;
-  padding: 5px;
-  width: 100%;
-  margin-top: 10px;
-  font-size: 18px;
-}
-.recipeops:hover{
-	background-color: #551c7d;
-}
-
-
 /*///////////////////////////STYLES REST OF PAGE/////////////////////////////*/
 
 body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-size: 62.5%; line-height: 1; }
@@ -110,7 +23,7 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 		left: 0px; 
 		top: 0px; 
 		z-index: 9999; 
-		background: #42036f top left no-repeat;  
+		background: #576ead top left no-repeat;  
 		height: 60px; 
 		width: 100%; 
 		max-width: 640px; 
@@ -121,24 +34,20 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
 
 #w #pagebody #content h2 {color: #42036F; font-family: 'Source Sans Pro', sans-serif; font-size: 70px; font-weight: 500; padding-left: 60px; padding-top: 30px; line-height: 70px;}
-#w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; margin-bottom: 5px; color: #191919; text-transform: uppercase; border-bottom: 1px solid #191919; width: 100%;}
-#w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
+#w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; margin-bottom: 5px; color: #576ead; text-transform: uppercase; border-bottom: 1px solid #576ead; width: 100%;}
+#w #pagebody #content p { font-size: 14px; line-height: 1.6em; margin-bottom: 15px; color: silver; width: 100%; border-bottom: 1px solid silver;}
 
 h1 img {height: 60px;}
 
-/*//////////////////////////////////////////STYLES STEPS//////////////////////////////////////////////*/
-.stepstext{
-	font-size: 30px; 
+.settingslist{
+	list-style-type: none;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18px;
+	color: #191919;
+	margin-left: -40px;
 }
-.stepstext p{
-	color: #191919; 
-	font-family: 'Source Sans Pro', sans-serif;  
-	font-weight: 400;
-	padding-left: 60px; 
-	padding-right: 60px;
-	padding-top: 30px; 
-	line-height: 70px;
-	text-align: left;
+.settingslist li{
+
 }
 
 .back {
@@ -158,35 +67,12 @@ h1 img {height: 60px;}
 	color: white;
 }
 
-#swapArchived{
-	border: none;
-	background-color: transparent;
-	font-size: 50px;
-	margin-left: 60px;
-}
-
-.timericon {
-  margin-left: 30px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 60px;
-  color: #42036F;
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.timericon:hover{
-	text-decoration: none;
-	color: #42036F;
-}
 /*////////////////////STYLES BOTTOM NAV/////////////////////*/
 #bottomnav{
 	position: fixed;
 	bottom: 0px;
 	left:0px;
-	background-color: #42036F;
+	background-color: #576ead;
 	height: 60px;
 	width: 640px;
 	max-width: 640px;
@@ -209,7 +95,7 @@ h1 img {height: 60px;}
 }
 
 .active{
-	background-color: #2E024E;
+	background-color: #2a437d;
 }
 
 .navicon {

@@ -22,6 +22,19 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="public/js/script.js"></script>
 	<script type="text/javascript" src="public/js/dropdown.js"></script>
+<script>
+	jQuery(function ($) {
+
+    $('#swapArchived').on('click', function () {
+        var $el = $(this),
+            textNode = this.lastChild;
+        $el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
+        textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
+        $el.toggleClass('');
+    });
+});
+</script>
+
 </head>
 
 <body
@@ -35,9 +48,9 @@
 					
 				<h2>Step 1 <a href="#" class="timericon glyphicon-time"></a></h2>
 				<content class="stepstext"> <p>Preheat oven to 350 degrees F (175 degrees C). Grease and flour a 9x13-inch pan.</p></content>
-				<a href="#" class="listenicon"><img src="public/images/mic.png" alt=""/></a>
-
+				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-off"></span></button>
 			</section>
+			
 		<!--BOTTOM FIXED NAV-->
 				<nav id="bottomnav">
 					<ul>

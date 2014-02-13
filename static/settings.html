@@ -14,8 +14,9 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 	<!--LINKS-->
-	<link type="text/css" rel="stylesheet" media="all" href="public/css/style.css">
+	<link type="text/css" rel="stylesheet" media="all" href="public/css/settings.css">
 	<link type="text/css" rel="stylesheet" media="all" href="public/css/responsive.css">
+	<link type="text/css" rel="stylesheet" media="all" href="public/css/bootstrap.css">
 
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -23,33 +24,52 @@
 	<script type="text/javascript" src="public/js/dropdown.js"></script>
 
 </head>
-<body>
+
+<body
 	<div id="w">
 		<div id="pagebody">
 			<header id="toolbarnav">
-				<a href="#navmenu" id="menu-btn"></a>
-				<h1><a href="home.html"><img src="public/images/simplechef3.png" alt="Simple Chef"></a></h1>
+				<a href="javascript:history.go(-1)" class="back glyphicon-chevron-left"></a> 
+				<h1>Settings </h1>
 			</header>
-			<section id="content" class="clearfix">
-				<h2>Settings</h2>
-				<p>One this page you will adjust account and app settings.</p>
-				<a href="index.html">Log out here!</a>
-			</section>
-		</div>
-		
-		<!--START MAIN MENU-->
-		<div id="navmenu">
-			<header>
-				<h1>Main Menu</h1>
-			</header>
-			
-				<ul>
-					<li><a href="profile.html">Profile</a></li>
-					<li><a href="home.html">Home</a></li>
-					<li><a href="myrecipebook.html">My Recipe Book</a></li>
-					<li><a href="settings.html">Settings</a></li>
+			<section id="content">
+					
+				<h3>My Account</h3>
+				<ul class="settingslist">
+					<li>Username</li>
+					<p>username goes here</p>
+					<li>Email</li>
+					<p>email goes here</p>
 				</ul>
+
+				<h3>More Information</h3>
+				<ul class="settingslist">
+					<li>How to</li>
+					<p><br></p>
+					<li>Demonstration</li>
+					<p><br></p>
+				</ul>
+
+				<h3>Account Actions</h3>
+				<ul class="settingslist">
+					<li>Log Out</li>
+					<p><br></p>
+				</ul>
+
+			</section>
+			
+		<!--BOTTOM FIXED NAV-->
+				<nav id="bottomnav">
+					<ul>
+						<li><a href="home.html" class="navicon glyphicon-home"></a></li>
+						<li><a href="myrecipebook.html" class="navicon glyphicon-book"></a></li>
+						<li><a href="settings.html" class="navicon glyphicon-cog active"></a></li>
+					</ul>
+				</nav>
 		</div>
 	</div>
+
 </body>
+
 </html>
+
