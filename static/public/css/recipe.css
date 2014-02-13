@@ -162,6 +162,36 @@ h1 img {height: 60px;}
 	list-style-type: none;
 }
 
+/*///////////////////////////////////////////STYLES STEPS EASY NAV////////////////////////////////////*/
+#stepseasynav{
+	font-size: 20px;
+	position: relative;
+	top: 80px;
+}
+#stepseasynav li{
+	list-style-type: none;
+	display: inline;
+	padding: 20px;
+}
+
+.easynavicon {
+  margin-left: 15%;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #aeb07b;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.easynavicon:hover{
+	text-decoration: none;
+	color: #aeb07b;
+}
+
+
 /*//////////////////////////////////////////STYLES STEPS//////////////////////////////////////////////*/
 .stepstext{
 	font-size: 16px; 

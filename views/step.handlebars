@@ -61,18 +61,27 @@
 				<a href="javascript:history.go(-1)" class="back glyphicon-chevron-left"></a> 
 				<h1><img src="/images/chefhat.png" alt="Simple Chef">Cooking Mode </h1>
 			</header>
+			<!--STEPSEASY NAV-->
+			<nav id="stepseasynav">
+				<ul>
+					<li><a href="recipegen.html" class="easynavicon glyphicon-list"></a></li>
+					<li><a href="recsteps.html" class="easynavicon glyphicon-cutlery"></a></li>
+					<li><a href="#" class="easynavicon glyphicon-time"></a></li>
+				</ul>
+			</nav>
+			<!--END STEPSEASY NAV-->
 			<section id="content">
 				<div id="demo">
 					<ul>
 						{{#each steps}}
 							<li class="dragend-page">
-								<h2>Step {{num}}<a href="#" class="timericon glyphicon-time"></a></h2>
+								<h2>Step {{num}}</h2>
 								<content class="stepstext"> <p>{{desc}}</p></content>
 							</li>
 						{{/each}}
 						<li class="dragend-page">
-							<h2>Congratulations!</h2>
-							<content class="stepstext"> <p>You've finished the recipe!</p></content>
+							<h2>Done!</h2>
+							<content class="stepstext"> <p>Sit back, relax, wait for that timer to go off and enjoy a savory meal made with the help of Simple Chef!</p></content>
 						</li>
 					</ul>
 				</div>
