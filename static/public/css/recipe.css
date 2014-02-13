@@ -22,7 +22,7 @@
 	float: left;
 	color: #191919;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 2.6em;
+	font-size: 25px;
 	line-height: 1.8em;
 	font-weight: 500;
 	display: block;
@@ -32,13 +32,13 @@
 	float: right;
 	color: #191919;
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 2.6em;
+	font-size: 25px;
 	line-height: 1.8em;
 	font-weight: 500;
 	display: block;
 }
 
-@media only screen and (max-width: 320px) { .recipehead .title {font-size: 22px;} .recipehead .time {font-size: 22px;}}
+@media only screen and (max-width: 320px) { .recipehead .title {font-size: 18px;} .recipehead .time {font-size: 18px;}}
 
 .foodpic {
 	max-width: 100%;
@@ -142,16 +142,16 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
-#w #pagebody header#recstepstoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
-#w #pagebody header#recovertoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
-@media only screen and (max-width: 320px) { #toolbarnav h1{font-size: 32px;} #recstepstoolbarnav h1{font-size: 16px;} #recovertoolbarnav h1{font-size: 16px;}}
+#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 32px;}
+#w #pagebody header#recstepstoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 32px;}
+#w #pagebody header#recovertoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 32px;}
+@media only screen and (max-width: 320px) { #toolbarnav h1{font-size: 22px;} #recstepstoolbarnav h1{font-size: 16px;} #recovertoolbarnav h1{font-size: 16px;}}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
 
-#w #pagebody #content h2 {color: #aeb07b; font-family: 'Source Sans Pro', sans-serif; font-size: 70px; font-weight: 500; padding-left: 60px; padding-top: 30px; line-height: 70px;}
+#w #pagebody #content h2 {color: #aeb07b; font-family: 'Source Sans Pro', sans-serif; font-size: 30px; font-weight: 500; padding-left: 20px; padding-top: 20px; line-height: 70px;}
 #w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; margin-bottom: 5px; color: #191919; text-transform: uppercase; border-bottom: 1px solid #191919; width: 100%;}
-#w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
+#w #pagebody #content p { font-size: 18px; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
 
 h1 img {height: 60px;}
 
@@ -164,13 +164,13 @@ h1 img {height: 60px;}
 
 /*//////////////////////////////////////////STYLES STEPS//////////////////////////////////////////////*/
 .stepstext{
-	font-size: 30px; 
+	font-size: 16px; 
 }
 .stepstext p{
 	color: #191919; 
 	font-family: 'Source Sans Pro', sans-serif;  
 	font-weight: 400;
-	padding-left: 60px; 
+	padding-left: 20px; 
 	padding-right: 60px;
 	padding-top: 30px; 
 	line-height: 70px;
@@ -198,9 +198,9 @@ h1 img {height: 60px;}
 	border: none;
 	background-color: transparent;
 	font-size: 50px;
-	left: 60px;
+	left: 20px;
 	position: fixed;
-	top: 80%;
+	top: 60%;
 
 }
 
@@ -210,7 +210,7 @@ h1 img {height: 60px;}
   font-family: 'Glyphicons Halflings';
   font-style: normal;
   font-weight: normal;
-  font-size: 60px;
+  font-size: 30px;
   color: #aeb07b;
 
   -webkit-font-smoothing: antialiased;
@@ -262,11 +262,11 @@ h1 img {height: 60px;}
 	max-width: 640px;
 	min-width: 320px;
 	z-index: 9999;
-	text-align: center;
+	text-align: left;
 }
 @media all and (max-width: 640px) and (min-width: 320px){
 	#bottomnav{
-		text-align: center;
+		text-align: left;
 		width: 100%;
 	}
 }
@@ -285,6 +285,7 @@ h1 img {height: 60px;}
 .navicon {
   position: relative;
   top: 22px;
+  left: 15%;
   display: inline;
   padding: 30px;
   padding-top: 20px;
@@ -315,11 +316,11 @@ h1 img {height: 60px;}
 	max-width: 640px;
 	min-width: 320px;
 	z-index: 9999;
-	text-align: center;
+	text-align: left;
 }
 @media all and (max-width: 640px) and (min-width: 320px){
 	#botnavrecsteps{
-		text-align: center;
+		text-align: left;
 		width: 100%;
 	}
 }
@@ -342,11 +343,11 @@ h1 img {height: 60px;}
 	max-width: 640px;
 	min-width: 320px;
 	z-index: 9999;
-	text-align: center;
+	text-align: left;
 }
 @media all and (max-width: 640px) and (min-width: 320px){
 	#botnavrecover{
-		text-align: center;
+		text-align: left;
 		width: 100%;
 	}
 }
