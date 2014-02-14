@@ -40,6 +40,25 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 
 h1 img {height: 60px;}
 
+/*/////////////////////////STYLES BACK BUTTON////////////////////////////////////*/
+
+.back {
+  position: relative;
+  top: 15px;
+  left: 10px;
+  font-family: 'Glyphicons Halflings';
+  font-size: 28px;
+  color: white;
+  line-height: 30px;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.back:hover{
+	text-decoration: none;
+	color: white;
+}
+
 /**STYLES THE SEARCH BOX**/
 
 	#tfheader{
@@ -111,6 +130,7 @@ h1 img {height: 60px;}
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	margin-left: -10px;
+	width: 100%;
 }
 #sortdropdown td{
 	margin-left: -30px;
@@ -122,7 +142,6 @@ h1 img {height: 60px;}
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 16px;
 	color: #551C7D;
-	margin-left: ;
 } 
 
 
@@ -131,7 +150,7 @@ h1 img {height: 60px;}
 
 #wrapper {
 	width: 90%;
-	max-width: 720px;
+	max-width: 640px;
 	min-width: 320px;
 	margin: 50px auto;
 	padding-right: 20px;
@@ -169,7 +188,7 @@ h1 img {height: 60px;}
 	height: 200px;
 }
 
-@media (min-width: 320) {
+@media (min-width: 320px) {
 	#columns {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
@@ -177,7 +196,7 @@ h1 img {height: 60px;}
 	}
 }
 
-@media (min-width: 720px) {
+@media (min-width: 640px) {
 	#columns {
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
@@ -199,11 +218,11 @@ h1 img {height: 60px;}
 	max-width: 640px;
 	min-width: 320px;
 	z-index: 9999;
-	text-align: center;
+	text-align: left;
 }
 @media all and (max-width: 640px) and (min-width: 320px){
 	#bottomnav{
-		text-align: center;
+		text-align: left;
 		width: 100%;
 	}
 }
@@ -222,6 +241,7 @@ h1 img {height: 60px;}
 .navicon {
   position: relative;
   top: 22px;
+  left: 15%;
   display: inline;
   padding: 30px;
   padding-top: 20px;

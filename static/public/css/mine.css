@@ -10,11 +10,10 @@
 
 body {
     background: white;
-    padding: auto;
 }
 
 #logo {
-  height: 400px;
+  height: 250px;
   width: 100%;
   background-color: #42036F;
 }
@@ -26,8 +25,9 @@ body {
 }
 
 #logo img{
-  margin-left: 20%;
+  margin-left: 40%;
   margin-top: 20px;
+  width: 20%;
 }
 
 #circle {
