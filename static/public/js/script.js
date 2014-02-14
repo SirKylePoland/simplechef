@@ -10,6 +10,56 @@ $(document).ready(function(){
 	// retrieve variables as 
 	// viewport.width / viewport.height
 	
+	initializePage();
+
+	function initializePage() {
+		$('#sort').change(sort);
+		$('#tfnewsearch').submit(search);
+	}
+
+	function search(e) {
+		e.preventDefault();
+		var category = $('#sort').val();
+		$.get('tiles/' + category, searchData);
+	}
+
+	function searchData(result) {
+		var idx = lunr(function () {
+    		this.field('name', { boost: 10 });
+    		this.field('overview');
+		});
+		for( var i = 0; i < result.length; i++ ) {
+			idx.add(result[i]);
+		}
+		console.log(idx.search($('#query').val()));
+
+		var searchRes = idx.search($('#query').val());
+		var tile = '<a href="/recipe/{{name}}"><div class="pin"><img src="/images/{{img}}" alt=""><h2>{{name}}</h2></div></a>';
+		var template = Handlebars.compile( tile );
+		var html = "";
+		for( var i = 0; i < result.length; i++ ) {
+			//go through searchRes array and then access the recipes array at that index and template it
+			//then put the data in html. You may need to figuire out about scores.
+		}
+		$('#columns').html(html);
+	}
+
+	function sort(e) {
+		e.preventDefault();
+		var category = $('#sort').val();
+		$.get('tiles/' + category, displayTiles);
+	}
+
+	function displayTiles(result) {
+	    var tile = '<a href="/recipe/{{name}}"><div class="pin"><img src="/images/{{img}}" alt=""><h2>{{name}}</h2></div></a>';
+		var template = Handlebars.compile( tile );
+		var html = "";
+		for( var i = 0; i < result.length; i++ ) {
+			html = html + template(result[i]);
+		}
+		$('#columns').html(html);
+	}
+
 	function openme() { 
 		$(function () {
 		    topbar.animate({

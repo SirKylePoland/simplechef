@@ -2,6 +2,7 @@
 	"recipes": [
 		{
 			"name": "Chocolate Cake",
+			"id": 1,
 			"img": "cake.jpg",
 			"rating": 4,
 			"time": "1hr 35min",
@@ -108,6 +109,7 @@
 		},
 		{
 			"name": "Chocolate Buttercream",
+			"id": 2,
 			"img": "frost.jpg",
 			"rating": 3,
 			"time": "45min",
@@ -175,6 +177,7 @@
 		},
 		{
 			"name": "Guacamole",
+			"id": 3,
 			"img": "guac.jpg",
 			"rating": 2,
 			"time": "20min",
@@ -240,6 +243,7 @@
 		},
 		{
 			"name": "Turkey Stir-Fry",
+			"id": 4,
 			"img": "turkey.jpg",
 			"rating": 1,
 			"time": "30min",

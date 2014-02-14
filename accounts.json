@@ -1,12 +1,8 @@
 {
-	"accounts": [
-		{
-			"username": "KyleP",
-			"password": "coolbeans"
-		},
-		{
-			"username": "LauraS",
-			"password": "awesome"
-		}
+	"username": "LauraS",
+	"password": "awesome",
+	"recipes" : [
+		"Chocolate Buttercream",
+		"Guacamole"
 	]
 }
