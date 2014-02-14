@@ -149,7 +149,7 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
 
-#w #pagebody #content h2 {color: #aeb07b; font-family: 'Source Sans Pro', sans-serif; font-size: 30px; font-weight: 500; padding-left: 20px; padding-top: 20px; line-height: 70px;}
+#w #pagebody #content h2 {color: #aeb07b; font-family: 'Source Sans Pro', sans-serif; font-size: 30px; font-weight: 500; padding-left: 20px; margin-top: 30px; line-height: 70px; text-align: left;}
 #w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; margin-bottom: 5px; color: #191919; text-transform: uppercase; border-bottom: 1px solid #191919; width: 100%;}
 #w #pagebody #content p { font-size: 18px; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
 
@@ -197,6 +197,9 @@ h1 img {height: 60px;}
 /*//////////////////////////////////////////STYLES STEPS//////////////////////////////////////////////*/
 .stepstext{
 	font-size: 16px; 
+	text-align: left;
+}
+.stepstext h2{
 	text-align: left;
 }
 .stepstext p{
@@ -318,7 +321,7 @@ h1 img {height: 60px;}
 .navicon {
   position: relative;
   top: 22px;
-  left: 5%;
+  left: 0.5%;
   display: inline;
   padding: 30px;
   padding-top: 20px;
