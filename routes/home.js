@@ -8,18 +8,30 @@ exports.view = function(req, res){
 
 exports.viewHome = function(req, res){
 	var tiles = {
-		"recipes": []
+		"recipes": [],
 	};
+
+	var category = "Trending";
+
 	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( data.recipes[i].trending ) {
+		if( category === 'Trending' && data.recipes[i].trending ) {
 			tiles.recipes.push( data.recipes[i] );
 		}
+		else if( category === 'All' ) {
+			tiles.recipes.push( data.recipes[i] );
+		}
+		else if ( category === 'My Recipes' ) {
+			if( accounts.recipes.indexOf( data.recipes[i].name ) != -1 ) {
+				tiles.recipes.push( data.recipes[i] );
+			}
+		}
 	}
+
 	res.render('home', tiles );
 };
 
 exports.viewSettings = function(req, res){
-	res.render('settings');
+	res.render('settings', accounts);
 };
 
 exports.viewRecipe = function(req, res) {
@@ -79,5 +91,10 @@ exports.getTiles = function(req, res) {
 		}
 	}
 	res.json(tiles);
+}
+
+exports.addRecipe = function(req, res) {
+	var name = req.param('name');
+	accounts.recipes.push(name);
 }
 

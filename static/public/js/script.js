@@ -15,12 +15,18 @@ $(document).ready(function(){
 	function initializePage() {
 		$('#sort').change(sort);
 		$('#tfnewsearch').submit(search);
+		$('.addrecipebtn').click(addRecipe);
+	}
+
+	function addRecipe(e) {
+		e.preventDefault();
+		$.post('/add', { name: $('.title').html() });
 	}
 
 	function search(e) {
 		e.preventDefault();
 		var category = $('#sort').val();
-		$.get('tiles/' + category, searchData);
+		$.get('/tiles/' + category, searchData);
 	}
 
 	function searchData(result) {
@@ -47,7 +53,7 @@ $(document).ready(function(){
 	function sort(e) {
 		e.preventDefault();
 		var category = $('#sort').val();
-		$.get('tiles/' + category, displayTiles);
+		$.get('/tiles/' + category, displayTiles);
 	}
 
 	function displayTiles(result) {
