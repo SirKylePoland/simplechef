@@ -16,6 +16,26 @@ $(document).ready(function(){
 		$('#sort').change(sort);
 		$('#tfnewsearch').submit(search);
 		$('.addrecipebtn').click(addRecipe);
+		window.onhashchange = hashChange();
+	}
+
+	function hashChange() {
+		var hash = window.location.hash.substring(1);
+		if( hash === 'myrecipes' ) {
+			$('#sort').val(3);
+			sort();
+		}
+		else if( hash === 'all' ) {
+			$('#sort').val(2);
+			sort();
+		}
+		else if( hash === 'trending' ) {
+			$('#sort').val(1);
+			sort();
+		}
+		else {
+			//do nothing
+		}
 	}
 
 	function addRecipe(e) {
@@ -51,7 +71,7 @@ $(document).ready(function(){
 	}
 
 	function sort(e) {
-		e.preventDefault();
+		//e.preventDefault();
 		var category = $('#sort').val();
 		$.get('/tiles/' + category, displayTiles);
 	}
