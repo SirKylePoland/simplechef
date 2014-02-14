@@ -31,15 +31,15 @@ $(document).ready(function(){
 		for( var i = 0; i < result.length; i++ ) {
 			idx.add(result[i]);
 		}
-		console.log(idx.search($('#query').val()));
 
 		var searchRes = idx.search($('#query').val());
 		var tile = '<a href="/recipe/{{name}}"><div class="pin"><img src="/images/{{img}}" alt=""><h2>{{name}}</h2></div></a>';
 		var template = Handlebars.compile( tile );
 		var html = "";
-		for( var i = 0; i < result.length; i++ ) {
+		for( var i = 0; i < searchRes.length; i++ ) {
 			//go through searchRes array and then access the recipes array at that index and template it
 			//then put the data in html. You may need to figuire out about scores.
+			html = html + template(result[searchRes[i].ref]);
 		}
 		$('#columns').html(html);
 	}
