@@ -21,15 +21,15 @@ $(document).ready(function(){
 
 	function hashChange() {
 		var hash = window.location.hash.substring(1);
-		if( hash === 'myrecipes' ) {
+		if( hash == 3 ) {
 			$('#sort').val(3);
 			sort();
 		}
-		else if( hash === 'all' ) {
+		else if( hash == 2 ) {
 			$('#sort').val(2);
 			sort();
 		}
-		else if( hash === 'trending' ) {
+		else if( hash == 1 ) {
 			$('#sort').val(1);
 			sort();
 		}
@@ -74,6 +74,7 @@ $(document).ready(function(){
 		//e.preventDefault();
 		var category = $('#sort').val();
 		$.get('/tiles/' + category, displayTiles);
+		window.location.hash = category;
 	}
 
 	function displayTiles(result) {
