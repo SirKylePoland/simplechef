@@ -29,7 +29,7 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -20px; padding-right: 20px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
+#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 20px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
 @media only screen and (max-width: 320px) { #toolbarnav h1{font-size: 32px;} #content h2{font-size: 16px;}}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
@@ -241,7 +241,7 @@ h1 img {height: 60px;}
 .navicon {
   position: relative;
   top: 22px;
-  left: 0.5%;
+  left: -0.5%;
   display: inline;
   padding: 30px;
   padding-top: 20px;
