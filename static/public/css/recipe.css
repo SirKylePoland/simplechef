@@ -142,9 +142,9 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 32px;}
-#w #pagebody header#recstepstoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 32px;}
-#w #pagebody header#recovertoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 32px;}
+#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
+#w #pagebody header#recstepstoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
+#w #pagebody header#recovertoolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
 @media only screen and (max-width: 320px) { #toolbarnav h1{font-size: 22px;} #recstepstoolbarnav h1{font-size: 16px;} #recovertoolbarnav h1{font-size: 16px;}}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
@@ -175,7 +175,7 @@ h1 img {height: 60px;}
 }
 
 .easynavicon {
-  margin-left: 15%;
+  margin-left: 5%;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
@@ -197,6 +197,7 @@ h1 img {height: 60px;}
 /*//////////////////////////////////////////STYLES STEPS//////////////////////////////////////////////*/
 .stepstext{
 	font-size: 16px; 
+	text-align: left;
 }
 .stepstext p{
 	color: #191919; 
@@ -232,7 +233,7 @@ h1 img {height: 60px;}
 	font-size: 50px;
 	left: 20px;
 	position: fixed;
-	top: 60%;
+	top: 65%;
 
 }
 
@@ -317,7 +318,7 @@ h1 img {height: 60px;}
 .navicon {
   position: relative;
   top: 22px;
-  left: 15%;
+  left: 5%;
   display: inline;
   padding: 30px;
   padding-top: 20px;
