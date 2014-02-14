@@ -98,7 +98,7 @@ h1 img {height: 60px;}
 .navicon {
   position: relative;
   top: 22px;
-  left: 15%;
+  left: -0.5%;
   display: inline;
   padding: 30px;
   padding-top: 20px;
