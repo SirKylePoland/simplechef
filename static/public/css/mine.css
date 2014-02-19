@@ -13,7 +13,7 @@ body {
 }
 
 #logo {
-  height: 250px;
+  height: 230px;
   width: 100%;
   background-color: #42036F;
 }
@@ -22,6 +22,7 @@ body {
   color: white;
   font-size: 48px;
   text-align: center;
+  margin-top: -5px;
 }
 
 #logo img{

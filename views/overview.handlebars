@@ -34,13 +34,18 @@
 					<span class="title">{{name}}</span>
 					<span class="time">{{time}}</span>
 				</div>
-				<p>{{overview}}</p>
+				<div id="overviewsteps">
+					{{#each steps}}
+					<h2>Step {{num}}</h2>
+					<p>{{desc}}</p>
+					{{/each}}
+				</div>
 			</section>
 			<!--BOTTOM FIXED NAV-->
 			<nav id="botnavrecover">
 				<ul>
 					<li><a href="/home" class="navicon glyphicon-home"></a></li>
-					<li><a href="/home#3" class="navicon glyphicon-book"></a></li>
+					<li><a href="/myrecipes" class="navicon glyphicon-book"></a></li>
 					<li><a href="/settings" class="navicon glyphicon-cog"></a></li>
 				</ul>
 			</nav>

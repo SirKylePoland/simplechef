@@ -91,19 +91,27 @@
 				},
 				{
 					"num": 4,
-					"desc": "With the mixer on low speed, slowly add the wet ingredients to the dry. With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula."
+					"desc": "With the mixer on low speed, slowly add the wet ingredients to the dry."
 				},
 				{
 					"num": 5,
-					"desc": "Pour the batter into the prepared pans and bake for 35 to 40 minutes, until a cake tester comes out clean."
+					"desc": "With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula."
 				},
 				{
 					"num": 6,
-					"desc": "Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely."
+					"desc": "Pour the batter into the prepared pans and bake for 35 to 40 minutes, until a cake tester comes out clean."
 				},
 				{
 					"num": 7,
-					"desc": "Place 1 layer, flat side up, on a flat plate or cake pedestal. With a knife or offset spatula, spread the top with frosting. Place the second layer on top, rounded side up, and spread the frosting evenly on the top and sides of the cake."
+					"desc": "Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely."
+				},
+				{
+					"num": 8,
+					"desc": "Place 1 layer, flat side up, on a flat plate or cake pedestal. With a knife or offset spatula, spread the top with frosting."
+				},
+				{
+					"num": 9,
+					"desc": "Place the second layer on top, rounded side up, and spread the frosting evenly on the top and sides of the cake."
 				}
 			]
 		},

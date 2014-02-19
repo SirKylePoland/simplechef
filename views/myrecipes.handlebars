@@ -2,23 +2,28 @@
 <html lang="en">
 <head>
 	<title>Simple Chef</title>
+
 	<!--META-->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta name="author" content="Kyle Poland and Laura Silva">
 	<meta name="description" content="A simple way to find recipes, follow and listen to step-by-step instructions, and much, much, more. All for the endeavor of creating something savory and delicious.">
     <meta name="keywords" content="simple, chef, recipe, easy, savory, delicious">
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
 	<!--LINKS-->
-	<link type="text/css" rel="stylesheet" media="all" href="/css/recipe.css">
+	<link type="text/css" rel="stylesheet" media="all" href="/css/style.css">
 	<link type="text/css" rel="stylesheet" media="all" href="/css/responsive.css">
 	<link type="text/css" rel="stylesheet" media="all" href="/css/bootstrap.css">
 
+
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.rc.1.min.js"></script>
+	<script type="text/javascript" src="/js/lunr.min.js"></script>
 	<script type="text/javascript" src="/js/script.js"></script>
 	<script type="text/javascript" src="/js/dropdown.js"></script>
 </head>
@@ -28,34 +33,53 @@
 			<!-- HTML for Top Bar -->
 			<header id="toolbarnav">
 				<a href="javascript:history.go(-1)" class="back glyphicon-chevron-left"></a> 
-				<h1><img src="/images/chefhat.png" alt="Simple Chef">Recipe</h1>
+				<h1><img src="/images/chefhat.png" alt="Simple Chef">My Recipes</h1>
 			</header>
 			<section id="content">
-				<div class="recipehead">
-					<span class="title">{{name}}</span>
-					<span class="time">{{time}}</span>
+				<!-- HTML for SEARCH BAR -->
+				<div id="tfheader">
+					<form id="tfnewsearch">
+		        		<input type="text" class="tftextinput" name="q" id ="query" size="21" maxlength="120">
+		        		<button type="submit" class="tfbutton"><span class="glyphicon1 glyphicon-search"></span></button>
+					</form>
+					<div class="tfclear"></div>
 				</div>
-				<img class="foodpic" src="/images/{{img}}">
-				<div class="rating">
-					<br>
-					Rating:
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star-empty"></span>
-					<span style="float: right;"><button type="button" class="addrecipebtn">Add Recipe</button></span>
+
+				<!--SORT DROP DOWN MENU-->
+				<table width=100% border="0" id="sortdropdown">
+					<tr>
+						<td>&nbsp;</td>
+						<td>
+				    		<select name="sort" id="sort">
+				    			<option value="1">Trending</option>
+				    			<option value="2">All</option>
+				     			<option value="3">My Recipes</option>
+				    		</select>
+				    	</td>
+				    	<td>&nbsp;</td>
+					</tr>
+				</table>
+
+				<!--START PINTEREST TILES-->					
+				<div id="wrapper">
+					<div id="columns">
+						{{#each recipes}}
+							<a href="/recipe/{{name}}">
+								<div class="pin">
+									<img src="/images/{{img}}" alt="">
+									<h2>{{name}}</h2>
+								</div>
+							</a>
+						{{/each}}
+					</div>
 				</div>
-				<p>{{shortDes}}</p>
-				<form method="link" action="/overview/{{name}}"><input type="submit" class="recipeops" value="Steps Overview"></form>
-				<form method="link" action="/ingredients/{{name}}"><input type="submit" class="recipeops" value="Ingredients List"></form>
-				<form method="link" action="/step/{{name}}"><input type="submit" class="recipeops" value="Cooking Mode"></form>
+				<!--END PINTEREST TILES-->
 			</section>
 			<!--BOTTOM FIXED NAV-->
 			<nav id="bottomnav">
 				<ul>
-					<li><a href="/home" class="navicon glyphicon-home"></a></li>
-					<li><a href="/myrecipes" class="navicon glyphicon-book"></a></li>
+					<li><a href="" class="navicon glyphicon-home"></a></li>
+					<li><a href="/myrecipes" class="navicon glyphicon-book active"></a></li>
 					<li><a href="/settings" class="navicon glyphicon-cog"></a></li>
 				</ul>
 			</nav>
@@ -63,3 +87,4 @@
 	</div>
 </body>
 </html>
+
