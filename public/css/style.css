@@ -24,12 +24,12 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 		top: 0px; 
 		z-index: 9999; 
 		background: #42036f top left no-repeat;  
-		height: 60px; 
+		height: 50px; 
 		width: 100%; 
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 20px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
+#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -25px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
 @media only screen and (max-width: 320px) { #toolbarnav h1{font-size: 32px;} #content h2{font-size: 16px;}}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
@@ -38,7 +38,7 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 #w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #191919; }
 #w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
 
-h1 img {height: 60px;}
+h1 img {height: 40px;}
 
 /*/////////////////////////STYLES BACK BUTTON////////////////////////////////////*/
 

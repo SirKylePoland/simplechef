@@ -24,12 +24,12 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 		top: 0px; 
 		z-index: 9999; 
 		background: #576ead top left no-repeat;  
-		height: 60px; 
+		height: 50px; 
 		width: 100%; 
 		max-width: 640px; 
 		}
 
-#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -30px; padding-right: 40px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 42px;}
+#w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -25px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; padding-bottom: 100px; min-height: 550px; height: 100%; z-index: 9999; }
 
@@ -37,7 +37,7 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 #w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; margin-bottom: 5px; color: #576ead; text-transform: uppercase; border-bottom: 1px solid #576ead; width: 100%;}
 #w #pagebody #content p { font-size: 14px; line-height: 1.6em; margin-bottom: 15px; color: silver; width: 100%; border-bottom: 1px solid silver;}
 
-h1 img {height: 60px;}
+h1 img {height: 40px;}
 
 .settingslist{
 	list-style-type: none;
