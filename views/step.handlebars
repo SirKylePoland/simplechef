@@ -21,7 +21,6 @@
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/script.js"></script>
-	<script type="text/javascript" src="/js/dropdown.js"></script>
 	<script type="text/javascript" src="/js/dragend.js"></script>
 	<script>
 		jQuery(function ($) {
@@ -54,6 +53,8 @@
 		})();
 	</script>
 </head>
+
+
 <body>
 	<div id="w">
 		<div id="pagebody">
@@ -61,15 +62,17 @@
 				<a href="javascript:history.go(-1)" class="backstep glyphicon-chevron-left"></a> 
 				<h1><img src="/images/chefhat.png" alt="Simple Chef">Cooking Mode </h1>
 			</header>
+
 			<!--STEPSEASY NAV-->
 			<nav id="stepseasynav">
 				<ul>
 					<li><a href="/recipe/{{name}}" class="easynavicon glyphicon-list"></a></li>
 					<li><a href="#" class="easynavicon glyphicon-cutlery stepactive"></a></li>
-					<li><a href="#" class="easynavicon glyphicon-time"></a></li>
+					<li><a href="/timer" class="easynavicon glyphicon-time"></a></li>
 				</ul>
 			</nav>
 			<!--END STEPSEASY NAV-->
+
 			<section id="content">
 				<div id="demo">
 					<ul>
@@ -87,6 +90,7 @@
 				</div>
 				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-off"></span></button>
 			</section>
+
 			<!--BOTTOM FIXED NAV-->
 			<nav id="botnavrecsteps">
 				<ul>
@@ -97,7 +101,7 @@
 			</nav>
 		</div>
 	</div>
-</body>
 
+</body>
 </html>
 

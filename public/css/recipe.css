@@ -155,7 +155,7 @@ body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-siz
 #w #pagebody #content h3 { font-family: 'Source Sans Pro', sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; margin-bottom: 5px; color: #191919; text-transform: uppercase; border-bottom: 1px solid #191919; width: 100%;}
 
 
-h1 img {height: 40px;}
+h1 img {height: 40px; margin-left: 40px;}
 
 #ingredients li{
 	list-style-type: none;
@@ -232,10 +232,10 @@ h1 img {height: 40px;}
 
 .back {
   position: relative;
-  top: 15px;
+  top: 10px;
   left: 10px;
   font-family: 'Glyphicons Halflings';
-  font-size: 28px;
+  font-size: 25px;
   color: white;
   line-height: 30px;
   text-decoration: none;
@@ -247,13 +247,22 @@ h1 img {height: 40px;}
 	color: white;
 }
 
-
+@media (min-width: 320px) {
+	.backstep{
+		margin-left: -270px;
+	}
+}
+@media (min-width: 640px){
+	.backstep{
+		margin-left: 20px;
+	}
+}
 .backstep {
   position: relative;
-  top: 15px;
-  left: -150px;
+  top: 10px;
+  left: 0px;
   font-family: 'Glyphicons Halflings';
-  font-size: 28px;
+  font-size: 25px;
   color: white;
   line-height: 30px;
   text-decoration: none;
@@ -264,7 +273,6 @@ h1 img {height: 40px;}
 	text-decoration: none;
 	color: white;
 }
-
 
 
 #swapArchived{
