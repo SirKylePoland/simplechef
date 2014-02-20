@@ -30,11 +30,11 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 		}
 
 #w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -25px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
-@media (min-width: 320px) { #toolbarnav h1{font-size: 32px;} #content h2{font-size: 16px;}}
+
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
 
-#w #pagebody #content h2 {color: #191919; background-color: white; opacity: 0.8; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-size: 18px; margin-top: -40px; padding: 5px; line-height: 18px; height:40px; width: 100%;}
+#w #pagebody #content h2 {color: #191919; background-color: white; opacity: 0.8; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-size: 18px; margin-top: -60px; padding: 5px; line-height: 18px; height:50px; width: 100%;}
 
 
 #w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #191919; }
@@ -85,7 +85,7 @@ h1 img {height: 40px;}
 	.tfbutton {
 		width: 30px;
 		padding: 0px 20px;
-		margin-left: -60px;
+		margin-left: -40px;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size:16px;
 		color: #ffffff;
@@ -102,18 +102,18 @@ h1 img {height: 40px;}
 		clear:both;
 	}
 
-.glyphicon1{
+.searchicon{
   position: relative;
   bottom: 0px;
   top: 5px;
-  right: 25px;
+  right: 45px;
   display: inline;
   padding: 30px;
   padding-top: 20px;
   margin-top: 0px;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
-  font-size: 28px;
+  font-size: 25px;
   color: gray;
   font-weight: normal;
   line-height: 30px;
@@ -156,47 +156,54 @@ h1 img {height: 40px;}
 	width: 100%;
 	max-width: 640px;
 	min-width: 320px;
-	margin: 20px auto 60px auto;
+	margin: 20px 0 60px 5px;
+	padding-right: 15px;
 	}
 
 #columns {
-	-webkit-column-count: 3;
-	-webkit-column-gap: -20px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 10px;
 	-webkit-column-fill: auto;
-	-moz-column-count: 3;
-	-moz-column-gap: -20px;
+	-moz-column-count: 2;
+	-moz-column-gap: 10px;
 	-moz-column-fill: auto;
-	column-count: 3;
-	column-gap: -20px;
+	column-count: 2;
+	column-gap: 10px;
 	column-fill: auto;
 }
 
 .pin {
-	display: inline-block;
+	display: inline;
 	background: white;
 	margin: 10px 0px 0px 0px;
-	-webkit-column-break-inside: auto;
-	-moz-column-break-inside: auto;
-	column-break-inside: auto;
+	
 }
 
 .pin img {
 	width: 250px;
 	height: 200px;
+	margin-bottom: 20px;
+	margin-left: -50px;
+}
+.pin:hover{
+	text-decoration: none;
 }
 
 @media (min-width: 320px) {
 	#columns {
 		-webkit-column-count: 2;
-		
 		-moz-column-count: 2;
-		
 		column-count: 2;
-
+		column-gap: 5px;
+		-webkit-column-gap: 5px;
+		-moz-column-gap: 5px;
+		column-width: 150px;
+		-webkit-column-width: 150px;
+		-moz-column-width: 150px;
 	}
 	.pin img{
-		width: 130px;
-		height: 130px;
+		width: 190px;
+		height: 150px;
 	}
 }
 
