@@ -30,12 +30,12 @@ body { background: #181c1f; font-family: Arial,  sans-serif; font-size: 62.5%; l
 		}
 
 #w #pagebody header#toolbarnav h1 {text-align: center; margin-top: -25px; color: white; font-family: 'Montserrat Alternates', sans-serif; font-size: 26px;}
-@media only screen and (min-width: 320px) { #toolbarnav h1{font-size: 32px;} #content h2{font-size: 16px;}}
+@media (min-width: 320px) { #toolbarnav h1{font-size: 32px;} #content h2{font-size: 16px;}}
 
 #w #pagebody #content { display: block; background: #fff; padding: 5px 12px; margin-top: 40px; min-height: 550px; height: 100%; z-index: 9999; }
 
-#w #pagebody #content h2 {color: #191919; background-color: white; opacity: 0.8; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-size: 20px; margin-top: -40px; padding-left: 10px;line-height: 40px; width: 100%;}
-@media only screen and (min-width: 320px) {#content h2{ font-size: 14px;}}
+#w #pagebody #content h2 {color: #191919; background-color: white; opacity: 0.8; font-family: 'Source Sans Pro', sans-serif; font-weight: 400; font-size: 18px; margin-top: -40px; padding: 5px; line-height: 18px; height:40px; width: 100%;}
+
 
 #w #pagebody #content h3 { font-family: Arial, sans-serif; font-weight: 700; font-size: 1.8em; line-height: 1.75em; text-transform: capitalize; margin-bottom: 5px; color: #191919; }
 #w #pagebody #content p { font-size: 1.4em; line-height: 1.6em; margin-bottom: 15px; color: #191919; }
@@ -46,10 +46,10 @@ h1 img {height: 40px;}
 
 .back {
   position: relative;
-  top: 15px;
+  top: 10px;
   left: 10px;
   font-family: 'Glyphicons Halflings';
-  font-size: 28px;
+  font-size: 25px;
   color: white;
   line-height: 30px;
   text-decoration: none;
@@ -129,6 +129,7 @@ h1 img {height: 40px;}
 /**STYLES SORT DROP DOWN MENU**/
 #sortdropdown {
 	color: #551C7D;
+	background-color: white;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size:16px;
 	margin-top: 10px;
@@ -152,22 +153,21 @@ h1 img {height: 40px;}
 /**STYLES PINTEREST TILES**/
 
 #wrapper {
-	width: 90%;
+	width: 100%;
 	max-width: 640px;
 	min-width: 320px;
-	margin: 50px auto;
-	padding-right: 20px;
+	margin: 20px auto 60px auto;
 	}
 
 #columns {
-	-webkit-column-count: 2;
-	-webkit-column-gap: 10px;
+	-webkit-column-count: 3;
+	-webkit-column-gap: -20px;
 	-webkit-column-fill: auto;
-	-moz-column-count: 2;
-	-moz-column-gap: 10px;
+	-moz-column-count: 3;
+	-moz-column-gap: -20px;
 	-moz-column-fill: auto;
-	column-count: 2;
-	column-gap: 10px;
+	column-count: 3;
+	column-gap: -20px;
 	column-fill: auto;
 }
 
@@ -175,13 +175,9 @@ h1 img {height: 40px;}
 	display: inline-block;
 	background: white;
 	margin: 10px 0px 0px 0px;
-	-webkit-column-break-inside: avoid;
-	-moz-column-break-inside: avoid;
-	column-break-inside: avoid;
-	-webkit-transition: all .2s ease;
-	-moz-transition: all .2s ease;
-	-o-transition: all .2s ease;
-	transition: all .2s ease;
+	-webkit-column-break-inside: auto;
+	-moz-column-break-inside: auto;
+	column-break-inside: auto;
 }
 
 .pin img {
@@ -192,8 +188,15 @@ h1 img {height: 40px;}
 @media (min-width: 320px) {
 	#columns {
 		-webkit-column-count: 2;
+		
 		-moz-column-count: 2;
+		
 		column-count: 2;
+
+	}
+	.pin img{
+		width: 130px;
+		height: 130px;
 	}
 }
 
@@ -202,6 +205,10 @@ h1 img {height: 40px;}
 		-webkit-column-count: 2;
 		-moz-column-count: 2;
 		column-count: 2;
+	}
+	.pin img {
+	width: 250px;
+	height: 200px;
 	}
 }
 
@@ -240,13 +247,13 @@ h1 img {height: 40px;}
 .navicon {
   position: relative;
   top: 12px;
-  left: -5%;
+  left: 0px;
   display: inline;
-  padding: 30px;
-  padding-top: 10px;
+  padding: 32px;
+  padding-top: 12px;
   font-family: 'Glyphicons Halflings';
   font-style: normal;
-  font-size: 28px;
+  font-size: 25px;
   color: white;
   font-weight: normal;
   line-height: 30px;
@@ -257,4 +264,15 @@ h1 img {height: 40px;}
 .navicon:hover{
 	color: silver;
 	text-decoration: none;
+}
+
+@media (min-width: 320px){
+	.navicon{
+		left: -14%;
+	}
+}
+@media (min-width: 640px){
+	.navicon{
+		left: 20%;
+	}
 }
