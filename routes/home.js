@@ -123,3 +123,7 @@ exports.viewMyRecipes = function(req, res) {
 
 	res.render('myrecipes', tiles);
 }
+
+exports.viewTimer = function(req, res) {
+	res.render('timer');
+}
