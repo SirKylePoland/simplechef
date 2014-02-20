@@ -32,24 +32,15 @@
 			</header>
 			<section id="content">
 				<div class="recipehead">
-					<span class="title">{{name}}</span>
-					<span class="time">{{time}}</span>
+					<span class="title">{{recipe.name}}</span>
+					<span class="time">{{recipe.time}}</span>
 				</div>
-				<img class="foodpic" src="/images/{{img}}">
-				<div class="rating">
-					<br>
-					Rating:
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star"></span>
-					<span class="glyphicon glyphicon-star-empty"></span>
-					<span style="float: right;"><button type="button" class="addrecipebtn">Add Recipe</button></span>
-				</div>
-				<p>{{shortDes}}</p>
-				<form method="link" action="/overview/{{name}}"><input type="submit" class="recipeops" value="Steps Overview"></form>
-				<form method="link" action="/ingredients/{{name}}"><input type="submit" class="recipeops" value="Ingredients List"></form>
-				<form method="link" action="/step/{{name}}"><input type="submit" class="recipeops" value="Cooking Mode"></form>
+				<img class="foodpic" src="/images/{{recipe.img}}">
+				{{rating recipe account.recipes}}
+				<p>{{recipe.shortDes}}</p>
+				<form method="link" action="/overview/{{recipe.name}}"><input type="submit" class="recipeops" value="Steps Overview"></form>
+				<form method="link" action="/ingredients/{{recipe.name}}"><input type="submit" class="recipeops" value="Ingredients List"></form>
+				<form method="link" action="/step/{{recipe.name}}"><input type="submit" class="recipeops" value="Cooking Mode"></form>
 			</section>
 			<!--BOTTOM FIXED NAV-->
 			<nav id="bottomnav">

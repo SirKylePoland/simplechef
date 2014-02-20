@@ -16,6 +16,7 @@ $(document).ready(function(){
 		$('#sort').change(sort);
 		$('#tfnewsearch').submit(search);
 		$('.addrecipebtn').click(addRecipe);
+		$('.addrecipebtnundo').click(removeRecipe);
 		window.onhashchange = hashChange();
 	}
 
@@ -40,7 +41,22 @@ $(document).ready(function(){
 
 	function addRecipe(e) {
 		e.preventDefault();
+		$('#recadd').removeClass("addrecipebtn");
+		$('#recadd').addClass("addrecipebtnundo");
+		$('#recadd').html("Remove Recipe");
+		$('#recadd').unbind("click");		
+		$('#recadd').click(removeRecipe);
 		$.post('/add', { name: $('.title').html() });
+	}
+
+	function removeRecipe(e) {
+		e.preventDefault();
+		$('#recadd').removeClass("addrecipebtnundo");
+		$('#recadd').addClass("addrecipebtn");
+		$('#recadd').html("Add Recipe");
+		$('#recadd').unbind("click");
+		$('#recadd').click(addRecipe);
+		$.post('/remove', { name: $('.title').html() });
 	}
 
 	function search(e) {

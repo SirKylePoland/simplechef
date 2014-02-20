@@ -70,7 +70,7 @@
   content: "\e007";
 }
 
-.addrecipebtn {
+.addrecipebtn, .addrecipebtnundo {
 background-color: #6f4a80;
   border-color: transparent;
   color: white;
@@ -80,8 +80,12 @@ background-color: #6f4a80;
   font-size: 18px;
 }
 .addrecipebtn:hover{
-	background-color: #551C7D;
+	background-color: #00FF00;
 }
+.addrecipebtnundo:hover{
+	background-color: #FF0000;
+}
+
 .recipeops {
  background-color: #6f4a80;
   border-color: transparent;

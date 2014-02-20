@@ -40,6 +40,8 @@ app.get('/step/:name', routes.viewSteps);
 app.get('/ingredients/:name', routes.viewIngredients);
 app.get('/tiles/:category', routes.getTiles);
 app.post('/add', routes.addRecipe);
+app.post('/remove', routes.removeRecipe);
+app.get('/myrecipes', routes.viewMyRecipes);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

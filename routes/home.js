@@ -27,6 +27,7 @@ exports.viewHome = function(req, res){
 		}
 	}
 
+	res.header('Cache-Control', 'private, must-revalidate, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
 	res.render('home', tiles );
 };
 
@@ -41,7 +42,8 @@ exports.viewRecipe = function(req, res) {
 			break;
 		}
 	}
-	res.render('recipe', data.recipes[i] );
+	res.render('recipe', { "recipe": data.recipes[i],
+						   "account": accounts } );
 }
 
 exports.viewOverview = function(req, res){
@@ -98,3 +100,26 @@ exports.addRecipe = function(req, res) {
 	accounts.recipes.push(name);
 }
 
+exports.removeRecipe = function(req, res) {
+	var name = req.param('name');
+	var index = accounts.recipes.indexOf(name);
+	if( index != -1 ) {
+		accounts.recipes.splice(index, 1);
+	}
+}
+
+exports.viewMyRecipes = function(req, res) {
+	var tiles = {
+		"recipes": [],
+	};
+
+	var category = "Trending";
+
+	for( var i = 0; i < data.recipes.length; i++ ) {
+		if( accounts.recipes.indexOf( data.recipes[i].name ) != -1 ) {
+			tiles.recipes.push( data.recipes[i] );
+		}
+	}
+
+	res.render('myrecipes', tiles);
+}
