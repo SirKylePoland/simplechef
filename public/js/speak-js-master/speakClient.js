@@ -1,9 +1,9 @@
 var speakWorker;
-try {
-  speakWorker = new Worker('speakWorker.js');
-} catch(e) {
+//try {
+//  speakWorker = new Worker('speakWorker.js');
+//} catch(e) {
   console.log('speak.js warning: no worker support');
-}
+//}
 
 function speak(text, args) {
   var PROFILE = 1;

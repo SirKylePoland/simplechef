@@ -866,11 +866,14 @@
             }
 
             // check if should trigger swipe
-            if ( typeof settings === "string" ) instance.swipe( settings );
+            if ( typeof settings === "string" && !(settings === "pageNum")) instance.swipe( settings );
 
           });
 
           // jQuery functions should always return the intance
+          if( settings === "pageNum" ) {
+            return $(this).data( "dragend" ).page;
+          }
           return this;
         };
 

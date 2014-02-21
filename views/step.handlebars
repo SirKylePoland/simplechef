@@ -23,10 +23,12 @@
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/script.js"></script>
-	<script type="text/javascript" src="/js/dragend.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
 	<script src="/js/timer.js"></script>
+	<script type="text/javascript" src="/js/dragend.js"></script>
+	<script type="text/javascript" src="/js/speak-js-master/speakClient.js"></script>
+	<script type="text/javascript" src="/js/speak-js-master/speakGenerator.js"></script>
 	<script>
 		jQuery(function ($) {
 	    	$('#swapArchived').on('click', function () {
@@ -35,6 +37,9 @@
 	        	$el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
 	        	textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
 	        	$el.toggleClass('');
+	        	var number = $('#demo').dragend("pageNum") + 1;
+	        	console.log(number + ' ' + $('#page' + number + ' content p').html());
+	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
 	    	});
 		});
 	</script>
@@ -61,6 +66,7 @@
 	</script>
 </head>
 <body>
+	<div id="audio"></div>
 	<div id="w">
 		<div id="pagebody">
 			<header id="recstepstoolbarnav">
