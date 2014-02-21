@@ -31,25 +31,46 @@
 	<script type="text/javascript" src="/js/speak-js-master/speakGenerator.js"></script>
 	<script>
 		jQuery(function ($) {
+			var drag = new Dragend($("#demo").get(0), {
+				afterInitialize: function() {
+					$("#demo").css("visibility", "visible");
+				}
+			});
 	    	$('#swapArchived').on('click', function () {
 	       		var $el = $(this),
 	            textNode = this.lastChild;
 	        	$el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
 	        	textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
 	        	$el.toggleClass('');
-	        	var number = $('#demo').dragend("pageNum") + 1;
+	        	var number = drag.page + 1;
 	        	console.log(number + ' ' + $('#page' + number + ' content p').html());
 	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
 	    	});
+	    	if (annyang) {
+			// Let's define our first command. First the text we expect, and then the function it should call
+			console.log('working');
+			var commands = {
+		    'listen': function() {
+				var number = drag.page + 1;
+	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
+	        }
+		  };
+
+		  // Add our commands to annyang
+		  annyang.addCommands(commands);
+
+		  // Start listening. You can call this here, or attach this call to an event, button, etc.
+		  annyang.start();
+			}
 		});
 	</script>
 	<script>
 		$(function() {
-			new Dragend($("#demo").get(0), {
+		/*	var drag = new Dragend($("#demo").get(0), {
 				afterInitialize: function() {
 					$("#demo").css("visibility", "visible");
 				}
-			});
+			}); */
 		});
 
 		var _gaq = _gaq || [];
@@ -63,6 +84,26 @@
 			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		})();
+	</script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+	<script>
+		/*if (annyang) {
+		  // Let's define our first command. First the text we expect, and then the function it should call
+		  console.log('working');
+		  var commands = {
+		    'listen': function() {
+				var number =  + 1;
+				console.log($('#demo').dragend("pageNum"));
+	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
+	        }
+		  };
+
+		  // Add our commands to annyang
+		  annyang.addCommands(commands);
+
+		  // Start listening. You can call this here, or attach this call to an event, button, etc.
+		  annyang.start();
+		} */
 	</script>
 </head>
 <body>

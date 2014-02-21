@@ -851,6 +851,8 @@
 
         // Register jQuery plugin
         $.fn.dragend = function( settings ) {
+          // jQuery functions should always return the intance
+
 
           settings = settings || {};
 
@@ -861,21 +863,22 @@
             if ( instance ) {
               instance.updateInstance( settings );
             } else {
+              console.log("creating dragend");
               instance = new Dragend( this, settings );
               $(this).data( "dragend", instance );
             }
 
             // check if should trigger swipe
-            if ( typeof settings === "string" && !(settings === "pageNum")) instance.swipe( settings );
+            if ( typeof settings === "string") instance.swipe( settings );
 
           });
 
-          // jQuery functions should always return the intance
-          if( settings === "pageNum" ) {
-            return $(this).data( "dragend" ).page;
-          }
+
+
           return this;
         };
+
+
 
     }
 
