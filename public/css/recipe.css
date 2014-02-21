@@ -416,6 +416,7 @@ h1 img {height: 40px; margin-left: 40px;}
 
 #botnavrecsteps ul{
 	list-style-type: none;
+	margin-left: 40px;
 }
 #botnavrecsteps ul li {
 	display: inline;
