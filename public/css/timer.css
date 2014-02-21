@@ -97,7 +97,7 @@ input::-webkit-inner-spin-button {
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	position:fixed;
 	top:150px;
-	left: 7%;
+	left: 5%;
 	margin-left:0px;
 	text-align:center;
 }
