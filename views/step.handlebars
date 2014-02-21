@@ -53,6 +53,10 @@
 		    'listen': function() {
 				var number = drag.page + 1;
 	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
+	        },
+	        'next': function() {
+	        	console.log("swiping right");
+	        	drag.swipe("left");
 	        }
 		  };
 
