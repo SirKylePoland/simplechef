@@ -53,6 +53,13 @@
 		    'listen': function() {
 				var number = drag.page + 1;
 	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
+	        },
+	        'next': function() {
+	        	console.log("swiping right");
+	        	drag.swipe("left");
+	        },
+	        'previous': function() {
+	        	drag.swipe("right");
 	        }
 		  };
 
@@ -107,7 +114,7 @@
 	</script>
 </head>
 <body>
-	<div id="audio"></div>
+	<audio id="audio"></audio>
 	<div id="w">
 		<div id="pagebody">
 			<header id="recstepstoolbarnav">
@@ -121,6 +128,7 @@
 					<li><a href="/ingredients/{{name}}" class="easynavicon glyphicon-list"></a></li>
 					<li><a href="#" class="easynavicon glyphicon-cutlery stepactive"></a></li>
 					<li><div class="button-holder"><a class="alarm-button"><img src="/images/time.png" alt=""/></a></div></li>
+
 				</ul>
 			</nav>
 			<!--END STEPSEASY NAV-->
