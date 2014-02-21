@@ -127,3 +127,7 @@ exports.viewMyRecipes = function(req, res) {
 exports.viewTimer = function(req, res) {
 	res.render('timer');
 }
+
+exports.viewHowto = function(req, res) {
+	res.render('howto', accounts);
+}
