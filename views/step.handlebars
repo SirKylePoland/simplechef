@@ -27,8 +27,8 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
 	<script src="/js/timer.js"></script>
 	<script type="text/javascript" src="/js/dragend.js"></script>
-	<script type="text/javascript" src="/js/speak-js-master/speakClient.js"></script>
-	<script type="text/javascript" src="/js/speak-js-master/speakGenerator.js"></script>
+	<!--<script type="text/javascript" src="/js/speak-js-master/speakClient.js"></script>
+	<script type="text/javascript" src="/js/speak-js-master/speakGenerator.js"></script> -->
 	<script>
 		jQuery(function ($) {
 			var drag = new Dragend($("#demo").get(0), {
@@ -44,7 +44,9 @@
 	        	$el.toggleClass('');
 	        	var number = drag.page + 1;
 	        	console.log(number + ' ' + $('#page' + number + ' content p').html());
-	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
+	        	//speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
+	        	var msg = new SpeechSynthesisUtterance($('#page' + number + ' content p').html());
+				window.speechSynthesis.speak(msg);
 	    	});
 	    	if (annyang) {
 			// Let's define our first command. First the text we expect, and then the function it should call
@@ -52,7 +54,8 @@
 			var commands = {
 		    'listen': function() {
 				var number = drag.page + 1;
-	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
+	        	var msg = new SpeechSynthesisUtterance($('#page' + number + ' content p').html());
+				window.speechSynthesis.speak(msg);
 	        },
 	        'next': function() {
 	        	console.log("swiping right");
