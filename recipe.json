@@ -1,13 +1,10 @@
-{
-	"recipes": [
+[
 		{
 			"name": "Chocolate Cake",
-			"id": 0,
 			"img": "cake.jpg",
 			"rating": 4,
 			"time": "1hr 35min",
 			"shortDes": "This chocalate cake will knock your socks off! It's a delicious blend of rich chocalate and fluffy, spongy cake. Enjoy!",
-			"overview": "Preheat the oven to 350 degrees F. Butter two 8-inch x 2-inch round cake pans. Line with parchment paper, then butter and flour the pans. Sift the flour, sugar, cocoa, baking soda, baking powder, and salt into the bowl of an electric mixer fitted with a paddle attachment and mix on low speed until combined. In another bowl, combine the buttermilk, oil, eggs, and vanilla. With the mixer on low speed, slowly add the wet ingredients to the dry. With mixer still on low, add the coffee and stir just to combine, scraping the bottom of the bowl with a rubber spatula. Pour the batter into the prepared pans and bake for 35 to 40 minutes, until a cake tester comes out clean. Cool in the pans for 30 minutes, then turn them out onto a cooling rack and cool completely. Place 1 layer, flat side up, on a flat plate or cake pedestal. With a knife or offset spatula, spread the top with frosting. Place the second layer on top, rounded side up, and spread the frosting evenly on the top and sides of the cake.",
 			"trending": true,
 			"ingredients": [
 				{
@@ -117,12 +114,10 @@
 		},
 		{
 			"name": "Chocolate Buttercream",
-			"id": 1,
 			"img": "frost.jpg",
 			"rating": 3,
 			"time": "45min",
 			"shortDes": "This chocolate buttercream frosting is a delicious blend of semisweet chocolate with a hint of coffee. Easy to make and great on the taste buds. We're sure you'll enjoy this recipe from Ina Garten!",
-			"overview": "Chop the chocolate and place it in a heat-proof bowl set over a pan of simmering water. Stir until just melted and set aside until cooled to room temperature. In the bowl of an electric mixer fitted with a paddle attachment, beat the butter on medium-high speed until light yellow and fluffy, about 3 minutes. Add the egg yolk and vanilla and continue beating for 3 minutes. Turn the mixer to low, gradually add the confectioners' sugar, then beat at medium speed, scraping down the bowl as necessary, until smooth and creamy. Dissolve the coffee powder in 2 teaspoons of the hottest tap water. On low speed, add the chocolate and coffee to the butter mixture and mix until blended. Don't whip! Spread immediately on the cooled cake.",
 			"trending": false,
 			"ingredients": [
 				{
@@ -185,12 +180,10 @@
 		},
 		{
 			"name": "Guacamole",
-			"id": 2,
 			"img": "guac.jpg",
 			"rating": 2,
 			"time": "20min",
 			"shortDes": "This versatile guacamole recipe is perfect for anyone planning a Cinco De Mayo party, or just looking for a little flare in one of your dishes.",
-			"overview": "In a medium bowl, mash together the avocados, lime juice, and salt. Mix in onion, cilantro, tomatoes, and garlic. Stir in cayenne pepper. Refrigerate 1 hour for best flavor, or serve immediately.",
 			"trending": false,
 			"ingredients": [
 				{
@@ -251,12 +244,10 @@
 		},
 		{
 			"name": "Turkey Stir-Fry",
-			"id": 3,
 			"img": "turkey.jpg",
 			"rating": 1,
 			"time": "30min",
 			"shortDes": "This Spicy Turkey and Green Bean Sir-Fry is to die for, literally. Watch out for disentary.",
-			"overview": "Bring a large pot of water to a boil. Stir in the rice, cover and boil until tender, about 18 minutes; drain well and keep warm. Meanwhile, preheat the broiler. Toss the green beans, 1 1/2 tablespoons vegetable oil and the sugar on a rimmed baking sheet. Broil, stirring once, until the beans are tender and charred, about 8 minutes. Heat the remaining 1 1/2 tablespoons vegetable oil in a large skillet over high heat. Add the turkey and cook, breaking it up with a wooden spoon, until browned, 3 minutes. Add the garlic, pickle and chile paste and cook until the garlic is slightly golden, about 3 minutes. Whisk the chicken broth, soy sauce, sherry and cornstarch in a bowl. Add the green beans to the skillet with the turkey mixture and cook, stirring, 1 minute. Add the soy sauce mixture and cook, stirring occasionally, until the sauce thickens slightly, about 3 minutes. Serve with the rice.",
 			"trending": true,
 			"ingredients": [
 				{
@@ -350,6 +341,382 @@
 					"desc": "Add the soy sauce mixture and cook, stirring occasionally, until the sauce thickens slightly, about 3 minutes. Serve with the rice."
 				}
 			]
+		},
+		{
+			"name": "Peanut Butter & Jelly on a Stick",
+			"img": "peabutjelsti.jpg",
+			"rating": 5,
+			"time": "10min",
+			"shortDes": "Makes 1 serving (2 servings shown)",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Bread of Choice",
+					"amount": "2 slices"
+				},
+				{
+					"step": "",
+					"name": "Peanut Butter",
+					"amount": "1-2 tbsp."
+				},
+				{
+					"step": "",
+					"name": "Jelly (used organic Strawberry jam)",
+					"amount": "1-2 tbsp."
+				},
+				{
+					"step": "",
+					"name": "Strawberries or Banana",
+					"amount": "4 slices"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Make your peanut butter and jelly sandwich."
+				},
+				{
+					"num": 2,
+					"desc": "Cut off crust and cut sandwich into 4 squares or triangles."
+				},
+				{
+					"num": 3,
+					"desc": "Place one of your sandwich pieces on a wooden skewer and then a piece of fruit, alternating until all sandwich slices and fruit are on your skewer."
+				}
+			]
+		},
+		{
+			"name": "Bangin’ Grilled Shrimp Skewers",
+			"img": "bangrishriske.jpg",
+			"rating": 4,
+			"time": "40min",
+			"shortDes": "You heard us, Bangin'",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "light mayonnaise",
+					"amount": "2 1/2 tbsp."
+				},
+				{
+					"step": "",
+					"name": "scallions, chopped fine",
+					"amount": "2 tbsp"
+				},
+				{
+					"step": "",
+					"name": "Thai Sweet Chili Sauce",
+					"amount": "1 1/2 tbsp"
+				},
+				{
+					"step": "",
+					"name": "Sriracha",
+					"amount": "1/2 tsp"
+				},
+				{
+					"step": "",
+					"name": "raw shrimp, shelled and deveined",
+					"amount": "40 large"
+				},
+				{
+					"step": "",
+					"name": "fresh cracked pepper",
+					"amount": ""
+				},
+				{
+					"step": "",
+					"name": "oil spray",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Combine the mayo, scallions, sweet chili sauce and sriracha sauce in a small bowl. Setaside."
+				},
+				{
+					"num": 2,
+					"desc": "Soak wooden skewers in water at least 20 minutes (or use metal ones to avoid this step).Season shrimp lightly pepper. Place 5 shrimp on 8 skewers."
+				},
+				{
+					"num": 3,
+					"desc": "Heat a clean, lightly oiled grill to medium heat, when the grill is hot add the shrimp, careful not to burn the skewers."
+				},
+				{
+					"num": 4,
+					"desc": "Grill on both sides for about 6 - 8 minutes total cooking time or until the shrimp is opaque and cooked through."
+				},
+				{
+					"num": 5,
+					"desc": "Set shrimp aside on a platter and quickly brush sauce onto the shrimp; serve immediately."
+				}
+			]
+		},
+		{
+			"name": "Lemon Chicken Piccata",
+			"img": "lemchipic.jpg",
+			"rating": 1,
+			"time": "20min",
+			"shortDes": "Original recipe makes 4 servings. Pan-fried chicken breast medallions get a light, fresh lemon-butter sauce with capers and parsley.",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "chicken breast halves - cut into 1/2-inch medallions",
+					"amount": "3 large skinless, boneless"
+				},
+				{
+					"step": "",
+					"name": "salt and pepper to taste",
+					"amount": ""
+				},
+				{
+					"step": "",
+					"name": "all-purpose flour",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "vegetable oil",
+					"amount": "2 tbsp."
+				},
+				{
+					"step": "",
+					"name": "garlic, minced",
+					"amount": "1 clove"
+				},
+				{
+					"step": "",
+					"name": "low sodium chicken broth",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "lemon, thinly sliced",
+					"amount": "1/2 lemon"
+				},
+				{
+					"step": "",
+					"name": "fresh lemon juice",
+					"amount": "1/4 cup"
+				},
+				{
+					"step": "",
+					"name": "capers, drained and rinsed",
+					"amount": "2 tbsp."
+				},
+				{
+					"step": "",
+					"name": "Butter",
+					"amount": "3 tbsp."
+				},
+				{
+					"step": "",
+					"name": "Minced Italian Parsley",
+					"amount": "2 tbsp."
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Preheat oven to 200 degrees F (95 degrees C). Place a serving platter into the oven to warm."
+				},
+				{
+					"num": 2,
+					"desc": "Season the chicken breast pieces with salt and pepper and dredge them in flour. Shake off excess flour."
+				},
+				{
+					"num": 3,
+					"desc": "Heat the vegetable oil in a skillet; pan-fry the chicken pieces until golden brown on both sides, about 3 minutes per side. Work in batches and do not crowd skillet, adding oil as needed."
+				},
+				{
+					"num": 4,
+					"desc": "Place the chicken pieces onto the warmed platter in the oven. When finished with all the chicken, drain most of the oil from the skillet, leaving a thin coating on the surface of the pan."
+				},
+				{
+					"num": 5,
+					"desc": "Cook and stir the minced garlic in the skillet until fragrant, about 20 seconds. Pour in the chicken broth. Scrape and dissolve any brown bits from the bottom of the skillet."
+				},
+				{
+					"num": 6,
+					"desc": "Stir in the lemon slices and bring the mixture to a boil. Let cook, stirring occasionally, until the sauce reduces to about 2/3 cup, 5 to 8 minutes."
+				},
+				{
+					"num": 7,
+					"desc": "Add the lemon juice and capers; simmer until the sauce is reduced and slightly thickened, about 5 minutes more."
+				},
+				{
+					"num": 8,
+					"desc": "Drop the butter into the skillet and swirl it into the sauce by tilting the skillet until the butter is melted and incorporated. Add the parsley; remove from heat and set aside."
+				},
+				{
+					"num": 9,
+					"desc": "Arrange the chicken medallions on serving plates and spoon sauce over each portion to serve."
+				}
+			]
+		},
+		{
+			"name": "Slow Cooker Barbeque",
+			"img": "slocoobbq.jpg",
+			"rating": 2,
+			"time": "9hrs 10min",
+			"shortDes": "Original recipe makes 8 servings. This is an old recipe my mom used to make for us kids. It is so good it almost melts in your mouth! Serve on sub rolls.",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "boneless chuck roast",
+					"amount": "3 lb."
+				},
+				{
+					"step": "",
+					"name": "garlic powder",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "",
+					"name": "onion powder",
+					"amount": "1 tsp."
+				},
+				{
+					"step": "",
+					"name": "salt and pepper to taste",
+					"amount": ""
+				},
+				{
+					"step": "",
+					"name": "barbeque sauce",
+					"amount": "1 (18 ounce) bottle"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Place roast into slow cooker. Sprinkle with garlic powder and onion powder, and season with salt and pepper. Pour barbeque sauce over meat. Cook on Low for 6 to 8 hours."
+				},
+				{
+					"num": 2,
+					"desc": "Remove meat from slow cooker, shred, and return to slow cooker. Cook for 1 more hour. Serve hot."
+				}
+			]
+		},
+		{
+			"name": "Emily’s Famous Hashbrowns",
+			"img": "emihasbro.jpg",
+			"rating": 3,
+			"time": "35 min",
+			"shortDes": "Serves 4. Good old fashioned restaurant-style hash browns. Perfect with hot pepper sauce and ketchup!",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "russet potatoes, shredded",
+					"amount": "2 medium"
+				},
+				{
+					"step": "",
+					"name": "onion, finely chopped",
+					"amount": "1/2 medium"
+				},
+				{
+					"step": "",
+					"name": "all-purpose flour",
+					"amount": "1/4 cup"
+				},
+				{
+					"step": "",
+					"name": "Egg",
+					"amount": "1 large"
+				},
+				{
+					"step": "",
+					"name": "oil for frying",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "salt and pepper to taste",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Rinse shredded potatoes until water is clear, then drain and squeeze dry. Place shreds in a bowl, and mix in the onion, flour and egg until evenly distributed."
+				},
+				{
+					"num": 2,
+					"desc": "Heat about 1/4 inch of oil in a large heavy skillet over medium-high heat."
+				},
+				{
+					"num": 3,
+					"desc": "When oil is sizzling hot, place potatoes into the pan in a 1/2 inch thick layer. Cover the whole bottom of the pan, or make separate piles like pancakes."
+				},
+				{
+					"num": 4,
+					"desc": "Cook until nicely browned on the bottom, then flip over and brown on the other side. It should take at least 5 minutes per side."
+				},
+				{
+					"num": 5,
+					"desc": "If you are cooking them in one big piece, it can be cut into quarters for easier flipping."
+				},
+				{
+					"num": 6,
+					"desc": "Remove from pan, and drain on paper towels. Season with salt and pepper and serve immediately."
+				}
+			]
+		},
+		{
+			"name": "Chocolate Fudge Cookies",
+			"img": "chofudcoo.jpg",
+			"rating": 5,
+			"time": "20min",
+			"shortDes": "Serves 24. Chewy chocolate chip cookies made from chocolate cake mix.",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Devil's food cake mix",
+					"amount": "1 (18.25 ounce) package"
+				},
+				{
+					"step": "",
+					"name": "Eggs",
+					"amount": "2"
+				},
+				{
+					"step": "",
+					"name": "Vegetable oil",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "Semi-sweet chocolate chips",
+					"amount": "1 cup"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Preheat oven to 350 degrees F (175 degrees C). Grease cookie sheets."
+				},
+				{
+					"num": 2,
+					"desc": "In a medium bowl, stir together the cake mix, eggs and oil until well blended. Fold in the chocolate chips."
+				},
+				{
+					"num": 3,
+					"desc": "Roll the dough into walnut sized balls. Place the cookies 2 inches apart on the cookie sheet."
+				},
+				{
+					"num": 4,
+					"desc": "Bake for 8 to 10 minutes in the preheated oven."
+				},
+				{
+					"num": 5,
+					"desc": "Allow cookies to cool on baking sheet for 5 minutes before removing to a wire rack to cool completely."
+				}
+			]
 		}
-	]
-}
+]

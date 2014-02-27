@@ -21,7 +21,8 @@
     "logfmt": "~0.20.0",
     "express": "~3.4.8",
     "express3-handlebars": "~0.5.0",
-    "lunr": "*"
+    "mongodb": "*",
+    "mongoose": "*"
   },
   "engines": {
     "node": "0.10.x"

@@ -1,6 +1,7 @@
 // Get all of our friend data
 var data = require('../recipe.json');
 var accounts = require('../accounts.json');
+var models = require('../models');
 
 exports.view = function(req, res){
 	res.render('index');
@@ -11,24 +12,14 @@ exports.viewHome = function(req, res){
 		"recipes": [],
 	};
 
-	var category = "Trending";
+	models.Recipe
+		.find({ 'trending': true })
+		.exec(afterQuery);
 
-	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( category === 'Trending' && data.recipes[i].trending ) {
-			tiles.recipes.push( data.recipes[i] );
-		}
-		else if( category === 'All' ) {
-			tiles.recipes.push( data.recipes[i] );
-		}
-		else if ( category === 'My Recipes' ) {
-			if( accounts.recipes.indexOf( data.recipes[i].name ) != -1 ) {
-				tiles.recipes.push( data.recipes[i] );
-			}
-		}
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.render('home', { "recipes": recipes });
 	}
-
-	res.header('Cache-Control', 'private, must-revalidate, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0');
-	res.render('home', tiles );
 };
 
 exports.viewSettings = function(req, res){
@@ -37,62 +28,80 @@ exports.viewSettings = function(req, res){
 
 exports.viewRecipe = function(req, res) {
 	var name = req.params.name;
-	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( data.recipes[i].name === name ) {
-			break;
-		}
-	}
-	res.render('recipe', { "recipe": data.recipes[i],
+
+	models.Recipe
+		.find({ 'name': name })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.render('recipe', { "recipe": recipes[0],
 						   "account": accounts } );
+	}
 }
 
 exports.viewOverview = function(req, res){
 	var name = req.params.name;
-	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( data.recipes[i].name === name ) {
-			break;
-		}
+
+	models.Recipe
+		.find({ 'name': name })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.render('overview', recipes[0] );
 	}
-	res.render('overview', data.recipes[i] );
 };
 
 exports.viewSteps = function(req, res){
 	var name = req.params.name;
-	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( data.recipes[i].name === name ) {
-			break;
-		}
+
+	models.Recipe
+		.find({ 'name': name })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.render('step', recipes[0] );
 	}
-	res.render('step', data.recipes[i] );
 };
 
 exports.viewIngredients = function(req, res){
 	var name = req.params.name;
-	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( data.recipes[i].name === name ) {
-			break;
-		}
+
+	models.Recipe
+		.find({ 'name': name })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.render('ingredients', recipes[0] );
 	}
-	res.render('ingredients', data.recipes[i] );
 };
 
 exports.getTiles = function(req, res) {
 	var category = req.params.category;
-	var tiles = [];
-	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( category == 1 && data.recipes[i].trending ) {
-			tiles.push( data.recipes[i] );
-		}
-		else if( category == 2 ) {
-			tiles.push( data.recipes[i] );
-		}
-		else if ( category == 3 ) {
-			if( accounts.recipes.indexOf( data.recipes[i].name ) != -1 ) {
-				tiles.push( data.recipes[i] );
-			}
-		}
+
+	switch(category) {
+		case '1':
+			models.Recipe
+				.find({ 'trending': true })
+				.exec(afterQuery);
+			break;
+		case '2':
+			models.Recipe
+				.find()
+				.exec(afterQuery);
+			break;
+		default:
+			console.log("No such category: " + category);
+			break;
 	}
-	res.json(tiles);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.json(recipes);
+	}
 }
 
 exports.addRecipe = function(req, res) {
@@ -109,19 +118,25 @@ exports.removeRecipe = function(req, res) {
 }
 
 exports.viewMyRecipes = function(req, res) {
-	var tiles = {
-		"recipes": [],
-	};
+	models.Recipe
+		.find()
+		.exec(afterQuery);
 
-	var category = "Trending";
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
 
-	for( var i = 0; i < data.recipes.length; i++ ) {
-		if( accounts.recipes.indexOf( data.recipes[i].name ) != -1 ) {
-			tiles.recipes.push( data.recipes[i] );
+		var tiles = {
+			"recipes": [],
+		};
+
+		for( var i = 0; i < recipes.length; i++ ) {
+			if( accounts.recipes.indexOf( recipes[i].name ) != -1 ) {
+				tiles.recipes.push( recipes[i] );
+			}
 		}
-	}
 
-	res.render('myrecipes', tiles);
+		res.render('myrecipes', tiles);
+	}
 }
 
 exports.viewTimer = function(req, res) {
