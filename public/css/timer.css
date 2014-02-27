@@ -85,13 +85,13 @@ input::-webkit-inner-spin-button {
 	top:0;
 	left:0;
 	background-color:rgba(0,0,0,0.2);
-	z-index:10;
+	z-index:100;
 }
 
 #alarm-dialog, 
 #time-is-up{
 	width:290px;
-	height:325px;
+	height:265px;
 	background-color:#fff;
 	border-radius:2px;
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
@@ -100,13 +100,15 @@ input::-webkit-inner-spin-button {
 	left: 5%;
 	margin-left:0px;
 	text-align:center;
+	z-index: 20;
 }
 
 #alarm-dialog h2{
 	text-transform: uppercase;
 	font-size:18px;
 	color:#5e6268;
-	padding: 50px 0;
+	padding: 10px 0;
+	z-index: 20;
 }
 
 #alarm-dialog label{
@@ -160,7 +162,7 @@ input::-webkit-inner-spin-button {
 	background: url('../img/close.png');
 	position: relative;
 	top: -18px;
-	right: -18px;
+	right: 5px;
 	cursor:pointer;
 }
 
