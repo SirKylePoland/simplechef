@@ -38,9 +38,15 @@
 				<img class="foodpic" src="/images/{{recipe.img}}">
 				{{rating recipe account.recipes}}
 				<p>{{recipe.shortDes}}</p>
+				{{#if orig}}
+				<form method="link" action="/origoverview"><input type="submit" class="recipeops" value="Steps Overview"></form>
+				<form method="link" action="/origingredients"><input type="submit" class="recipeops" value="Ingredients List"></form>
+				<form method="link" action="/origstep"><input type="submit" class="recipeops" value="Cooking Mode"></form>
+				{{else}}
 				<form method="link" action="/overview/{{recipe.name}}"><input type="submit" class="recipeops" value="Steps Overview"></form>
 				<form method="link" action="/ingredients/{{recipe.name}}"><input type="submit" class="recipeops" value="Ingredients List"></form>
 				<form method="link" action="/step/{{recipe.name}}"><input type="submit" class="recipeops" value="Cooking Mode"></form>
+				{{/if}}
 			</section>
 			<!--BOTTOM FIXED NAV-->
 			<nav id="bottomnav">

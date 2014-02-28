@@ -67,11 +67,16 @@ $(document).ready(function(){
 
 	function searchData(result) {
 		var idx = lunr(function () {
-    		this.field('name', { boost: 10 });
+    		this.field('name');
     		this.field('overview');
+    		this.ref('id');
 		});
 		for( var i = 0; i < result.length; i++ ) {
-			idx.add(result[i]);
+			idx.add({
+				'id': i,
+				'name': result[i].name,
+				'overview': result[i].overview
+			});
 		}
 
 		var searchRes = idx.search($('#query').val());

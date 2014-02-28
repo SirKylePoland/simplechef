@@ -50,6 +50,10 @@ app.post('/remove', routes.removeRecipe);
 app.get('/myrecipes', routes.viewMyRecipes);
 app.get('/timer', routes.viewTimer);
 app.get('/howto', routes.viewHowto);
+app.get('/origrec', routes.origRec);
+app.get('/origoverview', routes.origOverview);
+app.get('/origingredients', routes.origIngredients);
+app.get('/origstep', routes.origStep);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

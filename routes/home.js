@@ -146,3 +146,57 @@ exports.viewTimer = function(req, res) {
 exports.viewHowto = function(req, res) {
 	res.render('howto', accounts);
 }
+
+exports.origRec = function(req, res) {
+	models.Recipe
+		.find({ 'name': "Guacamole" })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.render('recipe', { 	"recipe": recipes[0],
+								"account": accounts,
+								"orig": true } );
+	}
+}
+
+exports.origOverview = function(req, res) {
+	models.Recipe
+		.find({ 'name': "Guacamole" })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		recipes[0]['orig'] = true;
+		res.render('overview', recipes[0] );
+	}
+}
+
+exports.origIngredients = function(req, res) {
+	models.Recipe
+		.find({ 'name': "Guacamole" })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		recipes[0]['orig'] = true;
+		res.render('ingredients', recipes[0] );
+	}
+}
+
+exports.origStep = function(req, res) {
+	models.Recipe
+		.find({ 'name': "Guacamole" })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		recipes[0]['orig'] = true;
+		res.render('step', recipes[0] );
+	}
+}
+
+
+
+
+

@@ -17,6 +17,7 @@ var RecipeSchema = new Mongoose.Schema({
 	"rating": Number,
 	"time": String,
 	"shortDes": String,
+	"overview": String,
 	"trending": Boolean,
 	"ingredients": [IngredientSchema],
 	"steps": [StepSchema]

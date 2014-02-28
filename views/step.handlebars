@@ -87,23 +87,23 @@
 			</header>
 
 			<!--STEPSEASY NAV-->
+			{{#if orig}}
 			<nav id="stepseasynav">
 				<ul style="padding-left: 40px;">
-					<li><a href="/overview/{{name}}" class="easynavicons glyphicon-align-justify"></a></li>
 					<li><a href="/ingredients/{{name}}" class="easynavicons glyphicon-list"></a></li>
 					<li><a href="#" class="easynavicons glyphicon-cutlery stepactive"></a></li>
-<!--				<li>
+					<li>
 						<div class="button-holder">
 							<a class="alarm-button"><img src="/images/time.PNG" alt=""/></a>
 						</div>
-					</li> -->
+					</li>
 				</ul>
 			</nav>
 			<!--END STEPSEASY NAV-->
 
 			<!--START ALARM/TIMER-->
 			<!-- The dialog is hidden with css -->
-<!--		<div class="overlay">
+		<div class="overlay">
 			<div id="alarm-dialog">
 				<h2>Kitchen Timer</h2>
 				<label class="hours">
@@ -138,9 +138,17 @@
 		<audio id="alarm-ring" preload>
 			<source src="/audio/ticktac.mp3" type="audio/mpeg" />
 			<source src="/audio/ticktac.ogg" type="audio/ogg" />
-		</audio> -->
-			<!--END ALARM/TIMER-->
-
+		</audio>
+			{{else}}
+			<nav id="stepseasynav">
+				<ul style="padding-left: 40px;">
+					<li><a href="/overview/{{name}}" class="easynavicons glyphicon-align-justify"></a></li>
+					<li><a href="/ingredients/{{name}}" class="easynavicons glyphicon-list"></a></li>
+					<li><a href="#" class="easynavicons glyphicon-cutlery stepactive"></a></li>
+				</ul>
+			</nav>
+			{{/if}}
+			<!--END STEPSEASY NAV-->
 			<section id="content">
 				<div id="demo">
 					<ul>
