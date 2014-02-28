@@ -27,8 +27,7 @@
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
 	<script src="/js/timer.js"></script>
 	<script type="text/javascript" src="/js/dragend.js"></script>
-	<!--<script type="text/javascript" src="/js/speak-js-master/speakClient.js"></script>
-	<script type="text/javascript" src="/js/speak-js-master/speakGenerator.js"></script> -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
 	<script>
 		jQuery(function ($) {
 			var drag = new Dragend($("#demo").get(0), {
@@ -77,47 +76,6 @@
 			}
 		});
 	</script>
-	<script>
-		$(function() {
-		/*	var drag = new Dragend($("#demo").get(0), {
-				afterInitialize: function() {
-					$("#demo").css("visibility", "visible");
-				}
-			}); */
-		});
-
-		var _gaq = _gaq || [];
-		_gaq.push(['_setAccount', 'UA-219062-10']);
-		_gaq.push(['_trackPageview']);
-
-		(function() {
-			var ga = document.createElement('script');
-			ga.type = 'text/javascript';
-			ga.async = true;
-			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
-	</script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
-	<script>
-		/*if (annyang) {
-		  // Let's define our first command. First the text we expect, and then the function it should call
-		  console.log('working');
-		  var commands = {
-		    'listen': function() {
-				var number =  + 1;
-				console.log($('#demo').dragend("pageNum"));
-	        	speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
-	        }
-		  };
-
-		  // Add our commands to annyang
-		  annyang.addCommands(commands);
-
-		  // Start listening. You can call this here, or attach this call to an event, button, etc.
-		  annyang.start();
-		} */
-	</script>
 </head>
 <body>
 	<audio id="audio"></audio>
@@ -131,17 +89,21 @@
 			<!--STEPSEASY NAV-->
 			<nav id="stepseasynav">
 				<ul>
+					<li><a href="/overview/{{name}}" class="easynavicon glyphicon-align-justify"></a></li>
 					<li><a href="/ingredients/{{name}}" class="easynavicon glyphicon-list"></a></li>
 					<li><a href="#" class="easynavicon glyphicon-cutlery stepactive"></a></li>
-					<li><div class="button-holder"><a class="alarm-button"><img src="/images/time.PNG" alt=""/></a></div></li>
-
+<!--				<li>
+						<div class="button-holder">
+							<a class="alarm-button"><img src="/images/time.PNG" alt=""/></a>
+						</div>
+					</li> -->
 				</ul>
 			</nav>
 			<!--END STEPSEASY NAV-->
 
 			<!--START ALARM/TIMER-->
 			<!-- The dialog is hidden with css -->
-		<div class="overlay">
+<!--		<div class="overlay">
 			<div id="alarm-dialog">
 				<h2>Kitchen Timer</h2>
 				<label class="hours">
@@ -176,7 +138,7 @@
 		<audio id="alarm-ring" preload>
 			<source src="/audio/ticktac.mp3" type="audio/mpeg" />
 			<source src="/audio/ticktac.ogg" type="audio/ogg" />
-		</audio>
+		</audio> -->
 			<!--END ALARM/TIMER-->
 
 			<section id="content">
