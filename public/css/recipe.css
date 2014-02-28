@@ -190,7 +190,7 @@ h1 img {height: 40px; margin-left: 40px;}
 	padding: 20px;
 }
 
-.easynavicon {
+.easynavicons {
   margin-left: 5%;
   display: inline-block;
   font-family: 'Glyphicons Halflings';
@@ -198,6 +198,30 @@ h1 img {height: 40px; margin-left: 40px;}
   font-weight: normal;
   font-size: 20px;
   color: #aeb07b;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.easynaviconi {
+  margin-left: 5%;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #65cfbd;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.easynavicono {
+  margin-left: 5%;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #65cfbd;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
