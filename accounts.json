@@ -1,9 +1,17 @@
-{
-	"username": "LauraS",
-	"password": "awesome",
-	"email": "laura@simplechef.com",
-	"recipes" : [
-		"Chocolate Buttercream",
-		"Guacamole"
-	]
-}
+[
+	{
+		"username": "Lsilva",
+		"password": "password",
+		"recipes" : []
+	},
+	{
+		"username": "Kpoland",
+		"password": "coolbeans",
+		"recipes" : []
+	},
+	{
+		"username": "Jhsi",
+		"password": "groupsix",
+		"recipes" : []
+	}
+]

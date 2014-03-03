@@ -23,4 +23,15 @@ var RecipeSchema = new Mongoose.Schema({
 	"steps": [StepSchema]
 });
 
+var UserSchema = new Mongoose.Schema({
+	"username": String,
+	"password": String,
+	"recipes" : [String]
+});
+
+UserSchema.methods.validPassword = function(password) {
+	return password === this.password;
+};
+
 exports.Recipe = Mongoose.model('Recipe', RecipeSchema);
+exports.User = Mongoose.model('User', UserSchema);

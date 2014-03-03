@@ -21,6 +21,29 @@
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/script.js"></script>
 	<script type="text/javascript" src="/js/dropdown.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+	<script>
+		jQuery(function ($) {
+	    	if (annyang) {
+				// Let's define our first command. First the text we expect, and then the function it should call
+				console.log('working');
+				var commands = {
+			        'ingredients': function() {
+			        	window.location.href = '/ingredients/{{name}}';
+			        },
+			        'steps': function() {
+			        	window.location.href = '/step/{{name}}';
+			        }
+				};
+				
+				// Add our commands to annyang
+				annyang.addCommands(commands);
+
+				// Start listening. You can call this here, or attach this call to an event, button, etc.
+				annyang.start();
+			}
+		});
+	</script>
 </head>
 <body>
 	<div id="w">

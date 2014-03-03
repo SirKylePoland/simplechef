@@ -38,13 +38,27 @@
 	    	$('#swapArchived').on('click', function () {
 	       		var $el = $(this),
 	            textNode = this.lastChild;
+	            if( window.speechSynthesis.speaking ) {
+	    			window.speechSynthesis.cancel();
+	        		return;
+	    		}
 	        	$el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
 	        	textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
 	        	$el.toggleClass('');
 	        	var number = drag.page + 1;
-	        	console.log(number + ' ' + $('#page' + number + ' content p').html());
-	        	//speak( $('#page' + number + ' content p').html() , { noWorker: true, speed: 150 });
-	        	var msg = new SpeechSynthesisUtterance($('#page' + number + ' content p').html());
+	        	var msg;
+	        	if( $('#page' + number + ' content p').html() ) {
+	        		msg = new SpeechSynthesisUtterance($('#page' + number + ' content p').html());
+	        	}
+	        	else {
+	        		msg = new SpeechSynthesisUtterance("Sit back, relax, wait for that timer to go off and enjoy a savory meal made with the help of Simple Chef!");
+	        	}
+	        	msg.onend = function(e) {
+	        		console.log("ended");
+	        		$el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
+	        		textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
+	        		$el.toggleClass('');
+				};
 				window.speechSynthesis.speak(msg);
 	    	});
 	    	if (annyang) {
@@ -52,9 +66,7 @@
 			console.log('working');
 			var commands = {
 		    'listen': function() {
-				var number = drag.page + 1;
-	        	var msg = new SpeechSynthesisUtterance($('#page' + number + ' content p').html());
-				window.speechSynthesis.speak(msg);
+		    	$('#swapArchived').trigger('click');
 	        },
 	        'next': function() {
 	        	console.log("swiping right");
@@ -65,6 +77,12 @@
 	        },
 	        'set timer': function() {
 	        	$('#alarm-dialog').parent().trigger("show");
+	        },
+	        'overview': function() {
+	        	window.location.href = '/overview/{{name}}';
+	        },
+	        'ingredients': function() {
+	        	window.location.href = '/ingredients/{{name}}';
 	        }
 		  };
 
@@ -164,7 +182,7 @@
 						</li>
 					</ul>
 				</div>
-				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-off"></span></button>
+				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-up"></span></button>
 			</section>
 
 			<!--BOTTOM FIXED NAV-->

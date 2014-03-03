@@ -32,12 +32,14 @@ models.Recipe
   .remove()
   .exec(onceClear); // callback to continue at
 
+
 // Step 3: load the data from the JSON file
 function onceClear(err) {
   if(err) console.log(err);
 
   // loop over the projects, construct and save an object from each one
   // Note that we don't care what order these saves are happening in...
+
   var to_save_count = recipe_json.length;
 
   for(var i=0; i<recipe_json.length; i++) {
@@ -54,9 +56,8 @@ function onceClear(err) {
         console.log('DONE');
         // The script won't terminate until the 
         // connection to the database is closed
-        mongoose.connection.close()
+        mongoose.connection.close();
       }
     });
   }
 }
-

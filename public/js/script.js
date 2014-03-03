@@ -88,6 +88,10 @@ $(document).ready(function(){
 			//then put the data in html. You may need to figuire out about scores.
 			html = html + template(result[searchRes[i].ref]);
 		}
+
+		if( searchRes.length == 0 ) {
+			html = "<p>No Results Found</p>";
+		}
 		$('#columns').html(html);
 	}
 

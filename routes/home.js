@@ -1,10 +1,9 @@
 // Get all of our friend data
 var data = require('../recipe.json');
-var accounts = require('../accounts.json');
 var models = require('../models');
 
 exports.view = function(req, res){
-	res.render('index');
+	res.render('index', { message: req.flash('loginMessage') } );
 };
 
 exports.viewHome = function(req, res){
@@ -23,7 +22,7 @@ exports.viewHome = function(req, res){
 };
 
 exports.viewSettings = function(req, res){
-	res.render('settings', accounts);
+	res.render('settings', req.user);
 };
 
 exports.viewRecipe = function(req, res) {
@@ -36,7 +35,7 @@ exports.viewRecipe = function(req, res) {
 	function afterQuery(err, recipes) {
 		if(err) console.log(err);
 		res.render('recipe', { "recipe": recipes[0],
-						   "account": accounts } );
+						   "account": req.user } );
 	}
 }
 
@@ -106,14 +105,17 @@ exports.getTiles = function(req, res) {
 
 exports.addRecipe = function(req, res) {
 	var name = req.param('name');
-	accounts.recipes.push(name);
+	models.User.update( {_id: req.user._id}, { $push: { recipes: name } }, {}, afterUpdate );
+	function afterUpdate(err, num) {
+		if(err) console.log(err);
+	}
 }
 
 exports.removeRecipe = function(req, res) {
 	var name = req.param('name');
-	var index = accounts.recipes.indexOf(name);
-	if( index != -1 ) {
-		accounts.recipes.splice(index, 1);
+	models.User.update( {_id: req.user._id}, { $pull: { recipes: name } }, {}, afterUpdate );
+	function afterUpdate(err, num) {
+		if(err) console.log(err);
 	}
 }
 
@@ -130,7 +132,7 @@ exports.viewMyRecipes = function(req, res) {
 		};
 
 		for( var i = 0; i < recipes.length; i++ ) {
-			if( accounts.recipes.indexOf( recipes[i].name ) != -1 ) {
+			if( req.user.recipes.indexOf( recipes[i].name ) != -1 ) {
 				tiles.recipes.push( recipes[i] );
 			}
 		}
@@ -144,7 +146,7 @@ exports.viewTimer = function(req, res) {
 }
 
 exports.viewHowto = function(req, res) {
-	res.render('howto', accounts);
+	res.render('howto', req.user);
 }
 
 exports.origRec = function(req, res) {
@@ -155,7 +157,7 @@ exports.origRec = function(req, res) {
 	function afterQuery(err, recipes) {
 		if(err) console.log(err);
 		res.render('recipe', { 	"recipe": recipes[0],
-								"account": accounts,
+								"account": req.user,
 								"orig": true } );
 	}
 }
@@ -196,7 +198,20 @@ exports.origStep = function(req, res) {
 	}
 }
 
+exports.logout = function(req, res) {
+	req.logout();
+	res.redirect('/');
+}
 
+exports.isLoggedIn = function(req, res, next) {
+
+	// if user is authenticated in the session, carry on 
+	if (req.isAuthenticated())
+		return next();
+
+	// if they aren't redirect them to the home page
+	res.redirect('/');
+}
 
 
 
