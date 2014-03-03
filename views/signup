@@ -12,24 +12,28 @@
 <body>
 	<div class="container">
 		<div id="logo">
-			<img src="/images/chefhat.png" alt="" />
-			<h1>Simple Chef</h1>
+			<h1>Sign-Up</h1>
 		</div>
 		<div id="circle"></div>
-		{{#if message}}
-			<div class="alert alert-danger" style="margin-top: 10px; margin-bottom: 0px;">{{message}}</div>
-		{{/if}}
-		<form id="loginscreen" role="form" method="post" action="/login">
+		<form id="loginscreen" role="form" method="get" action="/home">
+	    	<div id="collapseOne" class="panel-collapse collapse">
+	    		<div class="panel-body">
+	    			<div class="form-group">
+	      				<label for="email"></label>
+	      				<input type="text" class="form-control" id="email" placeholder="email" name="email">
+	   				</div>
+	    		</div>
+			</div>
 	    	<div class="form-group">
 	    		<label for="name"></label>
-				<input type="text" class="form-control" id="username" name="username" placeholder="username" name="name">
+				<input type="text" class="form-control" id="username" placeholder="username" name="name">
 	    	</div>
 	    	<div class="form-group">
 	    		<label for="password"></label>
-	    		<input type="password" class="form-control" id="password" name="password" placeholder="password" name="password">
+	    		<input type="password" class="form-control" id="password" placeholder="password" name="password">
 	    	</div>
 	    	<input type="submit" id="submitBtn" class="button" value="Sign In">
-	    	<a href ="/signup">
+	    	<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
         	  	<input type="button" id="submitBtn" class="button" value="Sign Up">
         	</a>
 	    	<a href="/home">
