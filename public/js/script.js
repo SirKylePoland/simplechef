@@ -46,6 +46,7 @@ $(document).ready(function(){
 		$('#recadd').html("Remove Recipe");
 		$('#recadd').unbind("click");		
 		$('#recadd').click(removeRecipe);
+		console.log($('.title').html());
 		$.post('/add', { name: $('.title').html() });
 	}
 

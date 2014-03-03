@@ -105,6 +105,7 @@ exports.getTiles = function(req, res) {
 
 exports.addRecipe = function(req, res) {
 	var name = req.param('name');
+	console.log(name);
 	models.User.update( {_id: req.user._id}, { $push: { recipes: name } }, {}, afterUpdate );
 	function afterUpdate(err, num) {
 		if(err) console.log(err);
@@ -201,6 +202,10 @@ exports.origStep = function(req, res) {
 exports.logout = function(req, res) {
 	req.logout();
 	res.redirect('/');
+}
+
+exports.viewSignup = function(req, res) {
+	res.render('signup', { message: req.flash('signupMessage') });
 }
 
 exports.isLoggedIn = function(req, res, next) {
