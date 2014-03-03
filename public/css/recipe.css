@@ -230,6 +230,18 @@ h1 img {height: 40px; margin-left: 40px;}
 	text-decoration: none;
 	color: #aeb07b;
 }
+.easynavicons:hover{
+	text-decoration: none;
+	color: #aeb07b;
+}
+.easynaviconi:hover{
+	text-decoration: none;
+	color: #65cfbd;
+}
+.easynavicono:hover{
+	text-decoration: none;
+	color: #65cfbd;
+}
 .stepactive{
 	color: gray;
 }
