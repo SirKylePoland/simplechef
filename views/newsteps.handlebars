@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Simple Chef</title>
+
+	<!--META-->
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="author" content="Kyle Poland and Laura Silva">
+	<meta name="description" content="A simple way to find recipes, follow and listen to step-by-step instructions, and much, much, more. All for the endeavor of creating something savory and delicious.">
+    <meta name="keywords" content="simple, chef, recipe, easy, savory, delicious">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<!--LINKS-->
+	<link type="text/css" rel="stylesheet" media="all" href="/css/recipe.css">
+	<link type="text/css" rel="stylesheet" media="all" href="/css/responsive.css">
+	<link type="text/css" rel="stylesheet" media="all" href="/css/bootstrap.css">
+	<link href="/css/timer.css" rel="stylesheet" />
+
+
+	<!--SCRIPTS-->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/script.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+	<script src="/js/timer.js"></script>
+	<script type="text/javascript" src="/js/dragend.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/annyang/1.1.0/annyang.min.js"></script>
+	<script>
+		jQuery(function ($) {
+			var drag = new Dragend($("#demo").get(0), {
+				afterInitialize: function() {
+					$("#demo").css("visibility", "visible");
+				}
+			});
+	    	$('#swapArchived').on('click', function () {
+	       		var $el = $(this),
+	            textNode = this.lastChild;
+	            if( window.speechSynthesis.speaking ) {
+	    			window.speechSynthesis.cancel();
+	        		return;
+	    		}
+	        	$el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
+	        	textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
+	        	$el.toggleClass('');
+	        	var number = drag.page + 1;
+	        	var msg;
+	        	if( $('#page' + number + ' content p').html() ) {
+	        		msg = new SpeechSynthesisUtterance($('#page' + number + ' content p').html());
+	        	}
+	        	else {
+	        		msg = new SpeechSynthesisUtterance("Sit back, relax, wait for that timer to go off and enjoy a savory meal made with the help of Simple Chef!");
+	        	}
+	        	msg.onend = function(e) {
+	        		console.log("ended");
+	        		$el.find('span').toggleClass('glyphicon-volume-up glyphicon-volume-off');
+	        		textNode.nodeValue = ' ' + ($el.hasClass('') ? 'Incomplete' : '')
+	        		$el.toggleClass('');
+				};
+				window.speechSynthesis.speak(msg);
+	    	});
+	    	if (annyang) {
+			// Let's define our first command. First the text we expect, and then the function it should call
+			console.log('working');
+			var commands = {
+		    'listen': function() {
+		    	$('#swapArchived').trigger('click');
+	        },
+	        'next': function() {
+	        	console.log("swiping right");
+	        	drag.swipe("left");
+	        },
+	        'previous': function() {
+	        	drag.swipe("right");
+	        },
+	        'set timer': function() {
+	        	$('#alarm-dialog').parent().trigger("show");
+	        },
+	        'overview': function() {
+	        	window.location.href = '/overview/{{name}}';
+	        },
+	        'ingredients': function() {
+	        	window.location.href = '/ingredients/{{name}}';
+	        }
+		  };
+
+		  // Add our commands to annyang
+		  annyang.addCommands(commands);
+
+		  // Start listening. You can call this here, or attach this call to an event, button, etc.
+		  annyang.start();
+			}
+		});
+	</script>
+</head>
+<body>
+	<audio id="audio"></audio>
+	<div id="w">
+		<div id="pagebody">
+			<header id="recstepstoolbarnav">
+				<a href="/recipe?name={{name}}" class="backstep glyphicon-chevron-left"></a> 
+				<h1><img src="/images/chefhat.png" alt="Simple Chef">Cooking Mode </h1>
+			</header>
+
+			<!--STEPSEASY NAV-->
+			<nav id="stepseasynav">
+				<ul style="padding-left: 40px;">
+					<li><a href="/overview/{{name}}" class="easynavicons glyphicon-align-justify"></a></li>
+					<li><a href="/ingredients/{{name}}" class="easynavicons glyphicon-list"></a></li>
+					<li><a href="#" class="easynavicons glyphicon-cutlery stepactive"></a></li>
+				</ul>
+			</nav>
+			<!--END STEPSEASY NAV-->
+			<section id="content">
+				<div id="demo">
+					<ul>
+						{{#each steps}}
+							<li class="dragend-page" id="page{{num}}">
+								<h2>Step {{num}}</h2>
+								<content class="stepstext"> <p>{{desc}}</p></content>
+							</li>
+						{{/each}}
+						<li class="dragend-page">
+							<h2>Done!</h2>
+							<content class="stepstext"> <p>Sit back, relax, wait for that timer to go off and enjoy a savory meal made with the help of Simple Chef!</p></content>
+						</li>
+					</ul>
+				</div>
+				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-up"></span></button>
+			</section>
+
+			<!--BOTTOM FIXED NAV-->
+			<nav id="botnavrecsteps">
+				<ul>
+					<li><a href="/home" class="navicon glyphicon-home"></a></li>
+					<li><a href="/myrecipes" class="navicon glyphicon-book"></a></li>
+					<li><a href="/settings" class="navicon glyphicon-cog"></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+
+</body>
+</html>
+

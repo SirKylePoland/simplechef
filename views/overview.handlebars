@@ -50,9 +50,11 @@
 	<div id="w">
 		<div id="pagebody">
 			<header id="recovertoolbarnav">
-				<a href="/recipe?name={{name}}" class="back glyphicon-chevron-left"></a> 
+				<a href="/recipe/{{name}}" class="back glyphicon-chevron-left"></a> 
 				<h1><img src="/images/chefhat.png" alt="Simple Chef">Overview</h1>
 			</header>
+			{{#if orig}}
+			{{else}}
 			<nav id="stepseasynav">
 				<ul>
 					<li><a href="#" class="easynavicono glyphicon-align-justify stepactive"></a></li>
@@ -60,7 +62,6 @@
 					<li><a href="/step/{{name}}" class="easynavicono glyphicon-cutlery"></a></li>
 				</ul>
 			</nav>
-
 			{{/if}}
 			<section id="content1">
 				<div class="recipehead">
