@@ -12,12 +12,15 @@ $(document).ready(function(){
 	
 	initializePage();
 
+	var startTime = new Date().getTime();
+	var sent = false;
+
 	function initializePage() {
 		$('#sort').change(sort);
 		$('#tfnewsearch').submit(search);
-		$('.addrecipebtn').click(addRecipe);
-		$('.addrecipebtnundo').click(removeRecipe);
-		window.onhashchange = hashChange();
+		//$('.addrecipebtn').click(addRecipe);
+		//$('.addrecipebtnundo').click(removeRecipe);
+		//window.onhashchange = hashChange();
 	}
 
 	function hashChange() {
@@ -99,6 +102,13 @@ $(document).ready(function(){
 	function sort(e) {
 		//e.preventDefault();
 		var category = $('#sort').val();
+		var currTime = new Date().getTime();
+		//console.log(currTime-startTime);
+		if( sent == false ) {
+			ga('send', 'timing', 'sort', 'sorting', currTime-startTime );
+			sent = true;
+			console.log("sending");
+		}
 		$.get('/tiles/' + category, displayTiles);
 		window.location.hash = category;
 	}
