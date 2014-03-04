@@ -57,19 +57,3 @@ main {
   border-radius:50%;
   pointer-events:none;
 }
-
-h1 {
-  font-size:2rem;
-  font-weight:200;
-}
-  strong {
-    font-weight:300;
-    color:#539D00;
-  }
-
-h2 {
-  font-size:.9rem;
-  line-height:2.5;
-  color:gray;
-  font-weight:400;
-}
