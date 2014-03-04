@@ -107,10 +107,10 @@ background-color: #6f4a80;
 
 body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-size: 62.5%; line-height: 1; }
 
-#w { position: relative; overflow-x: hidden; overflow-y: hidden; }
+#w { position: relative; overflow-x: hidden; overflow-y: hidden;}
 
 /** @group core body **/
-#w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999; }
+#w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999;}
 
 /** @group header **/
 #w #pagebody header#toolbarnav { 
@@ -179,6 +179,7 @@ h1 img {height: 40px; margin-left: 40px;}
 	color: #191919;
 	font-size: 14px;
 }
+
 
 /*///////////////////////////////////////////STYLES STEPS EASY NAV////////////////////////////////////*/
 #stepseasynav{
