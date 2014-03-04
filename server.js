@@ -51,9 +51,9 @@ app.get('/home', routes.isLoggedIn, routes.viewHome);
 
 app.get('/homeall', routes.isLoggedIn, routes.viewHomeAll);
 
-app.get('/recipe/:name', routes.isLoggedIn, routes.viewRecipe);
+app.get('/recipe', routes.isLoggedIn, routes.viewRecipe);
 
-app.get('/recipenew/:name', routes.isLoggedIn, routes.viewRecipeNew);
+app.get('/recipenew', routes.isLoggedIn, routes.viewRecipeNew);
 
 app.get('/settings', routes.isLoggedIn, routes.viewSettings);
 app.get('/overview/:name', routes.isLoggedIn, routes.viewOverview);

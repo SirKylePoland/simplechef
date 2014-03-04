@@ -33,7 +33,7 @@ exports.viewSettings = function(req, res){
 };
 
 exports.viewRecipe = function(req, res) {
-	var name = req.params.name;
+	var name = req.query.name;
 
 	models.Recipe
 		.find({ 'name': name })
