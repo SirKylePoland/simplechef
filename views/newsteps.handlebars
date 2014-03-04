@@ -116,6 +116,12 @@
 			<section id="content">
 				<div id="demo">
 					<ul>
+						{{#each ingredients}}
+							<li class="dragend-page" id="page{{num}}">
+								<h2>Ingredients</h2>
+								<content class="stepstext"> <p>{{amount}} {{name}}</p></content>
+							</li>
+						{{/each}}
 						{{#each steps}}
 							<li class="dragend-page" id="page{{num}}">
 								<h2>Step {{num}}</h2>
