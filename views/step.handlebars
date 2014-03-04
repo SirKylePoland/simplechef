@@ -100,64 +100,11 @@
 	<div id="w">
 		<div id="pagebody">
 			<header id="recstepstoolbarnav">
-				<a href="/recipe/{{name}}" class="backstep glyphicon-chevron-left"></a> 
+				<a href="/recipe?name={{name}}" class="backstep glyphicon-chevron-left"></a> 
 				<h1><img src="/images/chefhat.png" alt="Simple Chef">Cooking Mode </h1>
 			</header>
 
 			<!--STEPSEASY NAV-->
-			{{#if orig}}
-			<nav id="stepseasynav">
-				<ul style="padding-left: 40px;">
-					<li><a href="/ingredients/{{name}}" class="easynavicons glyphicon-list"></a></li>
-					<li><a href="#" class="easynavicons glyphicon-cutlery stepactive"></a></li>
-					<li>
-						<div class="button-holder">
-							<a class="alarm-button"><img src="/images/time.PNG" alt=""/></a>
-						</div>
-					</li>
-				</ul>
-			</nav>
-			<!--END STEPSEASY NAV-->
-
-			<!--START ALARM/TIMER-->
-			<!-- The dialog is hidden with css -->
-		<div class="overlay">
-			<div id="alarm-dialog">
-				<h2>Kitchen Timer</h2>
-				<label class="hours">
-					Hours
-					<input type="number" value="0" min="0" />
-				</label>
-				<label class="minutes">
-					Minutes
-					<input type="number" value="0" min="0" />
-				</label>
-				<label class="seconds">
-					Seconds
-					<input type="number" value="0" min="0" />
-				</label>
-				<div class="button-holder">
-					<a id="alarm-set" class="button blue">Set</a>
-					<a id="alarm-clear" class="button red">Clear</a>
-				</div>
-				<a class="close"></a>
-			</div>
-		</div>
-
-		<div class="overlay">
-			<div id="time-is-up">
-				<h2>Time's up!</h2>
-				<div class="button-holder">
-					<a class="button blue">Close</a>
-				</div>
-			</div>
-		</div>
-
-		<audio id="alarm-ring" preload>
-			<source src="/audio/ticktac.mp3" type="audio/mpeg" />
-			<source src="/audio/ticktac.ogg" type="audio/ogg" />
-		</audio>
-			{{else}}
 			<nav id="stepseasynav">
 				<ul style="padding-left: 40px;">
 					<li><a href="/overview/{{name}}" class="easynavicons glyphicon-align-justify"></a></li>
@@ -165,7 +112,6 @@
 					<li><a href="#" class="easynavicons glyphicon-cutlery stepactive"></a></li>
 				</ul>
 			</nav>
-			{{/if}}
 			<!--END STEPSEASY NAV-->
 			<section id="content">
 				<div id="demo">

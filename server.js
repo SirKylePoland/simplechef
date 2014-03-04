@@ -48,7 +48,13 @@ if ('development' == app.get('env')) {
 // Add routes here
 app.get('/', routes.view);
 app.get('/home', routes.isLoggedIn, routes.viewHome);
-app.get('/recipe/:name', routes.isLoggedIn, routes.viewRecipe);
+
+app.get('/homeall', routes.isLoggedIn, routes.viewHomeAll);
+
+app.get('/recipe', routes.isLoggedIn, routes.viewRecipe);
+
+app.get('/recipenew', routes.isLoggedIn, routes.viewRecipeNew);
+
 app.get('/settings', routes.isLoggedIn, routes.viewSettings);
 app.get('/overview/:name', routes.isLoggedIn, routes.viewOverview);
 app.get('/step/:name', routes.isLoggedIn, routes.viewSteps);
@@ -59,10 +65,6 @@ app.post('/remove', routes.isLoggedIn, routes.removeRecipe);
 app.get('/myrecipes', routes.isLoggedIn, routes.viewMyRecipes);
 app.get('/timer', routes.isLoggedIn, routes.viewTimer);
 app.get('/howto', routes.isLoggedIn, routes.viewHowto);
-app.get('/origrec', routes.isLoggedIn, routes.origRec);
-app.get('/origoverview', routes.isLoggedIn, routes.origOverview);
-app.get('/origingredients', routes.isLoggedIn, routes.origIngredients);
-app.get('/origstep', routes.isLoggedIn, routes.origStep);
 app.post('/login', passport.authenticate('local-login', {
 		successRedirect : '/home', // redirect to the secure profile section
 		failureRedirect : '/', // redirect back to the signup page if there is an error
