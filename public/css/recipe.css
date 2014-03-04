@@ -20,20 +20,23 @@
 
 .recipehead .title {
 	float: left;
+	margin-top: 10px;
+	width: 60%;
 	color: #191919;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 25px;
-	line-height: 1.8em;
+	line-height: 25px;
 	font-weight: 500;
 	display: block;
 }
 
 .recipehead .time {
 	float: right;
+	margin-top: 10px;
 	color: #191919;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 25px;
-	line-height: 1.8em;
+	line-height: 25px;
 	font-weight: 500;
 	display: block;
 }
@@ -45,7 +48,7 @@
 }
 
 .rating {
-	font-size: 1.5em;
+	font-size: 16px;
 	overflow: auto;
 	border-bottom: 1px solid;
 }
@@ -104,10 +107,10 @@ background-color: #6f4a80;
 
 body { background: #181c1f; font-family: 'Source Sans Pro', sans-serif; font-size: 62.5%; line-height: 1; }
 
-#w { position: relative; overflow-x: hidden; overflow-y: hidden; }
+#w { position: relative; overflow-x: hidden; overflow-y: hidden;}
 
 /** @group core body **/
-#w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999; }
+#w #pagebody { position: relative; left: 0; max-width: 640px; min-width: 320px; z-index: 99999;}
 
 /** @group header **/
 #w #pagebody header#toolbarnav { 
@@ -163,18 +166,20 @@ h1 img {height: 40px; margin-left: 40px;}
 
 /*///////////////////////////////////////////OVERVIEW STYLE////////////////////////////////////////////*/
 #overviewsteps{
-	width: 90%;
-	margin-left: 10px;
+	width: 100%;
+	margin-left: 0px;
 }
 #overviewsteps h2{
 	color: #65cfbd;
 	font-size: 18px;
+	margin-top: -10px;
 	border-bottom: solid 1px #65cfbd;
 }
 #overviewsteps p{
 	color: #191919;
 	font-size: 14px;
 }
+
 
 /*///////////////////////////////////////////STYLES STEPS EASY NAV////////////////////////////////////*/
 #stepseasynav{
