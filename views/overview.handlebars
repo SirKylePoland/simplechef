@@ -16,6 +16,7 @@
 	<link type="text/css" rel="stylesheet" media="all" href="/css/recipe.css">
 	<link type="text/css" rel="stylesheet" media="all" href="/css/responsive.css">
 	<link type="text/css" rel="stylesheet" media="all" href="/css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" media="all" href="/css/cards.css">
 
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -69,8 +70,10 @@
 				</div>
 				<div id="overviewsteps">
 					{{#each steps}}
-					<h2>Step {{num}}</h2>
-					<p>{{desc}}</p>
+					<div class="card">
+						<h2>Step {{num}}</h2>
+						<p>{{desc}}</p>
+					</div>
 					{{/each}}
 				</div>
 			</section>

@@ -16,6 +16,7 @@
 	<link type="text/css" rel="stylesheet" media="all" href="/css/recipe.css">
 	<link type="text/css" rel="stylesheet" media="all" href="/css/responsive.css">
 	<link type="text/css" rel="stylesheet" media="all" href="/css/bootstrap.css">
+	<link type="text/css" rel="stylesheet" media="all" href="/css/cards.css">
 
 	<!--SCRIPTS-->
 	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
@@ -62,17 +63,19 @@
 				</ul>
 			</nav>
 			{{/if}}
+		
 			<section id="content">
 				<div class="recipehead">
 					<span class="title">{{name}}</span>
 					<span class="time">{{time}}</span>
 				</div>
-				<ul id="ingredients">
+				<div id="ingredients">
 					{{#each ingredients}}
-						<li>{{name}} {{amount}}</li>
+						<p class="card">{{amount}} {{name}}</p>
 					{{/each}}
-				</ul>	
+				</div>	
 			</section>
+		
 			<!--BOTTOM FIXED NAV-->
 			<nav id="botnavrecover">
 				<ul>
