@@ -87,6 +87,19 @@ exports.viewSteps = function(req, res){
 	}
 };
 
+exports.viewNewSteps = function(req, res){
+	var name = req.params.name;
+
+	models.Recipe
+		.find({ 'name': name })
+		.exec(afterQuery);
+
+	function afterQuery(err, recipes) {
+		if(err) console.log(err);
+		res.render('newsteps', recipes[0] );
+	}
+};
+
 exports.viewIngredients = function(req, res){
 	var name = req.params.name;
 

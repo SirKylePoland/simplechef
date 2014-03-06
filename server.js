@@ -58,6 +58,9 @@ app.get('/recipenew', routes.isLoggedIn, routes.viewRecipeNew);
 app.get('/settings', routes.isLoggedIn, routes.viewSettings);
 app.get('/overview/:name', routes.isLoggedIn, routes.viewOverview);
 app.get('/step/:name', routes.isLoggedIn, routes.viewSteps);
+
+app.get('/newstep/:name', routes.isLoggedIn, routes.viewNewSteps);
+
 app.get('/ingredients/:name', routes.isLoggedIn, routes.viewIngredients);
 app.get('/tiles/:category', routes.isLoggedIn, routes.getTiles);
 app.post('/add', routes.isLoggedIn, routes.addRecipe);

@@ -84,7 +84,7 @@ $(document).ready(function(){
 		}
 
 		var searchRes = idx.search($('#query').val());
-		var tile = '<a href="/recipe/{{name}}"><div class="pin"><img src="/images/{{img}}" alt=""><h2>{{name}}</h2></div></a>';
+		var tile = '<a href="/recipe?name={{name}}"><div class="pin"><img src="/images/{{img}}" alt=""><h2>{{name}}</h2></div></a>';
 		var template = Handlebars.compile( tile );
 		var html = "";
 		for( var i = 0; i < searchRes.length; i++ ) {
@@ -114,7 +114,7 @@ $(document).ready(function(){
 	}
 
 	function displayTiles(result) {
-	    var tile = '<a href="/recipe/{{name}}"><div class="pin"><img src="/images/{{img}}" alt=""><h2>{{name}}</h2></div></a>';
+	    var tile = '<a href="/recipe?name={{name}}"><div class="pin"><img src="/images/{{img}}" alt=""><h2>{{name}}</h2></div></a>';
 		var template = Handlebars.compile( tile );
 		var html = "";
 		for( var i = 0; i < result.length; i++ ) {
