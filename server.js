@@ -76,10 +76,11 @@ app.post('/login', passport.authenticate('local-login', {
 app.get('/logout', routes.logout);
 app.get('/signup', routes.viewSignup);
 app.post('/signup', passport.authenticate('local-signup', {
-		successRedirect : '/home', // redirect to the secure profile section
+		successRedirect : '/tutorial', // redirect to the secure profile section
 		failureRedirect : '/signup', // redirect back to the signup page if there is an error
 		failureFlash : true // allow flash messages
 	}));
+app.get('/tutorial', routes.isLoggedIn, routes.viewTutorial);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

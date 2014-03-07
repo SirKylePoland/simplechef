@@ -204,5 +204,7 @@ exports.isLoggedIn = function(req, res, next) {
 	res.redirect('/');
 }
 
-
+exports.viewTutorial = function(req, res) {
+	res.render('tutorial');
+}
 
