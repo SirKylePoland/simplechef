@@ -677,6 +677,1534 @@
 			]
 		},
 		{
+			"name": "Basic Baked Spaghetti",
+			"img": "basbakspa.jpg",
+			"rating": 3,
+			"time": "50 min",
+			"shortDes": "Serves 6. This baked spaghetti casserole recipe is a quick and easy version of the classic pasta dinner made with beef, red sauce, and thin spaghetti noodles.",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "2",
+					"name": "lean ground beef",
+					"amount": "3/4 pound"
+				},
+				{
+					"step": "3",
+					"name": "spaghetti sauce",
+					"amount": "1 (16 ounce) jar"
+				},
+				{
+					"step": "5",
+					"name": "spaghetti noodles",
+					"amount": "1 pound"
+				},
+				{
+					"step": "7",
+					"name": "shredded mild Cheddar cheese",
+					"amount": "1 cup"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Preheat oven to 350 degrees Farenheit (175 degrees Celsius). "
+				},
+				{
+					"num": 2,
+					"desc": "In large skillet, cook ground beef until brown."
+				},
+				{
+					"num": 3,
+					"desc": "Mix spaghetti sauce into skillet. Reduce heat and simmer."
+				},
+				{
+					"num": 4,
+					"desc": "Meanwhile, bring a large pot of lightly salted water to a boil."
+				},
+				{
+					"num": 5,
+					"desc": "Mix in spaghetti noodles and cook for 8 to 10 minutes or until al dente; then drain."
+				},
+				{
+					"num": 6,
+					"desc": "Mix together spaghetti and meat mixture."
+				},
+				{
+					"num": 7,
+					"desc": "Pour mixture into 9x13 pan and top with cheese."
+				},
+				{
+					"num": 8,
+					"desc": "Bake for 30 minutes, or until heated through and cheese is bubbly."
+				}
+			]
+		},
+		{
+			"name": "Classic Macaroni & Cheese",
+			"img": "clamacche.jpg",
+			"rating": 3,
+			"time": "1 hr 10 min",
+			"shortDes": "Serves 6. Elbow macaroni is layered with Cheddar cheese and baked with evaporated milk in this easy classic.",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "3",
+					"name": "macaroni",
+					"amount": "1 (16 ounce) package"
+				},
+				{
+					"step": "6",
+					"name": "sharp Cheddar cheese, sliced",
+					"amount": "1 pound"
+				},
+				{
+					"step": "7",
+					"name": "butter",
+					"amount": "1 tablespoon"
+				},
+				{
+					"step": "7",
+					"name": "salt and pepper to taste",
+					"amount": ""
+				},
+				{
+					"step": "8",
+					"name": "evaporated milk",
+					"amount": "1 (12 fluid ounce) can"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Preheat oven to 375 degrees Farenheit (190 degrees Celsius). "
+				},
+				{
+					"num": 2,
+					"desc": "Bring a large pot of lightly salted water to a boil."
+				},
+				{
+					"num": 3,
+					"desc": "Add macaroni and cook for 8 to 10 minutes or until al dente; then drain."
+				},
+				{
+					"num": 4,
+					"desc": "Grease a 2 quart casserole dish."
+				},
+				{
+					"num": 5,
+					"desc": "Place a quarter of the macaroni on the bottom of the casserole dish."
+				},
+				{
+					"num": 6,
+					"desc": "Add an even layer of one-quarter of the cheese slices on top of the macaroni."
+				},
+				{
+					"num": 7,
+					"desc": "Dot with butter and season with salt and pepper. Repeat layering three times."
+				},
+				{
+					"num": 8,
+					"desc": "Pour evaporated milk evenly over the top of it all."
+				},
+				{
+					"num": 9,
+					"desc": "Bake it uncovered, for one hour, or until top is golden brown."
+				}
+			]
+		},
+		{
+			"name": "Chicken Marsala",
+			"img": "chimar.jpg",
+			"rating": 4,
+			"time": "30 min",
+			"shortDes": "Original recipe makes 4 servings",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "all-purpose flour for coating",
+					"amount": "1/4 cup"
+				},
+				{
+					"step": "",
+					"name": "salt",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "ground black pepper",
+					"amount": "1/4 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "dried oregano",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "skinless, boneless chicken breast halves - pounded 1/4 inch thick",
+					"amount": "4"
+				},
+				{
+					"step": "",
+					"name": "butter",
+					"amount": "4 tablespoons"
+				},
+				{
+					"step": "",
+					"name": "olive oil",
+					"amount": "4 tablespoons"
+				},
+				{
+					"step": "",
+					"name": "sliced mushrooms",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "Marsala wine",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "cooking sherry",
+					"amount": "1/4 cup"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "In a shallow dish or bowl, mix together the flour, salt, pepper and oregano."
+				},
+				{
+					"num": 2,
+					"desc": "Coat chicken pieces in flour mixture."
+				},
+				{
+					"num": 3,
+					"desc": "In a large skillet, melt butter in oil over medium heat."
+				},
+				{
+					"num": 4,
+					"desc": "Place chicken in the pan, and lightly brown."
+				},
+				{
+					"num": 5,
+					"desc": "Turn over chicken pieces, and add mushrooms."
+				},
+				{
+					"num": 6,
+					"desc": "Pour in wine and sherry."
+				},
+				{
+					"num": 7,
+					"desc": "Cover skillet; simmer chicken for 10 minutes, turning once, until no longer pink and juices run clear."
+				},
+				{
+					"num": 8,
+					"desc": "Pour evaporated milk evenly over the top of it all."
+				}
+			]
+		},
+		{
+			"name": "Easy Garlic Broiled Chicken",
+			"img": "easgarbrochi.jpg",
+			"rating": 2,
+			"time": "30 min",
+			"shortDes": "Original recipe makes 6 servings",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "butter",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "minced garlic",
+					"amount": "3 tablespoons"
+				},
+				{
+					"step": "",
+					"name": "soy sauce",
+					"amount": "3 tablespoons"
+				},
+				{
+					"step": "",
+					"name": "black pepper",
+					"amount": "1/4 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "dried parsley",
+					"amount": "1 tablespoon"
+				},
+				{
+					"step": "",
+					"name": "boneless chicken thighs, with skin",
+					"amount": "6"
+				},
+				{
+					"step": "",
+					"name": "dried parsley, to taste",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Preheat the oven broiler. Lightly grease a baking pan."
+				},
+				{
+					"num": 2,
+					"desc": "In a microwave safe bowl, mix the butter, garlic, soy sauce, pepper, and parsley."
+				},
+				{
+					"num": 3,
+					"desc": " Cook 2 minutes on High in the microwave, or until butter is melted."
+				},
+				{
+					"num": 4,
+					"desc": "Arrange chicken on the baking pan, and coat with the butter mixture, reserving some of the mixture for basting."
+				},
+				{
+					"num": 5,
+					"desc": "Broil chicken 20 minutes in the preheated oven, until juices run clear, turning occasionally and basting with remaining butter mixture."
+				},
+				{
+					"num": 6,
+					"desc": "Sprinkle with parsley to serve."
+				}
+			]
+		},
+		{
+			"name": "Sirloin Steak with Garlic Butter",
+			"img": "sirstewitgarbut.jpg",
+			"rating": 5,
+			"time": "30 min",
+			"shortDes": "Original recipe makes 8 servings",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "butter",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "garlic powder",
+					"amount": "2 teaspoons"
+				},
+				{
+					"step": "",
+					"name": "garlic, minced",
+					"amount": "4 cloves"
+				},
+				{
+					"step": "",
+					"name": "beef top sirloin steaks",
+					"amount": "4 pounds"
+				},
+				{
+					"step": "",
+					"name": "salt and pepper to taste",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Preheat an outdoor grill for high heat."
+				},
+				{
+					"num": 2,
+					"desc": "In a small saucepan, melt butter over medium-low heat with garlic powder and minced garlic. Set aside."
+				},
+				{
+					"num": 3,
+					"desc": "Sprinkle both sides of each steak with salt and pepper."
+				},
+				{
+					"num": 4,
+					"desc": "Grill steaks 4 to 5 minutes per side, or to desired doneness. When done, transfer to warmed plates."
+				},
+				{
+					"num": 5,
+					"desc": "Brush tops liberally with garlic butter, and allow to rest for 2 to 3 minutes before serving."
+				}
+			]
+		},
+		{
+			"name": "Banana Bread",
+			"img": "banbre.jpg",
+			"rating": 3,
+			"time": "2 hr 30 min",
+			"shortDes": "Rich buttermilk, crunchy nuts and flavorful, ripe bananas make this banana bread tops.",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "sugar",
+					"amount": "1 1/4 cup"
+				},
+				{
+					"step": "",
+					"name": "butter or margarine, softened",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "eggs",
+					"amount": "2"
+				},
+				{
+					"step": "",
+					"name": "mashed very ripe bananas",
+					"amount": "1 1/2 cups (3 to 4 medium sized)"
+				},
+				{
+					"step": "",
+					"name": "buttermilk",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "vanilla",
+					"amount": "1 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "Gold Medal all-purpose flour",
+					"amount": "2 1/2 cups"
+				},
+				{
+					"step": "",
+					"name": "baking soda",
+					"amount": "1 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "salt",
+					"amount": "1 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "chopped nuts, if desired",
+					"amount": "1 cup"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Move oven rack to low position so that tops of pans will be in center of oven."
+				},
+				{
+					"num": 2,
+					"desc": "Heat oven to 350°F."
+				},
+				{
+					"num": 3,
+					"desc": "Grease bottoms only of 2 loaf pans, 8 1/2x4 1/2x2 1/2 inches, or 1 loaf pan, 9x5x3 inches."
+				},
+				{
+					"num": 4,
+					"desc": "Mix sugar and butter in large bowl."
+				},
+				{
+					"num": 5,
+					"desc": "Stir in eggs until well blended."
+				},
+				{
+					"num": 6,
+					"desc": "Add bananas, buttermilk and vanilla. Beat until smooth."
+				},
+				{
+					"num": 7,
+					"desc": "Stir in flour, baking soda and salt just until moistened."
+				},
+				{
+					"num": 8,
+					"desc": "Stir in nuts (if so desired). Pour into pans."
+				},
+				{
+					"num": 9,
+					"desc": "Bake 8-inch loaves about 1 hour, 9-inch loaf about 1 1/4 hours, or until toothpick inserted in center comes out clean."
+				},
+				{
+					"num": 10,
+					"desc": "Cool 10 minutes. Loosen sides of loaves from pans; remove from pans and place top side up on wire rack."
+				},
+				{
+					"num": 11,
+					"desc": "Cool completely, about 2 hours, before slicing. Wrap tightly and store at room temperature up to 4 days, or refrigerate up to 10 days."
+				}
+			]
+		},
+		{
+			"name": "Layered Yogurt Fruit Salad",
+			"img": "layyogfrusal.jpg",
+			"rating": 3,
+			"time": "15 min",
+			"shortDes": "It's sheer bliss - lots of fresh fruit topped with creamy yogurt.",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Yoplait Thick & Creamy Key Lime Pie yogurt",
+					"amount": "1 container (6 ounces)"
+				},
+				{
+					"step": "",
+					"name": "orange juice",
+					"amount": "2 tablespoons"
+				},
+				{
+					"step": "",
+					"name": "fresh pineapple chunks",
+					"amount": "2 cups"
+				},
+				{
+					"step": "",
+					"name": "strawberry halves",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "green grapes",
+					"amount": "2 cups"
+				},
+				{
+					"step": "",
+					"name": "blueberries",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "cubed cantaloupe",
+					"amount": "2 cups"
+				},
+				{
+					"step": "",
+					"name": "flaked or shredded coconut, toasted",
+					"amount": "1/4 cup"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Mix yogurt and orange juice; set aside."
+				},
+				{
+					"num": 2,
+					"desc": "In 2 1/2-quart clear glass bowl, layer fruit in order listed."
+				},
+				{
+					"num": 3,
+					"desc": "Pour yogurt mixture over fruit."
+				},
+				{
+					"num": 4,
+					"desc": " Sprinkle with coconut. Serve immediately."
+				}
+			]
+		},
+		{
+			"name": "Sherried Greens with Fruit and Blue Cheese",
+			"img": "shegrewitfruandbluche.jpg",
+			"rating": 4,
+			"time": "15 min",
+			"shortDes": "Embellish a special dinner with this simply sensational salad. 8 Servings",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "dry sherry or apple juice",
+					"amount": "1/4 cup"
+				},
+				{
+					"step": "",
+					"name": "raspberry, balsamic or red wine vinegar",
+					"amount": "2 tablespoons"
+				},
+				{
+					"step": "",
+					"name": "sugar",
+					"amount": "1 tablespoon"
+				},
+				{
+					"step": "",
+					"name": "toasted sesame oil",
+					"amount": "1 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "bite-size pieces mixed salad greens",
+					"amount": "8 cups"
+				},
+				{
+					"step": "",
+					"name": "pear, thinly sliced",
+					"amount": "1 medium"
+				},
+				{
+					"step": "",
+					"name": "sliced strawberries",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "red onion, thinly sliced",
+					"amount": "1 small"
+				},
+				{
+					"step": "",
+					"name": "finely crumbled blue chees",
+					"amount": "1/4 cup (1 ounce)"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "In tightly covered container, shake all Sherry Vinaigrette ingredients until sugar is dissolved."
+				},
+				{
+					"num": 2,
+					"desc": "On 8 salad plates, arrange salad greens, pear, strawberries and onion. Pour vinaigrette over salads. Sprinkle with cheese."
+				}
+			]
+		},
+		{
+			"name": "Slow-Cooker Lasagna",
+			"img": "slocoolas.jpg",
+			"rating": 3,
+			"time": "6 hr 35 min",
+			"shortDes": "The slower it takes to make, the better it is for you!",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "bulk Italian sausage",
+					"amount": "1 pound"
+				},
+				{
+					"step": "",
+					"name": "onion, chopped",
+					"amount": "1/2 cup (1 medium)"
+				},
+				{
+					"step": "",
+					"name": "Italian-style tomato sauce",
+					"amount": "3 cans (15 ounces each)"
+				},
+				{
+					"step": "",
+					"name": "dried basil leaves",
+					"amount": "2 teaspoons"
+				},
+				{
+					"step": "",
+					"name": "salt",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "shredded mozzarella cheese",
+					"amount": "2 cups (8 ounces)"
+				},
+				{
+					"step": "",
+					"name": "part-skim ricotta cheese",
+					"amount": "1 container (15 ounces)"
+				},
+				{
+					"step": "",
+					"name": "grated Parmesan cheese",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "uncooked lasagna noodles",
+					"amount": "15"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Cook sausage and onion in 10-inch skillet over medium heat 6 to 8 minutes"
+				},
+				{
+					"num": 2,
+					"desc": "Stirring occasionally, until sausage is no longer pink; then drain."
+				},
+				{
+					"num": 3,
+					"desc": "Stir in tomato sauce, basil and salt."
+				},
+				{
+					"num": 4,
+					"desc": "Mix 1 cup of the mozzarella cheese and the ricotta and Parmesan cheeses."
+				},
+				{
+					"num": 5,
+					"desc": "Refrigerate remaining mozzarella cheese while lasagna cooks."
+				},
+				{
+					"num": 6,
+					"desc": "Spoon one-fourth of the sausage mixture into 6-quart slow cooker"
+				},
+				{
+					"num": 7,
+					"desc": "top with 5 noodles, broken into pieces to fit"
+				},
+				{
+					"num": 8,
+					"desc": "Spread with half of the cheese mixture and one-fourth of the sausage mixture."
+				},
+				{
+					"num": 9,
+					"desc": "Top with 5 noodles, remaining cheese mixture and one-fourth of the sausage mixture."
+				},
+				{
+					"num": 10,
+					"desc": "Top with remaining 5 noodles and remaining sausage mixture."
+				},
+				{
+					"num": 11,
+					"desc": "Cover and cook on Low heat setting 4 to 6 hours or until noodles are tender."
+				},
+				{
+					"num": 12,
+					"desc": "Sprinkle top of lasagna with remaining 1 cup mozzarella cheese."
+				},
+				{
+					"num": 13,
+					"desc": "Cover and let stand about 10 minutes or until cheese is melted. Cut into pieces."
+				}
+			]
+		},
+		{
+			"name": "Chicken Ranch Tacos",
+			"img": "chirantac.jpg",
+			"rating": 4,
+			"time": "25 min",
+			"shortDes": "Build terrific tacos with a variety of creative toppings.",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Old El Paso Stand 'N Stuff taco shells (10 shells)",
+					"amount": "1 box (4.7 ounces)"
+				},
+				{
+					"step": "",
+					"name": "cut-up deli rotisserie chicken (from 2- to 2 1/2-lb chicken)",
+					"amount": "3 cups"
+				},
+				{
+					"step": "",
+					"name": "Old El Paso taco seasoning mix",
+					"amount": "1 package (1 ounce)"
+				},
+				{
+					"step": "",
+					"name": "ranch dressing",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "shredded lettuce",
+					"amount": "1 1/2 cups"
+				},
+				{
+					"step": "",
+					"name": "tomato, chopped",
+					"amount": "1 medium (3/4 cup)"
+				},
+				{
+					"step": "",
+					"name": "shredded Cheddar cheese",
+					"amount": "1 cup (4 ounces)"
+				},
+				{
+					"step": "",
+					"name": "sliced green onions (4 medium), if desired",
+					"amount": "1/4 cup"
+				},
+				{
+					"step": "",
+					"name": "Old El Paso® Thick 'n Chunky salsa, if desired",
+					"amount": ""
+				},
+				{
+					"step": "",
+					"name": "Additional ranch dressing, if desired",
+					"amount": ""
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Heat oven to 325 degrees Farenheit."
+				},
+				{
+					"num": 2,
+					"desc": "Heat taco shells in oven as directed on box."
+				},
+				{
+					"num": 3,
+					"desc": "Meanwhile, in medium microwavable bowl, place chicken. "
+				},
+				{
+					"num": 4,
+					"desc": "Sprinkle with taco seasoning mix; toss gently to coat."
+				},
+				{
+					"num": 5,
+					"desc": "Microwave uncovered on High 2 to 3 minutes or until hot."
+				},
+				{
+					"num": 6,
+					"desc": "Stir in 1/2 cup dressing."
+				},
+				{
+					"num": 7,
+					"desc": "Spoon warm chicken mixture into heated taco shells."
+				},
+				{
+					"num": 8,
+					"desc": "Top with lettuce, tomato, cheese and onions."
+				},
+				{
+					"num": 9,
+					"desc": "Drizzle with salsa and additional dressing"
+				}
+			]
+		},
+		{
+			"name": "Cheesy Chicken Enchiladas",
+			"img": "chechienc.jpg",
+			"rating": 2,
+			"time": "55 min",
+			"shortDes": "Leftover chicken? Here's a tasty way to use it! 5 Servings",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Progresso Traditional Chicken and Cheese Enchilada Soup",
+					"amount": "1 can (18.5 ounces)"
+				},
+				{
+					"step": "",
+					"name": "Old El Paso hot or mild enchilada sauce",
+					"amount": "1 can (10 ounces)"
+				},
+				{
+					"step": "",
+					"name": "shredded cooked chicken",
+					"amount": "2 cups"
+				},
+				{
+					"step": "",
+					"name": "shredded Monterey Jack cheese",
+					"amount": "2 cups (8 ounces)"
+				},
+				{
+					"step": "",
+					"name": "corn tortillas (6 inches)",
+					"amount": "10"
+				},
+				{
+					"step": "",
+					"name": "green onions, thinly sliced",
+					"amount": "2 medium"
+				}
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Heat oven to 350 degrees Farenheit."
+				},
+				{
+					"num": 2,
+					"desc": "In medium bowl, stir together soup and enchilada sauce."
+				},
+				{
+					"num": 3,
+					"desc": "Spread 1 cup soup mixture in ungreased 11x7-inch baking dish."
+				},
+				{
+					"num": 4,
+					"desc": "In large bowl, mix 1 cup soup mixture with chicken and 1 cup of the cheese; reserve remaining soup mixture."
+				},
+				{
+					"num": 5,
+					"desc": "On microwavable plate, stack tortillas and cover with paper towel; heat on High 1 minute to soften."
+				},
+				{
+					"num": 6,
+					"desc": "Place 1/4 cup chicken mixture along middle of each tortilla. Roll up and place seam sides down in baking dish with sauce."
+				},
+				{
+					"num": 7,
+					"desc": "Pour remaining soup mixture over enchiladas."
+				},
+				{
+					"num": 8,
+					"desc": "Sprinkle with remaining 1 cup cheese."
+				},
+				{
+					"num": 9,
+					"desc": "Sprinkle green onions on top."
+				},
+				{
+					"num": 10,
+					"desc": "Bake about 30 minutes or until cheese is melted and sauce is bubbly around edges."
+				}
+			]
+		},
+		{
+			"name": "Creamy Spiced Carrot Soup",
+			"img": "crespicarsou.jpg",
+			"rating": 4,
+			"time": "30 min",
+			"shortDes": "Cinnamon and spice make this velvety soup oh so nice! 6 servings",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "extra-virgin olive oil",
+					"amount": "3 tablespoons"
+				},
+				{
+					"step": "",
+					"name": "onion, chopped ",
+					"amount": "1 large (1 cup)"
+				},
+				{
+					"step": "",
+					"name": "celery, chopped",
+					"amount": "2 stalks"
+				},
+				{
+					"step": "",
+					"name": "garlic, chopped",
+					"amount": "2 to 3 cloves"
+				},
+				{
+					"step": "",
+					"name": "carrots, peeled and chopped",
+					"amount": "1 pound (about 6 cups)"
+				},
+				{
+					"step": "",
+					"name": "Progresso chicken broth",
+					"amount": "1 carton (32 ounces)"
+				},
+				{
+					"step": "",
+					"name": "bay leaf",
+					"amount": "1"
+				},
+				{
+					"step": "",
+					"name": "orange peel",
+					"amount": "2 strips (2 by 1 inch each)"
+				},
+				{
+					"step": "",
+					"name": "salt",
+					"amount": "3/4 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "ground cinnamon",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "ground cloves",
+					"amount": "1/8 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "pepper",
+					"amount": "1/8 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "heavy whipping cream",
+					"amount": "1 cup"
+				}				
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "In 4-quart saucepan or Dutch oven, heat oil over medium-high heat. "
+				},
+				{
+					"num": 2,
+					"desc": "Add onions and celery to oil; cook a few minutes."
+				},
+				{
+					"num": 3,
+					"desc": "Add garlic; cook about 5 minutes or until vegetables are translucent."
+				},
+				{
+					"num": 4,
+					"desc": "Add carrots; cook 8 minutes, stirring occasionally, until carrots are tender."
+				},
+				{
+					"num": 5,
+					"desc": " Add chicken broth, bay leaf, orange peel strips, salt, cinnamon, cloves, and pepper."
+				},
+				{
+					"num": 6,
+					"desc": "Heat to boiling; reduce heat. Simmer 10 minutes, stirring occasionally."
+				},
+				{
+					"num": 7,
+					"desc": "Stir in whipping cream; remove from heat."
+				},
+				{
+					"num": 8,
+					"desc": "Meanwhile, make gremolata. In 8-inch skillet, melt butter over medium heat."
+				},
+				{
+					"num": 9,
+					"desc": "Add bread crumbs to butter; cook until lightly browned, stirring occasionally."
+				},
+				{
+					"num": 10,
+					"desc": "Stir in parsley and grated orange peel. Remove from heat; set aside."
+				},
+				{
+					"num": 11,
+					"desc": "Remove bay leaf and orange peel strips from soup; discard."
+				},
+				{
+					"num": 12,
+					"desc": "Pour soup into blender in small batches; cover and puree each batch until completely smooth. "
+				},
+				{
+					"num": 13,
+					"desc": "Ladle into warm bowls. Sprinkle soup with 1 teaspoon gremolata."
+				},
+				{
+					"num": 14,
+					"desc": "Pass the remaining gremolata at the table."
+				}
+			]
+		},
+		{
+			"name": "Easy Ramen Noodle Bowl",
+			"img": "easramnoobow.jpg",
+			"rating": 1,
+			"time": "25 min",
+			"shortDes": "4 servings",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "vegetable oil",
+					"amount": "2 teaspoons"
+				},
+				{
+					"step": "",
+					"name": "boneless beef sirloin steak, cut into thin strips",
+					"amount": "1 pound"
+				},
+				{
+					"step": "",
+					"name": "water",
+					"amount": "2 cups"
+				},
+				{
+					"step": "",
+					"name": "Oriental-flavor ramen noodle soup mix",
+					"amount": "1 package (3 ounces)"
+				},
+				{
+					"step": "",
+					"name": "fresh stir-fry vegetables (broccoli, cauliflower, celery, carrots, snow pea pods and bell peppers) ",
+					"amount": "1 package (4 cups)"
+				},
+				{
+					"step": "",
+					"name": "stir-fry sauce",
+					"amount": "1/4 cup"
+				}				
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "In 12-inch skillet, heat oil over medium-high heat."
+				},
+				{
+					"num": 2,
+					"desc": "Add beef; cook 3 to 5 minutes, stirring occasionally, until brown. "
+				},
+				{
+					"num": 3,
+					"desc": "Remove beef from skillet."
+				},
+				{
+					"num": 4,
+					"desc": "In same skillet, heat water to boiling."
+				},
+				{
+					"num": 5,
+					"desc": "Break block of noodles from soup mix into water; stir until slightly softened. "
+				},
+				{
+					"num": 6,
+					"desc": "Stir in vegetables. Heat to boiling."
+				},
+				{
+					"num": 7,
+					"desc": "Boil 5 to 7 minutes, stirring occasionally, until vegetables are crisp-tender."
+				},
+				{
+					"num": 8,
+					"desc": "Stir in contents of seasoning packet from soup mix, the stir-fry sauce and beef."
+				},
+				{
+					"num": 9,
+					"desc": "Cook 2 to 3 minutes, stirring frequently, until hot. Serve in individual bowls."
+				}
+			]
+		},
+		{
+			"name": "Hot Ham and Cheese",
+			"img": "hothamandche.jpg",
+			"rating": 3,
+			"time": "6 min",
+			"shortDes": "Easy grilled ham and cheese sandwich. Original recipe makes 1 serving",
+			"overview": "",
+			"trending": false,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "whole grain bread",
+					"amount": "2 slices"
+				},
+				{
+					"step": "",
+					"name": "butter",
+					"amount": "2 teaspoons"
+				},
+				{
+					"step": "",
+					"name": "Swiss cheese",
+					"amount": "2 slices"
+				},
+				{
+					"step": "",
+					"name": "deli ham",
+					"amount": "2 thin slices"
+				},
+				{
+					"step": "",
+					"name": "mayonnaise",
+					"amount": "1 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "whole grain mustard",
+					"amount": "1 teaspoon"
+				}				
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Preheat a skillet over medium-high heat."
+				},
+				{
+					"num": 2,
+					"desc": "Spread one side of each slice of bread with 1 teaspoon butter. "
+				},
+				{
+					"num": 3,
+					"desc": "Place one slice, butter-side down in the hot skillet."
+				},
+				{
+					"num": 4,
+					"desc": "Top with Swiss cheese and ham."
+				},
+				{
+					"num": 5,
+					"desc": "Spread the unbuttered side of the second slice of bread with mayonnaise and mustard; place it, butter-side up on top of the sandwich."
+				},
+				{
+					"num": 6,
+					"desc": "Cook until the sandwich is golden brown and the cheese is melted, about 3 minutes per side."
+				}
+			]
+		},
+		{
+			"name": "Cherry-Fudge Cheesecake Dessert",
+			"img": "chefudchedes.jpg",
+			"rating": 4,
+			"time": "3 hr 25 min",
+			"shortDes": "Chocolate and cherries marry in this decadent cheesecake made easy with a brownie mix.",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Betty Crocker Original Supreme Premium brownie mix",
+					"amount": "1 box"
+				},
+				{
+					"step": "",
+					"name": "flour",
+					"amount": "3/4 cup"
+				},
+				{
+					"step": "",
+					"name": "butter or margarine, melted",
+					"amount": "1/3 cup"
+				},
+				{
+					"step": "",
+					"name": "cream cheese, softened",
+					"amount": "2 packages (8 ounces each)"
+				},
+				{
+					"step": "",
+					"name": "whipping (heavy) cream",
+					"amount": "1 1/2 cups"
+				},
+				{
+					"step": "",
+					"name": "cherry pie filling",
+					"amount": "1 can (21 ounces)"
+				}				
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Heat oven to 350 degrees Farenheit."
+				},
+				{
+					"num": 2,
+					"desc": "Stir together 3/4 cup of the brownie mix (dry), flour and the butter."
+				},
+				{
+					"num": 3,
+					"desc": "Press in bottom of ungreased springform pan, 9x3 inches, or square pan, 9x9x2 inches."
+				},
+				{
+					"num": 4,
+					"desc": "Beat cream cheese in large bowl with electric mixer on medium speed about 2 minutes, scraping bowl frequently, until smooth."
+				},
+				{
+					"num": 5,
+					"desc": "Add remaining brownie mix and the whipping cream."
+				},
+				{
+					"num": 6,
+					"desc": "Beat on medium speed, scraping bowl frequently, until smooth."
+				},
+				{
+					"num": 7,
+					"desc": "Pour over crust in pan."
+				},
+				{
+					"num": 8,
+					"desc": "Bake 45 to 50 minutes for springform pan, 35 to 40 minutes for 9-inch square pan, or until set."
+				},
+				{
+					"num": 9,
+					"desc": "Let cool for 20 minutes "
+				},
+				{
+					"num": 10,
+					"desc": "Run metal spatula along side of cheesecake to loosen before and after refrigerating. "
+				},
+				{
+					"num": 11,
+					"desc": "Spread pie filling over cheesecake."
+				},
+				{
+					"num": 12,
+					"desc": "Cover and refrigerate until chilled, about 2 hours. "
+				}
+			]
+		},
+		{
+			"name": "Big Bowl Brownie Dessert",
+			"img": "bigbowbrodes.jpg",
+			"rating": 5,
+			"time": "3 hr 55 min",
+			"shortDes": "Dig into fudgy brownie bites, tart juicy cherries and loads of creamy whipped cream!",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "Betty Crocker ultimate fudge Premium brownie mix",
+					"amount": "1 box"
+				},
+				{
+					"step": "",
+					"name": "Water, vegetable oil and egg as called for on brownie mix box",
+					"amount": ""
+				},
+				{
+					"step": "",
+					"name": "whipping cream",
+					"amount": "2 cups (1 pint)"
+				},
+				{
+					"step": "",
+					"name": "powdered sugar",
+					"amount": "1/2 cup"
+				},
+				{
+					"step": "",
+					"name": "almond extract",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "cherry pie filling or any fruit pie filling",
+					"amount": "1 can (21 ounces)"
+				},
+				{
+					"step": "",
+					"name": "almond extract",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"steps": "",
+					"name": "toasted sliced almonds",
+					"amount": "2 tablespoons"
+				}				
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "Heat oven to 350 degrees Farenheit (325 degrees Farenheit for dark or nonstick pan). "
+				},
+				{
+					"num": 2,
+					"desc": "Make and bake brownies in 9-inch square pan as directed on box. Cool completely."
+				},
+				{
+					"num": 3,
+					"desc": "In medium bowl, beat whipping cream, powdered sugar, and 1/2 teaspoon almond extract with electric mixer on high speed until stiff peaks form."
+				},
+				{
+					"num": 4,
+					"desc": "In small bowl, combine pie filling and 1/2 teaspoon almond extract."
+				},
+				{
+					"num": 5,
+					"desc": "Cut brownies into 1-inch pieces."
+				},
+				{
+					"num": 6,
+					"desc": "In 3-quart glass bowl, layer half of the brownies; top with cherry pie filling and half of the whipped cream."
+				},
+				{
+					"num": 7,
+					"desc": "Top with remaining brownies and whipped topping; sprinkle with almonds."
+				},
+				{
+					"num": 8,
+					"desc": "Cover; refrigerate at least 2 hours but no longer than 24 hours before serving."
+				}
+			]
+		},
+		{
+			"name": "Dark Chocolate Cupcakes",
+			"img": "darchocup.jpg",
+			"rating": 5,
+			"time": "2 hrs",
+			"shortDes": "Treat the chocolate lovers of your family with this delicious cupcake - a perfect baked dessert. 12 Servings",
+			"overview": "",
+			"trending": true,
+			"ingredients": [
+				{
+					"step": "",
+					"name": "dark chocolate chips",
+					"amount": "1 1/3 cups"
+				},
+				{
+					"step": "",
+					"name": "butter, cut into small pieces",
+					"amount": "1/4 cup"
+				},
+				{
+					"step": "",
+					"name": "whipping cream",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "Gold Medal all-purpose flour",
+					"amount": "1 cup"
+				},
+				{
+					"step": "",
+					"name": "baking soda",
+					"amount": "3/4 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "salt",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"step": "",
+					"name": "baking powder",
+					"amount": "1/4 teaspoon"
+				},
+				{
+					"steps": "",
+					"name": "boiling water",
+					"amount": "1/2 cup"
+				},
+				{
+					"steps": "",
+					"name": "unsweetened baking cocoa",
+					"amount": "1/3 cup"
+				},
+				{
+					"steps": "",
+					"name": "butter or margarine",
+					"amount": "1/2 cup"
+				},
+				{
+					"steps": "",
+					"name": "sugar",
+					"amount": "3/4 cup"
+				},
+				{
+					"steps": "",
+					"name": "vanilla",
+					"amount": "1/2 teaspoon"
+				},
+				{
+					"steps": "",
+					"name": "egg",
+					"amount": "1"
+				}				
+			],
+			"steps": [
+				{
+					"num": 1,
+					"desc": "In small microwavable bowl, microwave 2 tablespoons chocolate chips uncovered on High 1 minute, until melted, stirring once halfway through heating."
+				},
+				{
+					"num": 2,
+					"desc": "Pour chocolate onto 12 x10-inch sheet of waxed paper; spread in thin layer, forming 3 x3-inch square."
+				},
+				{
+					"num": 3,
+					"desc": "Place second 12 x10-inch sheet of waxed paper over chocolate square; press to release air bubbles."
+				},
+				{
+					"num": 4,
+					"desc": "Roll waxed paper tightly into a cylinder. Refrigerate until set."
+				},
+				{
+					"num": 5,
+					"desc": "In medium heat- place 1 1/3 cups chocolate chips and 1/4 cup butter."
+				},
+				{
+					"num": 6,
+					"desc": "In small microwavable bowl, microwave whipping cream on High about 1 minute or until cream just begins to simmer."
+				},
+				{
+					"num": 7,
+					"desc": "Pour cream over chips and butter; beat with whisk until chocolate is melted and mixture is smooth and shiny."
+				},
+				{
+					"num": 8,
+					"desc": "Refrigerate 30 to 45 minutes until completely cooled, stirring occasionally."
+				},
+				{
+					"num": 9,
+					"desc": "Heat oven to 350 degrees Farenheit (325 degrees Farenheit for dark or nonstick pans)."
+				},
+				{
+					"num": 10,
+					"desc": "Place Reynolds Baking Cups in each of 12 regular-size muffin cups."
+				},
+				{
+					"num": 11,
+					"desc": " In medium bowl, mix flour, baking soda, salt and baking powder; set aside."
+				},
+				{
+					"num": 12,
+					"desc": "In small bowl, mix boiling water and cocoa until dissolved."
+				},
+				{
+					"num": 13,
+					"desc": "In large bowl, beat 1/2 cup butter with electric mixer on medium speed 30 seconds."
+				},
+				{
+					"num": 14,
+					"desc": "Gradually add sugar, beating well. Beat 2 more minutes."
+				},
+				{
+					"num": 15,
+					"desc": "Beat in vanilla and egg until blended."
+				},
+				{
+					"num": 16,
+					"desc": "On low, alternatively add flour mixture and cocoa mixture, beating just until blended."
+				},
+				{
+					"num": 17,
+					"desc": "Divide batter among muffin cups."
+				},
+				{
+					"num": 18,
+					"desc": "Bake 20 to 25 minutes or until toothpick comes out clean."
+				},
+				{
+					"num": 19,
+					"desc": "Cool 5 minutes. Remove from pan to cooling racks. Then cool completely."
+				},
+				{
+					"num": 20,
+					"desc": "Beat frosting with electric mixture on medium speed until light and fluffy, about 30 seconds (Do not overheat.) "
+				},
+				{
+					"num": 21,
+					"desc": "Fit decorating bag with large star tip. Fill bag with frosting."
+				},
+				{
+					"num": 22,
+					"desc": "Pipe frosting in circular top of each cupcake and mounding frosting slightly in center."
+				},
+				{
+					"num": 23,
+					"desc": "Unroll waxed paper cylinder, causing chocolate to crack creating shards."
+				},
+				{
+					"num": 24,
+					"desc": "Garnish each cupcake with chocolate shards. Store in refrigerator."
+				}
+			]
+		},
+		{
 			"name": "Chocolate Fudge Cookies",
 			"img": "chofudcoo.jpg",
 			"rating": 5,
