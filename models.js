@@ -6,7 +6,7 @@ var StepSchema = new Mongoose.Schema({
 });
 
 var IngredientSchema = new Mongoose.Schema({
-	"step": String,
+	"step": [Number],
 	"name": String,
 	"amount": String
 });

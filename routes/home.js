@@ -8,23 +8,12 @@ exports.view = function(req, res){
 
 exports.viewHome = function(req, res){
 	models.Recipe
-		.find({ 'trending': true })
-		.exec(afterQuery);
-
-	function afterQuery(err, recipes) {
-		if(err) console.log(err);
-		res.render('home', { "recipes": recipes });
-	}
-};
-
-exports.viewHomeAll = function(req, res){
-	models.Recipe
 		.find()
 		.exec(afterQuery);
 
 	function afterQuery(err, recipes) {
 		if(err) console.log(err);
-		res.render('home', { "recipes": recipes, all: true });
+		res.render('home', { "recipes": recipes });
 	}
 };
 
@@ -87,18 +76,6 @@ exports.viewSteps = function(req, res){
 	}
 };
 
-exports.viewNewSteps = function(req, res){
-	var name = req.params.name;
-
-	models.Recipe
-		.find({ 'name': name })
-		.exec(afterQuery);
-
-	function afterQuery(err, recipes) {
-		if(err) console.log(err);
-		res.render('newsteps', recipes[0] );
-	}
-};
 
 exports.viewIngredients = function(req, res){
 	var name = req.params.name;
@@ -117,12 +94,12 @@ exports.getTiles = function(req, res) {
 	var category = req.params.category;
 
 	switch(category) {
-		case '1':
+		case '2':
 			models.Recipe
 				.find({ 'trending': true })
 				.exec(afterQuery);
 			break;
-		case '2':
+		case '1':
 			models.Recipe
 				.find()
 				.exec(afterQuery);

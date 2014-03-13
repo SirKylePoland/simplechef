@@ -9,67 +9,67 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Butter, for greasing the pan",
 					"amount": ""
 				},
 				{
-					"step": "1 2",
+					"step": [1,2],
 					"name": "All-purpose flour",
 					"amount": "1 3/4 cups, plus more for pans"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Sugar",
 					"amount": "2 cups"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Cocoa Powder",
 					"amount": "3/4 cups"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Baking Soda",
 					"amount": "2 tsp."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Baking Powder",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Kosher Salt",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Buttermilk, shaken",
 					"amount": "1 cup"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Vegetable Oil",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Extra-large eggs, room temperature",
 					"amount": "2"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Pure Vanilla Extract",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "Freshly brewed hot coffee",
 					"amount": "1 cup"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "Chocolate Buttercream",
 					"amount": "3 cups"
 				}
@@ -123,32 +123,32 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Semisweet Chocolate",
 					"amount": "6 ounces"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Unsalted Butter",
 					"amount": "1/2 pound"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Extra-large Egg Yolk, room temperature",
 					"amount": "1"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Pure Vanilla Extract",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "Sifted Confectioners' sugar",
 					"amount": "1 1/4 cups"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "Instant Coffee Powder",
 					"amount": "1 tbsp."
 				}
@@ -190,42 +190,42 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Avocado",
 					"amount": "3"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Lime",
 					"amount": "1"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Salt",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "White Onion",
 					"amount": "1/2"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Fresh Cilantro",
 					"amount": "3 tbsp."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Roma Tomatoes",
 					"amount": "2"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Garlic, minced",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Ground Cayenne Pepper",
 					"amount": "1 pinch"
 				}
@@ -255,62 +255,62 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Basmati Rice",
 					"amount": "1 1/2 cups"
 				},
 				{
-					"step": "2",
+					"step": [1],
 					"name": "Green Beans",
 					"amount": "1 1/2 lb."
 				},
 				{
-					"step": "2 3",
+					"step": [2,3],
 					"name": "Vegetable Oil",
 					"amount": "3 tbsp."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Sugar",
 					"amount": "1/2 tsp."
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Lean Ground Turkey",
 					"amount": "3/4 lb."
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "Garlic, minced",
 					"amount": "1 clove"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "Half-sour pickle, finely chopped",
 					"amount": "1 small"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "Asian Chile Paste",
 					"amount": "2 tsp."
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "Chicken Broth",
 					"amount": "1 cup"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "Soy Sauce",
 					"amount": "2 tbsp."
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "Rice Vinegar",
 					"amount": "1 tbsp."
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "Cornstarch",
 					"amount": "2 tsp."
 				}
@@ -356,22 +356,22 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Bread of Choice",
 					"amount": "2 slices"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Peanut Butter",
 					"amount": "1-2 tbsp."
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Jelly (used organic Strawberry jam)",
 					"amount": "1-2 tbsp."
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Strawberries or Banana",
 					"amount": "4 slices"
 				}
@@ -401,37 +401,37 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "light mayonnaise",
 					"amount": "2 1/2 tbsp."
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "scallions, chopped fine",
 					"amount": "2 tbsp"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Thai Sweet Chili Sauce",
 					"amount": "1 1/2 tbsp"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Sriracha",
 					"amount": "1/2 tsp"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "raw shrimp, shelled and deveined",
 					"amount": "40 large"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "fresh cracked pepper",
 					"amount": ""
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "oil spray",
 					"amount": ""
 				}
@@ -469,57 +469,57 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "chicken breast halves - cut into 1/2-inch medallions",
 					"amount": "3 large skinless, boneless"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "salt and pepper to taste",
 					"amount": ""
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "all-purpose flour",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "vegetable oil",
 					"amount": "2 tablespoons"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "garlic, minced",
 					"amount": "1 clove"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "low sodium chicken broth",
 					"amount": "1 cup"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "lemon, thinly sliced",
 					"amount": "1/2 lemon"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "fresh lemon juice",
 					"amount": "1/4 cup"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "capers, drained and rinsed",
 					"amount": "2 tbsp."
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "Butter",
 					"amount": "3 tbsp."
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "Minced Italian Parsley",
 					"amount": "2 tbsp."
 				}
@@ -573,27 +573,27 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "boneless chuck roast",
 					"amount": "3 lb."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "garlic powder",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "onion powder",
 					"amount": "1 tsp."
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "salt and pepper to taste",
 					"amount": ""
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "barbeque sauce",
 					"amount": "1 (18 ounce) bottle"
 				}
@@ -635,32 +635,32 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "russet potatoes, shredded",
 					"amount": "2 medium"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "onion, finely chopped",
 					"amount": "1/2 medium"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "all-purpose flour",
 					"amount": "1/4 cup"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Egg",
 					"amount": "1 large"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "oil for frying",
 					"amount": "1 cup"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "salt and pepper to taste",
 					"amount": ""
 				}
@@ -706,22 +706,22 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "lean ground beef",
 					"amount": "3/4 pound"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "spaghetti sauce",
 					"amount": "1 (16 ounce) jar"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "spaghetti noodles",
 					"amount": "1 pound"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "shredded mild Cheddar cheese",
 					"amount": "1 cup"
 				}
@@ -771,27 +771,27 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "3",
+					"step": [3],
 					"name": "macaroni",
 					"amount": "1 (16 ounce) package"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "sharp Cheddar cheese, sliced",
 					"amount": "1 pound"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "butter",
 					"amount": "1 tablespoon"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "salt and pepper to taste",
 					"amount": ""
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "evaporated milk",
 					"amount": "1 (12 fluid ounce) can"
 				}
@@ -845,52 +845,52 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "all-purpose flour for coating",
 					"amount": "1/4 cup"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "salt",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "ground black pepper",
 					"amount": "1/4 teaspoon"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "dried oregano",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "skinless, boneless chicken breast halves - pounded 1/4 inch thick",
 					"amount": "4"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "butter",
 					"amount": "4 tablespoons"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "olive oil",
 					"amount": "4 tablespoons"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "sliced mushrooms",
 					"amount": "1 cup"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "Marsala wine",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "cooking sherry",
 					"amount": "1/4 cup"
 				}
@@ -940,37 +940,37 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "butter",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "minced garlic",
 					"amount": "3 tablespoons"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "soy sauce",
 					"amount": "3 tablespoons"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "black pepper",
 					"amount": "1/4 teaspoon"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "dried parsley",
 					"amount": "1 tablespoon"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "boneless chicken thighs, with skin",
 					"amount": "6"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "dried parsley, to taste",
 					"amount": ""
 				}
@@ -1012,27 +1012,27 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "butter",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "garlic powder",
 					"amount": "2 teaspoons"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "garlic, minced",
 					"amount": "4 cloves"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "beef top sirloin steaks",
 					"amount": "4 pounds"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "salt and pepper to taste",
 					"amount": ""
 				}
@@ -1070,52 +1070,52 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "4",
+					"step": [4],
 					"name": "sugar",
 					"amount": "1 1/4 cup"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "butter or margarine, softened",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "eggs",
 					"amount": "2"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "mashed very ripe bananas",
 					"amount": "1 1/2 cups (3 to 4 medium sized)"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "buttermilk",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "vanilla",
 					"amount": "1 teaspoon"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "Gold Medal all-purpose flour",
 					"amount": "2 1/2 cups"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "baking soda",
 					"amount": "1 teaspoon"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "salt",
 					"amount": "1 teaspoon"
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "chopped nuts, if desired",
 					"amount": "1 cup"
 				}
@@ -1177,42 +1177,42 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "Yoplait Thick & Creamy Key Lime Pie yogurt",
 					"amount": "1 container (6 ounces)"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "orange juice",
 					"amount": "2 tablespoons"
 				},
 				{
-					"step": "",
+					"step": [2,3],
 					"name": "fresh pineapple chunks",
 					"amount": "2 cups"
 				},
 				{
-					"step": "",
+					"step": [2,3],
 					"name": "strawberry halves",
 					"amount": "1 cup"
 				},
 				{
-					"step": "",
+					"step": [2,3],
 					"name": "green grapes",
 					"amount": "2 cups"
 				},
 				{
-					"step": "",
+					"step": [2,3],
 					"name": "blueberries",
 					"amount": "1 cup"
 				},
 				{
-					"step": "",
+					"step": [2,3],
 					"name": "cubed cantaloupe",
 					"amount": "2 cups"
 				},
 				{
-					"step": "",
+					"step": [5],
 					"name": "flaked or shredded coconut, toasted",
 					"amount": "1/4 cup"
 				}
@@ -1250,48 +1250,48 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "dry sherry or apple juice",
 					"amount": "1/4 cup"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "raspberry, balsamic or red wine vinegar",
 					"amount": "2 tablespoons"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "sugar",
 					"amount": "1 tablespoon"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "toasted sesame oil",
 					"amount": "1 teaspoon"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "bite-size pieces mixed salad greens",
 					"amount": "8 cups"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "pear, thinly sliced",
 					"amount": "1 medium"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "sliced strawberries",
 					"amount": "1 cup"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "red onion, thinly sliced",
 					"amount": "1 small"
 				},
 				{
-					"step": "3",
-					"name": "finely crumbled blue chees",
+					"step": [3],
+					"name": "finely crumbled blue cheese",
 					"amount": "1/4 cup (1 ounce)"
 				}
 			],
@@ -1320,47 +1320,47 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "bulk Italian sausage",
 					"amount": "1 pound"
 				},
 				{
-					"step": "1",
+					"step": [1],
 					"name": "onion, chopped",
 					"amount": "1/2 cup (1 medium)"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "Italian-style tomato sauce",
 					"amount": "3 cans (15 ounces each)"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "dried basil leaves",
 					"amount": "2 teaspoons"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "salt",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "shredded mozzarella cheese",
 					"amount": "2 cups (8 ounces)"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "part-skim ricotta cheese",
 					"amount": "1 container (15 ounces)"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "grated Parmesan cheese",
 					"amount": "1 cup"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "uncooked lasagna noodles",
 					"amount": "15"
 				}
@@ -1430,52 +1430,52 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Old El Paso Stand 'N Stuff taco shells (10 shells)",
 					"amount": "1 box (4.7 ounces)"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "cut-up deli rotisserie chicken (from 2- to 2 1/2-lb chicken)",
 					"amount": "3 cups"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "Old El Paso taco seasoning mix",
 					"amount": "1 package (1 ounce)"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "ranch dressing",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "shredded lettuce",
 					"amount": "1 1/2 cups"
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "tomato, chopped",
 					"amount": "1 medium (3/4 cup)"
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "shredded Cheddar cheese",
 					"amount": "1 cup (4 ounces)"
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "sliced green onions (4 medium), if desired",
 					"amount": "1/4 cup"
 				},
 				{
-					"step": "9",
+					"step": [9],
 					"name": "Old El Paso® Thick 'n Chunky salsa, if desired",
 					"amount": ""
 				},
 				{
-					"step": "9",
+					"step": [9],
 					"name": "Additional ranch dressing, if desired",
 					"amount": ""
 				}
@@ -1529,32 +1529,32 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Progresso Traditional Chicken and Cheese Enchilada Soup",
 					"amount": "1 can (18.5 ounces)"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Old El Paso hot or mild enchilada sauce",
 					"amount": "1 can (10 ounces)"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "shredded cooked chicken",
 					"amount": "2 cups"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "shredded Monterey Jack cheese",
 					"amount": "2 cups (8 ounces)"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "corn tortillas (6 inches)",
 					"amount": "10"
 				},
 				{
-					"step": "9",
+					"step": [9],
 					"name": "green onions, thinly sliced",
 					"amount": "2 medium"
 				}
@@ -1612,67 +1612,67 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "extra-virgin olive oil",
 					"amount": "3 tablespoons"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "onion, chopped ",
 					"amount": "1 large (1 cup)"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "celery, chopped",
 					"amount": "2 stalks"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "garlic, chopped",
 					"amount": "2 to 3 cloves"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "carrots, peeled and chopped",
 					"amount": "1 pound (about 6 cups)"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "Progresso chicken broth",
 					"amount": "1 carton (32 ounces)"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "bay leaf",
 					"amount": "1"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "orange peel",
 					"amount": "2 strips (2 by 1 inch each)"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "salt",
 					"amount": "3/4 teaspoon"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "ground cinnamon",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "ground cloves",
 					"amount": "1/8 teaspoon"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "pepper",
 					"amount": "1/8 teaspoon"
 				},
 				{
-					"step": "7",
+					"step": [7],
 					"name": "heavy whipping cream",
 					"amount": "1 cup"
 				}				
@@ -1746,32 +1746,32 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "1",
+					"step": [1],
 					"name": "vegetable oil",
 					"amount": "2 teaspoons"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "boneless beef sirloin steak, cut into thin strips",
 					"amount": "1 pound"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "water",
 					"amount": "2 cups"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "Oriental-flavor ramen noodle soup mix",
 					"amount": "1 package (3 ounces)"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "fresh stir-fry vegetables (broccoli, cauliflower, celery, carrots, snow pea pods and bell peppers) ",
 					"amount": "1 package (4 cups)"
 				},
 				{
-					"step": "8",
+					"step": [8],
 					"name": "stir-fry sauce",
 					"amount": "1/4 cup"
 				}				
@@ -1825,32 +1825,32 @@
 			"trending": false,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "whole grain bread",
 					"amount": "2 slices"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "butter",
 					"amount": "2 teaspoons"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "Swiss cheese",
 					"amount": "2 slices"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "deli ham",
 					"amount": "2 thin slices"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "mayonnaise",
 					"amount": "1 teaspoon"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "whole grain mustard",
 					"amount": "1 teaspoon"
 				}				
@@ -1892,32 +1892,32 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Betty Crocker Original Supreme Premium brownie mix",
 					"amount": "1 box"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "flour",
 					"amount": "3/4 cup"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "butter or margarine, melted",
 					"amount": "1/3 cup"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "cream cheese, softened",
 					"amount": "2 packages (8 ounces each)"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "whipping (heavy) cream",
 					"amount": "1 1/2 cups"
 				},
 				{
-					"step": "11",
+					"step": [11],
 					"name": "cherry pie filling",
 					"amount": "1 can (21 ounces)"
 				}				
@@ -1983,42 +1983,42 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Betty Crocker ultimate fudge Premium brownie mix",
 					"amount": "1 box"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Water, vegetable oil and egg as called for on brownie mix box",
 					"amount": ""
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "whipping cream",
 					"amount": "2 cups (1 pint)"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "powdered sugar",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "3",
+					"step": [3],
 					"name": "almond extract",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "cherry pie filling or any fruit pie filling",
 					"amount": "1 can (21 ounces)"
 				},
 				{
-					"step": "4",
+					"step": [4],
 					"name": "almond extract",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"steps": "7",
+					"steps": [7],
 					"name": "toasted sliced almonds",
 					"amount": "2 tablespoons"
 				}				
@@ -2068,67 +2068,67 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "1 5",
+					"step": [1,5],
 					"name": "dark chocolate chips",
 					"amount": "1 1/3 cups"
 				},
 				{
-					"step": "5",
+					"step": [5],
 					"name": "butter, cut into small pieces",
 					"amount": "1/4 cup"
 				},
 				{
-					"step": "6",
+					"step": [6],
 					"name": "whipping cream",
 					"amount": "1 cup"
 				},
 				{
-					"step": "11",
+					"step": [11],
 					"name": "Gold Medal all-purpose flour",
 					"amount": "1 cup"
 				},
 				{
-					"step": "11",
+					"step": [11],
 					"name": "baking soda",
 					"amount": "3/4 teaspoon"
 				},
 				{
-					"step": "11",
+					"step": [11],
 					"name": "salt",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"step": "11",
+					"step": [11],
 					"name": "baking powder",
 					"amount": "1/4 teaspoon"
 				},
 				{
-					"steps": "12",
+					"steps": [12],
 					"name": "boiling water",
 					"amount": "1/2 cup"
 				},
 				{
-					"steps": "12",
+					"steps": [12],
 					"name": "unsweetened baking cocoa",
 					"amount": "1/3 cup"
 				},
 				{
-					"steps": "13",
+					"steps": [13],
 					"name": "butter or margarine",
 					"amount": "1/2 cup"
 				},
 				{
-					"steps": "14",
+					"steps": [14],
 					"name": "sugar",
 					"amount": "3/4 cup"
 				},
 				{
-					"steps": "15",
+					"steps": [15],
 					"name": "vanilla",
 					"amount": "1/2 teaspoon"
 				},
 				{
-					"steps": "15",
+					"steps": [15],
 					"name": "egg",
 					"amount": "1"
 				}				
@@ -2242,22 +2242,22 @@
 			"trending": true,
 			"ingredients": [
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Devil's food cake mix",
 					"amount": "1 (18.25 ounce) package"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Eggs",
 					"amount": "2"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Vegetable oil",
 					"amount": "1/2 cup"
 				},
 				{
-					"step": "2",
+					"step": [2],
 					"name": "Semi-sweet chocolate chips",
 					"amount": "1 cup"
 				}

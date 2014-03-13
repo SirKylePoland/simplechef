@@ -119,6 +119,11 @@
 						{{#each steps}}
 							<li class="dragend-page" id="page{{num}}">
 								<h2>Step {{num}}</h2>
+								<h4>Ingredients</h4>
+								<ul class="ingred">
+									{{stepIngred num ../ingredients}}
+								</ul>
+								<h4>Text</h4>
 								<content class="stepstext"> <p>{{desc}}</p></content>
 							</li>
 						{{/each}}
