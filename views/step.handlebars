@@ -51,7 +51,7 @@
 	        		msg = new SpeechSynthesisUtterance("Step " + number + "." + $('#page' + number + ' content p').html());
 	        	}
 	        	else {
-	        		msg = new SpeechSynthesisUtterance("Sit back, relax, wait for that timer to go off and enjoy a savory meal made with the help of Simple Chef!");
+	        		msg = new SpeechSynthesisUtterance("You're done! Sit back, relax, and enjoy a savory meal made with the help of Simple Chef.");
 	        	}
 	        	msg.onend = function(e) {
 	        		console.log("ended");
@@ -122,7 +122,7 @@
 								<ul class="ingred">
 									{{stepIngred num ../ingredients}}
 								</ul>
-								<h4>Text</h4>
+								<h4>Instructions</h4>
 								<content class="stepstext"> <p>{{desc}}</p></content>
 							</li>
 						{{/each}}
