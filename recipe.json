@@ -762,7 +762,7 @@
 			]
 		},
 		{
-			"name": "Classic Macaroni & Cheese",
+			"name": "Classic Macaroni and Cheese",
 			"img": "clamacche.jpg",
 			"rating": 3,
 			"time": "1 hr 10 min",
@@ -1241,7 +1241,7 @@
 			]
 		},
 		{
-			"name": "Sherried Greens Fruit & Blue Cheese",
+			"name": "Sherried Greens Fruit and Blue Cheese",
 			"img": "shegrewitfruandbluche.jpg",
 			"rating": 4,
 			"time": "15 min",
@@ -1817,7 +1817,7 @@
 		},
 		{
 			"name": "Hot Ham and Cheese",
-			"img": "hothamandche.jpg",
+			"img": "hothamandche.JPG",
 			"rating": 3,
 			"time": "6 min",
 			"shortDes": "Easy grilled ham and cheese sandwich. Original recipe makes 1 serving",
