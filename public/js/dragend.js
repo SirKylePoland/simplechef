@@ -717,13 +717,19 @@
 
           case "left":
             if ( this.page < this.pagesCount - 1 ) {
+              var str = $('#outofsteps').html();
+              str = this.page + 2 + str.slice(str.indexOf('/'));
+              $('#outofsteps').html(str);
               this.scrollBorder.x = this.scrollBorder.x + this.pageDimentions.width + this.settings.borderBetweenPages;
               this.page++;
             }
             break;
 
           case "right":
-            if ( this.page > 0 ) {
+            if ( this.page >= 1 ) {
+              var str = $('#outofsteps').html();
+              str = this.page + str.slice(str.indexOf('/'));
+              $('#outofsteps').html(str);
               this.scrollBorder.x = this.scrollBorder.x - this.pageDimentions.width - this.settings.borderBetweenPages;
               this.page--;
             }

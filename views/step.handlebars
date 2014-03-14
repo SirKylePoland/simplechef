@@ -48,7 +48,7 @@
 	        	var number = drag.page + 1;
 	        	var msg;
 	        	if( $('#page' + number + ' content p').html() ) {
-	        		msg = new SpeechSynthesisUtterance($('#page' + number + ' content p').html());
+	        		msg = new SpeechSynthesisUtterance("Step " + number + "." + $('#page' + number + ' content p').html());
 	        	}
 	        	else {
 	        		msg = new SpeechSynthesisUtterance("Sit back, relax, wait for that timer to go off and enjoy a savory meal made with the help of Simple Chef!");
@@ -69,7 +69,6 @@
 		    	$('#swapArchived').trigger('click');
 	        },
 	        'next': function() {
-	        	console.log("swiping right");
 	        	drag.swipe("left");
 	        },
 	        'previous': function() {
@@ -134,6 +133,7 @@
 					</ul>
 				</div>
 				<button id="swapArchived" class="btn btn-default btn-sm showArchieved"><span class="glyphicon glyphicon-volume-up"></span></button>
+				<h1 id="outofsteps">1/{{totStep}}</h1>
 			</section>
 
 			<!--BOTTOM FIXED NAV-->

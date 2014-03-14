@@ -72,6 +72,8 @@ exports.viewSteps = function(req, res){
 
 	function afterQuery(err, recipes) {
 		if(err) console.log(err);
+		var rec = recipes[0];
+		rec['totStep'] = recipes[0].steps.length + 1;
 		res.render('step', recipes[0] );
 	}
 };
@@ -185,3 +187,6 @@ exports.viewTutorial = function(req, res) {
 	res.render('tutorial');
 }
 
+exports.viewSubmitRecipe = function(req, res) {
+	res.render('subrecipe');
+}

@@ -28,30 +28,17 @@
 		<div id="pagebody">
 			<header id="toolbarnav">
 				<!--<a href="javascript:history.go(-1)" class="back glyphicon-chevron-left"></a>-->
-				<h1 style="margin-top: 5px;"><img src="/images/chefhat.png" alt="Simple Chef">Settings</h1>
+				<h1 style="margin-top: 5px;"><img src="/images/chefhat.png" alt="Simple Chef">Submit Recipe</h1>
 			</header>
 			<section id="content">	
-				<h3>My Account</h3>
-				<ul class="settingslist">
-					<li>Username</li>
-					<p>{{username}}</p>
-					<!--<li>Password</li>
-					<p></p>-->
-				</ul>
-				<h3>More Information</h3>
-				<ul class="settingslist">
-					<li><a href="/howto">How to</a></li>
-					<p><br></p>
-					<li><a href="/tutorial">Tutorial</a></li>
-					<p><br></p>
-					<li><a href="/submitRecipe">Submit a Recipe to our team!</a></li>
-					<p><br></p>
-				</ul>
-				<h3>Account Actions</h3>
-				<ul class="settingslist">
-					<li><a href="/logout">Log Out</a></li>
-					<p><br></p>
-				</ul>
+				<h3>Recipe Name</h3>
+					<input type="text" name="name" placeholder="Recipe Name">
+				<h3 style="margin-top: 0px;">Ingredients</h3>
+					<textarea rows="4" cols="50">List your recipes ingredients here!</textarea>
+				<h3 style="margin-top: 0px;">Overview</h3>
+					<textarea rows="4" cols="50">List your recipes overview here!</textarea>
+				<br>
+				<a href="/settings"><button type="button">Submit</button></a>
 			</section>
 			<!--BOTTOM FIXED NAV-->
 			<nav id="bottomnav">

@@ -75,6 +75,7 @@ app.post('/signup', passport.authenticate('local-signup', {
 		failureFlash : true // allow flash messages
 	}));
 app.get('/tutorial', routes.isLoggedIn, routes.viewTutorial);
+app.get('/submitRecipe', routes.isLoggedIn, routes.viewSubmitRecipe );
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

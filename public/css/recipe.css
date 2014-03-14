@@ -370,8 +370,18 @@ h1 img {height: 40px; margin-left: 40px;}
 	font-size: 50px;
 	left: 20px;
 	position: fixed;
-	top: 68%;
+	top: 73%;
+}
 
+#outofsteps{
+	border: none;
+	background-color: transparent;
+	font-size: 50px;
+	right: 20px;
+	position: fixed;
+	top: 71%;
+	color: #aeb07b;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .timericon {
